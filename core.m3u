@@ -187,40 +187,16 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227502/1.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227498/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV风云剧场.png" group-title="电视剧频道",CCTV风云剧场
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227500/1.m3u8
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/欢笑剧场.png" group-title="电视剧频道",欢笑剧场
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226704/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/河南电视剧频道.png" group-title="电视剧频道",河南电视剧频道
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226942/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/都市剧场.png" group-title="电视剧频道",都市剧场
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226884/1.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-logo="" group-title="电视剧频道",4ever Drama
-http://stream.mcquack.net/260/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="电视剧频道",AVA Series
-https://avaserieshls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="" group-title="电视剧频道",AXN Asia
 http://202.150.165.66:8088/play/301-AXN/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="电视剧频道",AXN White
-http://46.244.99.71:8181/stream/50/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="电视剧频道",BBC Drama
-https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="电视剧频道",CNBC-e
-https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
-#EXTINF:-1 tvg-logo="" group-title="电视剧频道",Inside Crime
-https://aenetworks-insidecrime-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="电视剧频道",MBC Masr Drama
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="电视剧频道",NTV Series
-http://stream.mcquack.net/301/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="电视剧频道",ON Vie Dramas
-https://freem3u.xyz/api/live/play.m3u8?vid=177
-#EXTINF:-1 tvg-logo="" group-title="电视剧频道",Persiana Series
-https://onehls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-logo="" group-title="电视剧频道",TV Series
-https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="电视剧频道",Viasat Epic Drama Czechia
-http://88.212.7.14/live/test_epic_drama_atk_tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="电视剧频道",Viasat Epic Drama Ukraine
-http://195.189.60.253/118/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="格斗频道",FightBox
+https://webtvstream.bhtelecom.ba/fightbox.m3u8
+#EXTINF:-1 tvg-logo="" group-title="游戏电竞",Gametoon
+https://webtvstream.bhtelecom.ba/gametoon.m3u8
 #EXTINF:-1 tvg-logo="" group-title="儿童频道",Cartoonito Asia
 http://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8
 #EXTINF:-1 tvg-logo="" group-title="时尚频道",FashionTV 1080
