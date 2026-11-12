@@ -33,6 +33,8 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226919/1.m3u8?fmt=ts2hl
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226958/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV15.png" group-title="央视频道",CCTV15
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226524/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" group-title="央视频道",CCTV16
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227532/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV17.png" group-title="央视频道",CCTV17
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226954/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV世界地理.png" group-title="央视频道",CCTV世界地理
@@ -47,12 +49,6 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227506/1.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227514/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV女性时尚.png" group-title="央视频道",CCTV女性时尚
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227510/1.m3u8
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV怀旧剧场.png" group-title="央视频道",CCTV怀旧剧场
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227502/1.m3u8
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV第一剧场.png" group-title="央视频道",CCTV第一剧场
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227498/1.m3u8
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV风云剧场.png" group-title="央视频道",CCTV风云剧场
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227500/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV风云足球.png" group-title="央视频道",CCTV风云足球
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227489/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV风云音乐.png" group-title="央视频道",CCTV风云音乐
@@ -77,8 +73,6 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227394/1.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227365/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CGTN西班牙语.png" group-title="央视频道",CGTN西班牙语
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227390/1.m3u8
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CGTN记录.png" group-title="央视频道",CGTN记录
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227367/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CGTN阿拉伯语.png" group-title="央视频道",CGTN阿拉伯语
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227392/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/三沙卫视.png" group-title="卫视频道",三沙卫视
@@ -181,10 +175,6 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227479/1.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227477/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CHC影迷电影.png" group-title="电影频道",CHC影迷电影
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227522/1.m3u8
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/欢笑剧场.png" group-title="电影频道",欢笑剧场
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226704/1.m3u8
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/都市剧场.png" group-title="电影频道",都市剧场
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226884/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://assets.antenaplay.ro/2026/03/10/RMNdkVBCTNfsogsYqHaB.png" group-title="电影频道",Cinemaraton
 https://hls02ns.antenaplay.ro/hls/cinemaraton-plus-hd/index.m3u8
 #EXTINF:-1 tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="电影点播",人在囧途
@@ -203,14 +193,28 @@ https://vip.ffzy-online.com/20221015/719_80ff87c2/index.m3u8
 https://vip.ffzy-online.com/20221015/722_e32c42bc/index.m3u8
 #EXTINF:-1 tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="电影点播",让子弹飞
 https://vip.ffzy-play7.com/20230116/11563_b9f44814/index.m3u8
+#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV怀旧剧场.png" group-title="电视剧频道",CCTV怀旧剧场
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227502/1.m3u8
+#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV第一剧场.png" group-title="电视剧频道",CCTV第一剧场
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227498/1.m3u8
+#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV风云剧场.png" group-title="电视剧频道",CCTV风云剧场
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227500/1.m3u8
+#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/欢笑剧场.png" group-title="电视剧频道",欢笑剧场
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226704/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/河南电视剧频道.png" group-title="电视剧频道",河南电视剧频道
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226942/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/都市剧场.png" group-title="电视剧频道",都市剧场
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226884/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="" group-title="电视剧频道",ON Vie Dramas
 https://freem3u.xyz/api/live/play.m3u8?vid=177
+#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CGTN记录.png" group-title="纪录频道",CGTN记录
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227367/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/北京纪实科教.png" group-title="纪录频道",北京纪实科教
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227408/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/金鹰纪实.png" group-title="纪录频道",金鹰纪实
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226889/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/求索记录4K.png" group-title="纪录频道",求索记录4K
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227381/1.m3u8
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Discovery_Turbo_Italy.svg/1920px-Discovery_Turbo_Italy.svg.png" group-title="体育频道",Discovery Turbo
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/TURBO/CMAF/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/FqFxog1.png" group-title="体育频道",Garage TV
@@ -275,6 +279,16 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226940/1.m3u8?fmt=ts2hl
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226871/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/河南都市频道.png" group-title="河南频道",河南都市频道
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226911/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/郑州豫剧频道.png" group-title="河南频道",郑州豫剧频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226405/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/光山.png" group-title="河南频道",光山
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227055/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/新县.png" group-title="河南频道",新县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227090/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/河南戏曲.png" group-title="河南频道",河南戏曲
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226438/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/浉河.png" group-title="河南频道",浉河
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226360/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/三门峡公共频道.png" group-title="地方频道",三门峡公共频道
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227030/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/三门峡新闻综合.png" group-title="地方频道",三门峡新闻综合
@@ -409,8 +423,6 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226407/1.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226618/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/郑州新闻综合.png" group-title="地方频道",郑州新闻综合
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226404/1.m3u8
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/郑州豫剧频道.png" group-title="地方频道",郑州豫剧频道
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226405/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/郑州都市生活.png" group-title="地方频道",郑州都市生活
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226400/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/郸城.png" group-title="地方频道",郸城
@@ -459,6 +471,10 @@ https://ls.qingting.fm/live/5022100/64k.m3u8
 https://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/东莞新闻综合.png" group-title="地方频道",东莞新闻综合
 https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/临颍.png" group-title="地方频道",临颍
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226873/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/义马.png" group-title="地方频道",义马
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227079/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/云南娱乐.png" group-title="地方频道",云南娱乐
 https://hwapi.yntv.net/62hdvf/q9vs1b.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/云南都市.png" group-title="地方频道",云南都市
@@ -471,14 +487,22 @@ http://tvfile.jyrmt.cn/nmip-media/channellive/channel104452/playlist.m3u8
 https://play.scrstv.com.cn/DT/live.m3u8?auth_key=60001724663204-0-0-c1cc4ded9841ac34f63cdbd3aec647ef
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/任丘综合.png" group-title="地方频道",任丘综合
 https://jwcdnqx.hebyun.com.cn/live/rqtv1/1500k/tzwj_video.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/兰考.png" group-title="地方频道",兰考
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227377/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/兴隆综合.png" group-title="地方频道",兴隆综合
 https://jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/内黄.png" group-title="地方频道",内黄
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226356/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/剑阁综合.png" group-title="地方频道",剑阁综合
 https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/北京新闻.png" group-title="地方频道",北京新闻
 https://satellitepull.cnr.cn/live/wxbjxwgb/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/南乐.png" group-title="地方频道",南乐
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227096/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/古县综合.png" group-title="地方频道",古县综合
 https://l2fpdktp.live.sxmty.com/live/hls/e4c3b363cc4549788e2d983f403e07db/d99ce1eb686e41b9afc888110bd95aa7.m3u8?zshanxd
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/叶县.png" group-title="地方频道",叶县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227159/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/吉林乡村.png" group-title="地方频道",吉林乡村
 https://satellitepull.cnr.cn/live/wxjlxcgb/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/名山综合.png" group-title="地方频道",名山综合
@@ -487,8 +511,20 @@ https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.
 https://stream.hrbtv.net/ylpd/sd/live.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/天祝综合.png" group-title="地方频道",天祝综合
 https://play.kankanlive.com/live/1656487214793905.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/太康.png" group-title="地方频道",太康
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227330/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/太谷新闻综合.png" group-title="地方频道",太谷新闻综合
 https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/孟州.png" group-title="地方频道",孟州
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227035/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/孟津.png" group-title="地方频道",孟津
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226869/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/宜阳.png" group-title="地方频道",宜阳
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227059/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/封丘.png" group-title="地方频道",封丘
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226346/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/嵩县.png" group-title="地方频道",嵩县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226513/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/平泉综合.png" group-title="地方频道",平泉综合
 https://jwcdnqx.hebyun.com.cn/live/pqzh/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/平遥新闻综合.png" group-title="地方频道",平遥新闻综合
@@ -501,12 +537,20 @@ https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/playlist.m3u8
 https://live.gdtv.ah.cn/live/newsTV.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/广西国际.png" group-title="地方频道",广西国际
 https://hlscdn.liangtv.cn/live/0234c48e0bc24fe1b41b9999a253e581/1075ee38e04f490690f6a36a16e09c79.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/延津.png" group-title="地方频道",延津
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227098/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/张掖新闻综合.png" group-title="地方频道",张掖新闻综合
 https://play.kankanlive.com/live/1720583434627241.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/怀仁综合.png" group-title="地方频道",怀仁综合
 https://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa2543628fc4a7ea93d3d6c975f77dc-1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/新乡县.png" group-title="地方频道",新乡县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226359/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/新蔡.png" group-title="地方频道",新蔡
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226512/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/新闻综合.png" group-title="地方频道",新闻综合
 https://m3u8channel.yunxya.com/nmip-media/channellive/channel100028/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/方城.png" group-title="地方频道",方城
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227254/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/昌黎综合.png" group-title="地方频道",昌黎综合
 https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/易门综合.png" group-title="地方频道",易门综合
@@ -515,24 +559,48 @@ https://zb-live.ynurl.com/yimen/3b75a2f9-7941-46b7-992d-a9796fbca5fe.m3u8
 https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/梨园.png" group-title="地方频道",梨园
 https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=41543190cdf375f1c73207222bb96542&wsTime=1769313549
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/正阳.png" group-title="地方频道",正阳
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227420/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/武汉一台新闻综合.png" group-title="地方频道",武汉一台新闻综合
 https://ls.qingting.fm/live/20198/64k.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/武进新闻.png" group-title="地方频道",武进新闻
 https://live.wjyanghu.com/live/CH1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/永城.png" group-title="地方频道",永城
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227057/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/永昌综合.png" group-title="地方频道",永昌综合
 https://play.kankanlive.com/live/1652755738635915.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/汝阳.png" group-title="地方频道",汝阳
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227067/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/汤阴.png" group-title="地方频道",汤阴
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227372/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/汾西综合.png" group-title="地方频道",汾西综合
 https://qmmqvzoz.live.sxmty.com/live/hls/f24f8a390c084386a564074c9260100c/be3fdf07606145739ab2c4b80fe0136a.m3u8?zshanxd
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/沁阳.png" group-title="地方频道",沁阳
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227066/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/沈丘.png" group-title="地方频道",沈丘
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227311/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/河北农民.png" group-title="地方频道",河北农民
 https://ls.qingting.fm/live/1650/64k.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/河北都市.png" group-title="地方频道",河北都市
 https://radio.pull.hebtv.com/live/hebnczx.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/泌阳.png" group-title="地方频道",泌阳
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227347/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/浚县.png" group-title="地方频道",浚县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227344/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/海宁新闻综合.png" group-title="地方频道",海宁新闻综合
 https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/淅川.png" group-title="地方频道",淅川
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226501/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/淇县.png" group-title="地方频道",淇县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227061/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/清河经济综艺.png" group-title="地方频道",清河经济综艺
 https://jwcdnqx.hebyun.com.cn/live/qinghe1/1500k/tzwj_video.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/滑县.png" group-title="地方频道",滑县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227225/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/灌阳新闻综合.png" group-title="地方频道",灌阳新闻综合
 https://ls.qingting.fm/live/5043/64k.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/灵宝.png" group-title="地方频道",灵宝
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227099/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/甘南县综合.png" group-title="地方频道",甘南县综合
 https://stream.hrbtv.net/zxpd/sd/live.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/甘肃经济.png" group-title="地方频道",甘肃经济
@@ -541,6 +609,12 @@ https://satellitepull.cnr.cn/live/wxgshhzs/playlist.m3u8
 https://satellitepull.cnr.cn/live/wxgsdstb/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="地方频道",白城新闻综合
 https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/祥符.png" group-title="地方频道",祥符
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227349/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/舞钢.png" group-title="地方频道",舞钢
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226361/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/舞阳.png" group-title="地方频道",舞阳
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226902/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/苏州文化生活.png" group-title="地方频道",苏州文化生活
 https://live-auth.51kandianshi.com/szgd/csztv3.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/苏州新闻综合.png" group-title="地方频道",苏州新闻综合
@@ -555,14 +629,20 @@ https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.
 https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/萧山生活.png" group-title="地方频道",萧山生活
 https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/西华.png" group-title="地方频道",西华
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227321/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/西宁新闻综合.png" group-title="地方频道",西宁新闻综合
 https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/诸暨新闻综合.png" group-title="地方频道",诸暨新闻综合
 https://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/辉县.png" group-title="地方频道",辉县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227332/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/辽宁都市.png" group-title="地方频道",辽宁都市
 https://ls.qingting.fm/live/1099/64k.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/通海电视台.png" group-title="地方频道",通海电视台
 https://zb-live.ynurl.com/tonghai/3bfe3a9e-48e6-4c1e-8770-1df66447cc6c.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/邓州.png" group-title="地方频道",邓州
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226348/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/邢台生活.png" group-title="地方频道",邢台生活
 https://jwcdnqx.hebyun.com.cn/live/xtcsshpd/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/邢台综合.png" group-title="地方频道",邢台综合
@@ -573,16 +653,26 @@ https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8
 https://jwcdnqx.hebyun.com.cn/live/hdxwzh/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/邯郸科技教育.png" group-title="地方频道",邯郸科技教育
 https://jwcdnqx.hebyun.com.cn/live/hdkj/1500k/tzwj_video.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/郏县.png" group-title="地方频道",郏县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226514/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/铜陵新闻综合.png" group-title="地方频道",铜陵新闻综合
 https://ls.qingting.fm/live/21303/64k.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/长垣.png" group-title="地方频道",长垣
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227313/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/长子综合.png" group-title="地方频道",长子综合
 https://www.wxhcgbds.com:8081/channelTv/WXTV_1.m3u8?zshanxd
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/陕州.png" group-title="地方频道",陕州
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227250/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/雅安新闻综合.png" group-title="地方频道",雅安新闻综合
 https://play.yunxya.com/channellive/xinwen.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/项城.png" group-title="地方频道",项城
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226354/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/飞碟之谜01.png" group-title="地方频道",飞碟之谜01
 https://hls.cntv.lxdns.com/asp/hls/2000/0303000a/3/default/f0a47e155d32450daa1d36a04fd7d262/2000.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/飞碟之谜02.png" group-title="地方频道",飞碟之谜02
 https://newcntv.qcloudcdn.com/asp/hls/2000/0303000a/3/default/d2454bbb542d4613a9db478dab2addfd/2000.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/鲁山.png" group-title="地方频道",鲁山
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227370/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/黑龙江文体.png" group-title="地方频道",黑龙江文体
 https://idclive.hljtv.com:4430/live/hljwy_hd.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/黑龙江新闻.png" group-title="地方频道",黑龙江新闻
@@ -987,3 +1077,7 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226338/1.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226334/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/金色学堂.png" group-title="数字频道",金色学堂
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226912/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/河南中华功夫.png" group-title="数字频道",河南中华功夫
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226440/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/茶频道.png" group-title="数字频道",茶频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226647/1.m3u8
