@@ -185,12 +185,18 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226884/1.m3u8?fmt=ts2hl
 https://freem3u.xyz/api/live/play.m3u8?vid=177
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/健康河南.png" group-title="河南频道",健康河南
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227091/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/光山.png" group-title="河南频道",光山
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227055/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/大美河南.png" group-title="河南频道",大美河南
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226350/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/新县.png" group-title="河南频道",新县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227090/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/河南乡村频道.png" group-title="河南频道",河南乡村频道
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226948/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/河南公共频道.png" group-title="河南频道",河南公共频道
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226946/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/河南戏曲.png" group-title="河南频道",河南戏曲
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226438/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/河南新闻频道.png" group-title="河南频道",河南新闻频道
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226915/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/河南民生频道.png" group-title="河南频道",河南民生频道
@@ -201,13 +207,7 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226940/1.m3u8?fmt=ts2hl
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226871/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/河南都市频道.png" group-title="河南频道",河南都市频道
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226911/1.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/郑州豫剧频道.png" group-title="河南频道",郑州豫剧频道
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226405/1.m3u8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/光山.png" group-title="河南频道",光山
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227055/1.m3u8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/新县.png" group-title="河南频道",新县
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227090/1.m3u8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/河南戏曲.png" group-title="河南频道",河南戏曲
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226438/1.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/浉河.png" group-title="河南频道",浉河
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226360/1.m3u8
+#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/郑州豫剧频道.png" group-title="河南频道",郑州豫剧频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226405/1.m3u8
