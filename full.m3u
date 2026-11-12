@@ -213,8 +213,6 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227367/1.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227408/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/金鹰纪实.png" group-title="纪录频道",金鹰纪实
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226889/1.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/求索记录4K.png" group-title="纪录频道",求索记录4K
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227381/1.m3u8
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Discovery_Turbo_Italy.svg/1920px-Discovery_Turbo_Italy.svg.png" group-title="体育频道",Discovery Turbo
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/TURBO/CMAF/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/FqFxog1.png" group-title="体育频道",Garage TV
