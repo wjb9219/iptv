@@ -33,6 +33,8 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226919/1.m3u8?fmt=ts2hl
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226958/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV15.png" group-title="央视频道",CCTV15
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226524/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" group-title="央视频道",CCTV16
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227532/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV17.png" group-title="央视频道",CCTV17
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226954/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV世界地理.png" group-title="央视频道",CCTV世界地理
@@ -47,12 +49,6 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227506/1.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227514/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV女性时尚.png" group-title="央视频道",CCTV女性时尚
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227510/1.m3u8
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV怀旧剧场.png" group-title="央视频道",CCTV怀旧剧场
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227502/1.m3u8
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV第一剧场.png" group-title="央视频道",CCTV第一剧场
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227498/1.m3u8
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV风云剧场.png" group-title="央视频道",CCTV风云剧场
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227500/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV风云足球.png" group-title="央视频道",CCTV风云足球
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227489/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV风云音乐.png" group-title="央视频道",CCTV风云音乐
@@ -63,6 +59,8 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227508/1.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226974/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CETV2.png" group-title="央视频道",CETV2
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227194/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CETV3.png" group-title="央视频道",CETV3
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227352/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CETV4.png" group-title="央视频道",CETV4
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227200/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CGTN.png" group-title="央视频道",CGTN
@@ -77,8 +75,6 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227394/1.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227365/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CGTN西班牙语.png" group-title="央视频道",CGTN西班牙语
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227390/1.m3u8
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CGTN记录.png" group-title="央视频道",CGTN记录
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227367/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CGTN阿拉伯语.png" group-title="央视频道",CGTN阿拉伯语
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227392/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/三沙卫视.png" group-title="卫视频道",三沙卫视
@@ -193,3 +189,13 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226940/1.m3u8?fmt=ts2hl
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226871/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/河南都市频道.png" group-title="河南频道",河南都市频道
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226911/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/郑州豫剧频道.png" group-title="河南频道",郑州豫剧频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226405/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/光山.png" group-title="河南频道",光山
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227055/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/新县.png" group-title="河南频道",新县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227090/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/河南戏曲.png" group-title="河南频道",河南戏曲
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226438/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/浉河.png" group-title="河南频道",浉河
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226360/1.m3u8
