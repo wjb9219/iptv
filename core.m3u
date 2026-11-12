@@ -59,8 +59,6 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227508/1.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226974/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CETV2.png" group-title="央视频道",CETV2
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227194/1.m3u8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CETV3.png" group-title="央视频道",CETV3
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227352/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CETV4.png" group-title="央视频道",CETV4
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227200/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CGTN.png" group-title="央视频道",CGTN
@@ -171,6 +169,20 @@ https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
 https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/耀才财经.png" group-title="港澳台",耀才财经
 https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
+#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV怀旧剧场.png" group-title="电视剧频道",CCTV怀旧剧场
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227502/1.m3u8
+#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV第一剧场.png" group-title="电视剧频道",CCTV第一剧场
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227498/1.m3u8
+#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV风云剧场.png" group-title="电视剧频道",CCTV风云剧场
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227500/1.m3u8
+#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/欢笑剧场.png" group-title="电视剧频道",欢笑剧场
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226704/1.m3u8
+#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/河南电视剧频道.png" group-title="电视剧频道",河南电视剧频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226942/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/都市剧场.png" group-title="电视剧频道",都市剧场
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226884/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="" group-title="电视剧频道",ON Vie Dramas
+https://freem3u.xyz/api/live/play.m3u8?vid=177
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/健康河南.png" group-title="河南频道",健康河南
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227091/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/大美河南.png" group-title="河南频道",大美河南
