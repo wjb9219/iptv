@@ -69,6 +69,8 @@ https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227394/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CGTN法语.png" group-title="央视频道",CGTN法语
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227365/1.m3u8
+#EXTINF:-1 tvg-logo="" group-title="央视频道",CGTN英语·2
+https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CGTN西班牙语.png" group-title="央视频道",CGTN西班牙语
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227390/1.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/CGTN西语.png" group-title="央视频道",CGTN西语
@@ -659,8 +661,6 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226328/1.m3u8
 https://webtvstream.bhtelecom.ba/gametoon.m3u8
 #EXTINF:-1 tvg-logo="" group-title="游戏电竞",eSports Max TV
 https://cdnlive.klicgo.net/esportsmax/live/playlist_dvr.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/郑州妇女儿童.png" group-title="儿童频道",郑州妇女儿童·2
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226403/1.m3u8
 #EXTINF:-1 tvg-logo="" group-title="儿童频道",SiTV动漫秀场
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226845/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/优漫卡通.png" group-title="儿童频道",优漫卡通
@@ -673,8 +673,10 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226640/1.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226640/1.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/嘉佳卡通.png" group-title="儿童频道",嘉佳卡通
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226412/1.m3u8
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/郑州妇女儿童.png" group-title="儿童频道",郑州妇女儿童
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227050/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/郑州妇女儿童.png" group-title="儿童频道",郑州妇女儿童
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226403/1.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/郑州妇女儿童.png" group-title="儿童频道",郑州妇女儿童·2
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226403/1.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/金鹰卡通.png" group-title="儿童频道",金鹰卡通
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226965/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="" group-title="儿童频道",Akili Kids!
@@ -763,7 +765,7 @@ https://live.metshop.top/huya/11352879
 http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="儿童频道",福州电视台少儿频道 (FZTV-少儿)
 http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="儿童频道",韩国EBS少儿
+#EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/韩国EBS少儿.png" group-title="儿童频道",韩国EBS少儿
 http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/黑龙江少儿.png" group-title="儿童频道",黑龙江少儿
 https://ls.qingting.fm/live/4972/64k.m3u8
@@ -853,6 +855,8 @@ http://stream.mcquack.net/287/index.m3u8
 https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
 #EXTINF:-1 tvg-logo="" group-title="时尚频道",Food Food
 https://d2lk5u59tns74c.cloudfront.net/out/v1/ffc601b3dc8d41c5b09115702538d75a/index.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/河南中华功夫.png" group-title="河南频道",河南中华功夫·2
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226692/1.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/光山.png" group-title="河南频道",光山
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227055/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/大美河南.png" group-title="河南频道",大美河南
@@ -881,8 +885,6 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226911/1.m3u8?fmt=ts2hl
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226360/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/郑州豫剧频道.png" group-title="河南频道",郑州豫剧频道
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226405/1.m3u8
-#EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/嵊泗综合.png" group-title="地方频道",嵊泗综合
-http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed
 #EXTINF:-1 tvg-logo="" group-title="地方频道",SiTV东方财经
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226843/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="" group-title="地方频道",SiTV法治天地
@@ -1317,6 +1319,8 @@ https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
 http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
 #EXTINF:-1 tvg-logo="" group-title="地方频道",嵊州综合
 https://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
+#EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/嵊泗综合.png" group-title="地方频道",嵊泗综合
+http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed
 #EXTINF:-1 tvg-logo="" group-title="地方频道",常熟民生
 http://3gvod.zjgonline.com.cn:1935/live/_definst_/shehuishenghuo_app/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/平泉综合.png" group-title="地方频道",平泉综合
