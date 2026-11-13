@@ -3,6 +3,42 @@
  "wallpaper": "",
  "sites": [
   {
+   "key": "s5dadf40a4",
+   "name": "🐉┃索尼┃高清",
+   "type": 1,
+   "api": "https://suoniapi.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "categories": [
+    "动作片",
+    "喜剧片",
+    "科幻片",
+    "恐怖片",
+    "爱情片",
+    "剧情片",
+    "战争片",
+    "记录片",
+    "国产剧",
+    "欧美剧",
+    "香港剧",
+    "韩国剧",
+    "台湾剧",
+    "日本剧",
+    "海外剧",
+    "泰国剧",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "港台动漫",
+    "海外动漫",
+    "大陆综艺",
+    "港台综艺",
+    "日韩综艺",
+    "欧美综艺"
+   ]
+  },
+  {
    "key": "s8a9b1960d",
    "name": "🕹️淘片┃采集",
    "type": 1,
@@ -481,6 +517,16 @@
    "filterable": 1
   },
   {
+   "key": "sb60857b4e",
+   "name": "速播 | 采集",
+   "type": 1,
+   "api": "https://subocaiji.com/api.php/provide/vod/",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "filterable": 1
+  },
+  {
    "key": "sd318bd96b",
    "name": "天堂 | 采集",
    "type": 1,
@@ -489,6 +535,17 @@
    "quickSearch": 1,
    "filterable": 0,
    "changeable": 0
+  },
+  {
+   "key": "s4d8a14ee8",
+   "name": "艾旦 | 采集",
+   "type": 1,
+   "ext": "",
+   "api": "https://www.lovedan.net/api.php/provide/vod/",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "filterable": 1
   },
   {
    "key": "s140f69037",
@@ -836,17 +893,6 @@
    "filterable": 1
   },
   {
-   "key": "sefe37043f",
-   "name": "🏂奥特┃直连",
-   "type": 3,
-   "api": "csp_Auete",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 0,
-   "ext": "https://haozhansou.com/",
-   "filterable": 1
-  },
-  {
    "key": "sd0ee52b98",
    "name": "🗽┃六九┃美剧",
    "type": 3,
@@ -878,40 +924,35 @@
    "jar": "https://jihulab.com/zhulr7765/tvbox/-/raw/main/jar/spider.jar"
   },
   {
-   "key": "s5dadf40a4",
-   "name": "🐉┃索尼┃高清",
-   "type": 1,
-   "api": "https://suoniapi.com/api.php/provide/vod/",
+   "key": "sefe37043f",
+   "name": "🏂奥特┃直连",
+   "type": 3,
+   "api": "csp_Auete",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 1,
-   "categories": [
-    "动作片",
-    "喜剧片",
-    "科幻片",
-    "恐怖片",
-    "爱情片",
-    "剧情片",
-    "战争片",
-    "记录片",
-    "国产剧",
-    "欧美剧",
-    "香港剧",
-    "韩国剧",
-    "台湾剧",
-    "日本剧",
-    "海外剧",
-    "泰国剧",
-    "国产动漫",
-    "日韩动漫",
-    "欧美动漫",
-    "港台动漫",
-    "海外动漫",
-    "大陆综艺",
-    "港台综艺",
-    "日韩综艺",
-    "欧美综艺"
-   ]
+   "changeable": 0,
+   "ext": "https://haozhansou.com/",
+   "filterable": 1
+  },
+  {
+   "key": "s455e496be",
+   "name": "💕速看100[V2]",
+   "type": 3,
+   "api": "csp_AppYsV2",
+   "searchable": 1,
+   "ext": "https://sk100.tv/api.php/app/",
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "s71bd1ac83",
+   "name": "💕迪迪",
+   "type": 3,
+   "api": "csp_AppYsV2",
+   "searchable": 1,
+   "ext": "https://api123.adys.app/xgapp.php/v3/",
+   "quickSearch": 1,
+   "filterable": 1
   },
   {
    "key": "se770a4b57",
@@ -951,6 +992,16 @@
    "filterable": 1
   },
   {
+   "key": "sa90fe9f91",
+   "name": "优质 | 采集",
+   "type": 1,
+   "api": "https://api.yyzy-tv.vip/inc/apijson.php",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "filterable": 1
+  },
+  {
    "key": "sc396281d8",
    "name": "❤卧龙资源",
    "type": 1,
@@ -980,6 +1031,52 @@
     "日剧",
     "海外剧",
     "其他片",
+    "悬疑片",
+    "奇幻片",
+    "动画片",
+    "体育赛事",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "港台动漫",
+    "海外动漫",
+    "大陆综艺",
+    "港台综艺",
+    "日韩综艺",
+    "欧美综艺"
+   ]
+  },
+  {
+   "key": "s4931d95fd",
+   "name": "❤鱼乐资源",
+   "type": 1,
+   "api": "https://api.yulecj.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playUrl": "",
+   "playerType": 2,
+   "categories": [
+    "动作片",
+    "喜剧片",
+    "科幻片",
+    "恐怖片",
+    "爱情片",
+    "悬疑片",
+    "剧情片",
+    "战争片",
+    "纪录片",
+    "动画电影",
+    "国产剧",
+    "美国剧",
+    "犯罪片",
+    "香港剧",
+    "韩国剧",
+    "泰剧",
+    "台湾剧",
+    "日本剧",
+    "海外剧",
+    "其他剧",
     "悬疑片",
     "奇幻片",
     "动画片",
@@ -1136,6 +1233,15 @@
    "changeable": 1
   },
   {
+   "key": "sc0267a468",
+   "name": "苹果[py]",
+   "type": 3,
+   "api": "https://clun.top/py/apples.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
    "key": "s2b88a5420",
    "name": "枫叶[py]",
    "type": 3,
@@ -1226,72 +1332,6 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
-  },
-  {
-   "key": "s3da773f4b",
-   "name": "LIBVIO[py]",
-   "type": 3,
-   "api": "https://clun.top/py/libvio.py",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "sc6fffcda1",
-   "name": "歪比巴卜[py]",
-   "type": 3,
-   "api": "https://clun.top/py/wbbb.py",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "sf53052d6c",
-   "name": "可可追剧[py]",
-   "type": 3,
-   "api": "https://clun.top/py/kkys.py",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "s4345a9991",
-   "name": "布布追剧[py]",
-   "type": 3,
-   "api": "https://clun.top/py/bubuzhuiju.py",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "s67dcb431a",
-   "name": "袋鼠影视[py]",
-   "type": 3,
-   "api": "https://clun.top/py/dsystv.py",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": ""
-  },
-  {
-   "key": "see3c95905",
-   "name": "影视天堂[py]",
-   "type": 3,
-   "api": "https://clun.top/py/ysttv.py",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": ""
-  },
-  {
-   "key": "sb09b3894d",
-   "name": "雪落影视[py]",
-   "type": 3,
-   "api": "https://clun.top/py/xlys.py",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": ""
   }
  ],
  "lives": [
@@ -1548,6 +1588,13 @@
       "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227390/1.m3u8"
      ],
      "logo": "https://elykia093.github.io/HA-CMCC-IPTV/logos/CGTN西班牙语.png"
+    },
+    {
+     "name": "CGTN西语",
+     "urls": [
+      "https://0472.org/hls/cgtnx.m3u8"
+     ],
+     "logo": "https://tb.zbds.top/logo/CGTN西语.png"
     },
     {
      "name": "CGTN阿拉伯语",
@@ -1906,6 +1953,13 @@
      ]
     },
     {
+     "name": "纬来体育",
+     "urls": [
+      "https://epg.pw/stream/ab6df63b64d0cc44a1f4f029ed847a26fa54a7aebd455578fb05a63f02c22f4b.m3u8"
+     ],
+     "logo": "https://tb.zbds.top/logo/纬来体育.png"
+    },
+    {
      "name": "耀才财经",
      "urls": [
       "https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8"
@@ -1918,6 +1972,12 @@
    "group": "电影频道",
    "name": "电影频道",
    "channels": [
+    {
+     "name": "SiTV欢笑剧场",
+     "urls": [
+      "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226882/1.m3u8?fmt=ts2hls"
+     ]
+    },
     {
      "name": "CHC动作电影",
      "urls": [
@@ -2693,12 +2753,6 @@
      ]
     },
     {
-     "name": "NTV Series",
-     "urls": [
-      "http://stream.mcquack.net/301/index.m3u8"
-     ]
-    },
-    {
      "name": "ON Vie Dramas",
      "urls": [
       "https://freem3u.xyz/api/live/play.m3u8?vid=177"
@@ -3054,6 +3108,13 @@
      "urls": [
       "http://88.212.15.50/live/test_viasat_history_atk_tv/playlist.m3u8"
      ]
+    },
+    {
+     "name": "地理中国",
+     "urls": [
+      "http://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/c6baf6f74bb944aeacee1065ea72c798/1200.m3u8"
+     ],
+     "logo": "https://tb.zbds.top/logo/地理中国.png"
     }
    ]
   },
@@ -3302,6 +3363,20 @@
      "urls": [
       "http://31.148.5.241/Viasat_Sport/index.m3u8"
      ]
+    },
+    {
+     "name": "精品体育",
+     "urls": [
+      "https://epg.pw/stream/94ed0232b61ce8d89883160a4cdfbfc8f3225cae70ef8e17d93eec249a3c8ad6.m3u8"
+     ],
+     "logo": "https://tb.zbds.top/logo/精品体育.png"
+    },
+    {
+     "name": "足球频道",
+     "urls": [
+      "https://epg.pw/stream/c7df950876e6a1ceb8be74ee86f9f702cebbbae29f1d15124ef8f86fd43161cf.m3u8"
+     ],
+     "logo": "https://tb.zbds.top/logo/足球频道.png"
     }
    ]
   },
@@ -3347,6 +3422,13 @@
      "urls": [
       "https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamUS.smil/playlist.m3u8"
      ]
+    },
+    {
+     "name": "卫生健康",
+     "urls": [
+      "https://epg.pw/stream/fc90a505bbcefc5a9c91e5dc5e12f5b0d6f76ac5f86b55a33ee724051af2d385.m3u8"
+     ],
+     "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTVwsjk.png"
     }
    ]
   },
@@ -3418,30 +3500,37 @@
     {
      "name": "优漫卡通",
      "urls": [
-      "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226963/1.m3u8?fmt=ts2hls"
+      "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226406/1.m3u8"
      ],
-     "logo": "https://elykia093.github.io/HA-CMCC-IPTV/logos/优漫卡通.png"
+     "logo": "https://live.fanmingming.cn/tv/优漫卡通.png"
     },
     {
      "name": "动漫秀场",
      "urls": [
       "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226845/1.m3u8?fmt=ts2hls"
      ],
-     "logo": "https://elykia093.github.io/HA-CMCC-IPTV/logos/动漫秀场.png"
+     "logo": "https://live.fanmingming.cn/tv/动漫秀场.png"
     },
     {
      "name": "卡酷少儿",
      "urls": [
-      "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226959/1.m3u8?fmt=ts2hls"
+      "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226640/1.m3u8"
      ],
-     "logo": "https://elykia093.github.io/HA-CMCC-IPTV/logos/卡酷少儿.png"
+     "logo": "https://live.fanmingming.cn/tv/卡酷少儿.png"
+    },
+    {
+     "name": "卡酷少儿·2",
+     "urls": [
+      "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226640/1.m3u8"
+     ],
+     "logo": "https://live.fanmingming.cn/tv/卡酷少儿.png"
     },
     {
      "name": "嘉佳卡通",
      "urls": [
       "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226412/1.m3u8"
      ],
-     "logo": "https://elykia093.github.io/HA-CMCC-IPTV/logos/嘉佳卡通.png"
+     "logo": "https://live.fanmingming.cn/tv/嘉佳卡通.png"
     },
     {
      "name": "郑州妇女儿童",
@@ -3455,7 +3544,7 @@
      "urls": [
       "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226965/1.m3u8?fmt=ts2hls"
      ],
-     "logo": "https://elykia093.github.io/HA-CMCC-IPTV/logos/金鹰卡通.png"
+     "logo": "https://live.fanmingming.cn/tv/金鹰卡通.png"
     },
     {
      "name": "Akili Kids!",
@@ -3941,6 +4030,13 @@
      ]
     },
     {
+     "name": "音乐欣赏",
+     "urls": [
+      "http://61.221.215.25:8800/hls/49/index.m3u8"
+     ],
+     "logo": "https://tb.zbds.top/logo/音乐欣赏.png"
+    },
+    {
      "name": "音乐现场",
      "urls": [
       "https://satellitepull.cnr.cn/live/wx32nmgyygb/playlist.m3u8"
@@ -4045,6 +4141,13 @@
      "logo": "https://epg.112114.xyz/logo/河南戏曲.png"
     },
     {
+     "name": "河南收藏天下",
+     "urls": [
+      "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226638/1.m3u8"
+     ],
+     "logo": "https://live.fanmingming.cn/tv/河南收藏天下.png"
+    },
+    {
      "name": "河南新闻频道",
      "urls": [
       "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226915/1.m3u8?fmt=ts2hls"
@@ -4099,6 +4202,67 @@
    "group": "地方频道",
    "name": "地方频道",
    "channels": [
+    {
+     "name": "河北",
+     "urls": [
+      "https://event.pull.hebtv.com:443/live/live101.m3u8"
+     ]
+    },
+    {
+     "name": "春晚2025",
+     "urls": [
+      "https://res.cctvnews.cctv.com/video/3005/record/cctv/merge1/133396667284143308839013005/8fbd6180bdef4da19f6155cf6b4652e1-4.m3u8"
+     ]
+    },
+    {
+     "name": "大象新闻",
+     "urls": [
+      "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227122/1.m3u8?fmt=ts2hls"
+     ]
+    },
+    {
+     "name": "咪咕视频",
+     "urls": [
+      "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227258/1.m3u8?fmt=ts2hls"
+     ]
+    },
+    {
+     "name": "龙门飞甲",
+     "urls": [
+      "http://jsmov2.a.yximgs.com/bs3/video-hls/5203346449046555193_hlsb.m3u8"
+     ],
+     "logo": "https://tb.zbds.top/logo/龙门飞甲.png"
+    },
+    {
+     "name": "SiTV法治天地",
+     "urls": [
+      "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?fmt=ts2hls"
+     ]
+    },
+    {
+     "name": "大象国学",
+     "urls": [
+      "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227154/1.m3u8?fmt=ts2hls"
+     ]
+    },
+    {
+     "name": "湖南茶",
+     "urls": [
+      "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227129/1.m3u8?fmt=ts2hls"
+     ]
+    },
+    {
+     "name": "SiTV游戏风云",
+     "urls": [
+      "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226910/1.m3u8?fmt=ts2hls"
+     ]
+    },
+    {
+     "name": "SiTV东方财经",
+     "urls": [
+      "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226843/1.m3u8?fmt=ts2hls"
+     ]
+    },
     {
      "name": "三门峡公共频道",
      "urls": [
@@ -5139,6 +5303,13 @@
      "logo": "https://tb.zbds.top/logo/东莞新闻综合.png"
     },
     {
+     "name": "中国村庄",
+     "urls": [
+      "http://newcntv.qcloudcdn.com/asp/hls/4000/0303000a/3/default/93fc12dbf14241c18c23da104fbade23/4000.m3u8"
+     ],
+     "logo": "https://tb.zbds.top/logo/中国村庄.png"
+    },
+    {
      "name": "乐至综合",
      "urls": [
       "http://175.155.106.72:89/live1/live1.m3u8?zsicd"
@@ -5227,6 +5398,13 @@
      "urls": [
       "http://110.153.180.106:55555/out_2/index.m3u8"
      ]
+    },
+    {
+     "name": "倩女幽魂妖魔道",
+     "urls": [
+      "http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8"
+     ],
+     "logo": "https://tb.zbds.top/logo/倩女幽魂妖魔道.png"
     },
     {
      "name": "兴隆综合",
@@ -5600,6 +5778,19 @@
      ]
     },
     {
+     "name": "文山州新闻综合",
+     "urls": [
+      "http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel7/playlist.m3u8?zyund"
+     ],
+     "logo": "https://tb.zbds.top/logo/文山州新闻综合.png"
+    },
+    {
+     "name": "文山综合",
+     "urls": [
+      "http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel7/playlist.m3u8"
+     ]
+    },
+    {
      "name": "新沂新闻",
      "urls": [
       "http://live.xysrmt.cn/xwzh/sd/live.m3u8?zjiangsd\""
@@ -5807,6 +5998,13 @@
      "logo": "https://tb.zbds.top/logo/汾西综合.png"
     },
     {
+     "name": "沐川综合",
+     "urls": [
+      "http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd"
+     ],
+     "logo": "https://tb.zbds.top/logo/沐川综合.png"
+    },
+    {
      "name": "河北农民",
      "urls": [
       "https://ls.qingting.fm/live/1650/64k.m3u8"
@@ -5821,6 +6019,13 @@
      "logo": "https://tb.zbds.top/logo/河北都市.png"
     },
     {
+     "name": "泸县新闻综合",
+     "urls": [
+      "http://lxfile.lxxcb.cn:80/nmip-media/channellive/channel103799/playlist.m3u8"
+     ],
+     "logo": "https://tb.zbds.top/logo/泸县新闻综合.png"
+    },
+    {
      "name": "津南一套",
      "urls": [
       "http://play.jinnantv.top/live/JNTV1.m3u8?ztianjd"
@@ -5831,6 +6036,13 @@
      "urls": [
       "http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8"
      ]
+    },
+    {
+     "name": "浙江钱江都市",
+     "urls": [
+      "http://ali-xwl.cztv.com/live/channel021080Plxw.m3u8"
+     ],
+     "logo": "https://tb.zbds.top/logo/浙江钱江都市.png"
     },
     {
      "name": "海宁新闻综合",
@@ -6102,6 +6314,13 @@
      ]
     },
     {
+     "name": "营山电视台",
+     "urls": [
+      "http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd#http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8"
+     ],
+     "logo": "https://tb.zbds.top/logo/营山电视台.png"
+    },
+    {
      "name": "萧山新闻综合",
      "urls": [
       "https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8"
@@ -6255,6 +6474,13 @@
       "https://jwcdnqx.hebyun.com.cn/live/hdkj/1500k/tzwj_video.m3u8"
      ],
      "logo": "https://tb.zbds.top/logo/邯郸科技教育.png"
+    },
+    {
+     "name": "金川乡村",
+     "urls": [
+      "http://live.jinchuanrmt.com:90/live/jcxc.m3u8?zsicd"
+     ],
+     "logo": "https://tb.zbds.top/logo/金川乡村.png"
     },
     {
      "name": "金川新闻综合",
@@ -7431,6 +7657,12 @@
      ]
     },
     {
+     "name": "Anhui TV",
+     "urls": [
+      "https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8"
+     ]
+    },
+    {
      "name": "Arirang",
      "urls": [
       "https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8"
@@ -7478,6 +7710,12 @@
      "name": "CNBC UK",
      "urls": [
       "https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8"
+     ]
+    },
+    {
+     "name": "CND Film Middle School Channel",
+     "urls": [
+      "http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8"
      ]
     },
     {
@@ -7597,6 +7835,13 @@
      ]
     },
     {
+     "name": "Fox Weather",
+     "urls": [
+      "https://247wlive.foxweather.com/stream/index_1280x720.m3u8"
+     ],
+     "logo": "https://huangsuming.codeberg.page/logo/tv/English/"
+    },
+    {
      "name": "France 24 English",
      "urls": [
       "https://freem3u.xyz/api/live/play.m3u8?vid=96"
@@ -7639,6 +7884,12 @@
      ]
     },
     {
+     "name": "Hunan TV",
+     "urls": [
+      "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8"
+     ]
+    },
+    {
      "name": "India Today",
      "urls": [
       "https://d2lk5u59tns74c.cloudfront.net/out/v1/d4435039c7d1433d9b9d0b6cdc9dd4ff/index.m3u8"
@@ -7648,6 +7899,12 @@
      "name": "KITV 4 Island News",
      "urls": [
       "https://fuel-streaming-prod01.fuelmedia.io/v1/sem/c4067ddc-0e67-4928-b7ec-624481f721a6.m3u8"
+     ]
+    },
+    {
+     "name": "Kangba TV",
+     "urls": [
+      "http://110.185.237.164:8888/hls/30/index.m3u8"
      ]
     },
     {
@@ -7681,10 +7938,23 @@
      ]
     },
     {
+     "name": "NTV Series",
+     "urls": [
+      "http://stream.mcquack.net/301/index.m3u8"
+     ]
+    },
+    {
      "name": "Newsmax",
      "urls": [
       "https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8"
      ]
+    },
+    {
+     "name": "RT Arabic",
+     "urls": [
+      "https://rt-arb.rttv.com/dvr/rtarab/playlist.m3u8"
+     ],
+     "logo": "https://cdn.jsdelivr.net/gh/Meroser/IPTV@main/TVlogo/RT_News.png"
     },
     {
      "name": "RT Arabic（阿语）",
@@ -7708,6 +7978,20 @@
      "logo": "https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/tvlog/RT德国.png"
     },
     {
+     "name": "RT Documentary",
+     "urls": [
+      "https://rt-rtd.rttv.com/live/rtdoc/playlist_4500Kb.m3u8"
+     ],
+     "logo": "https://cdn.jsdelivr.net/gh/Meroser/IPTV@main/TVlogo/RT_Doc.png"
+    },
+    {
+     "name": "RT Español",
+     "urls": [
+      "https://edge.xn--tbnespaa-j3a.es/LiveApp/streams/tbnlive.m3u8"
+     ],
+     "logo": "https://cdn.jsdelivr.net/gh/Meroser/IPTV@main/TVlogo/RT_News.png"
+    },
+    {
      "name": "RT Español（西语）",
      "urls": [
       "https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8"
@@ -7715,11 +7999,25 @@
      "logo": "https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/tvlog/RT.png"
     },
     {
+     "name": "RT Français",
+     "urls": [
+      "https://rt-fra.rttv.com/live/rtfrance/playlist.m3u8"
+     ],
+     "logo": "https://cdn.jsdelivr.net/gh/Meroser/IPTV@main/TVlogo/RT_News.png"
+    },
+    {
      "name": "RT Français（法语）",
      "urls": [
       "https://rt-fra.rttv.com/dvr/rtfrance/playlist_4500Kb.m3u8"
      ],
      "logo": "https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/tvlog/RT.png"
+    },
+    {
+     "name": "RT News",
+     "urls": [
+      "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8"
+     ],
+     "logo": "https://cdn.jsdelivr.net/gh/Meroser/IPTV@main/TVlogo/RT_News.png"
     },
     {
      "name": "RT News（英语国际）",
@@ -7951,6 +8249,19 @@
      ]
     }
    ]
+  },
+  {
+   "group": "其他",
+   "name": "其他",
+   "channels": [
+    {
+     "name": "RT DE",
+     "urls": [
+      "https://rt-ger.rttv.com/dvr/rtdeutsch/playlist.m3u8"
+     ],
+     "logo": "https://cdn.jsdelivr.net/gh/Meroser/IPTV@main/TVlogo/RT_DE.png"
+    }
+   ]
   }
  ],
  "flags": [
@@ -7967,5 +8278,5 @@
  "ads": [],
  "headers": [],
  "logo": "",
- "notice": "主推版 · 点播 80 源 · 直播 1034 台 · 更新于 2026-11-13"
+ "notice": "主推版 · 点播 80 源 · 直播 1074 台 · 更新于 2026-11-13"
 }
