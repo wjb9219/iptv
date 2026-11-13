@@ -785,8 +785,6 @@ https://cdn.pishow.tv/ott/live/1456/master.m3u8
 http://stream.mcquack.net/261/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="音乐频道",Folx Music Television
 https://folxapp.b-cdn.net/1080p/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="音乐频道",Galactica TV
-https://stream.neux.site/memfs/e3f59eec-6b93-45e1-a2ab-c82381c2a9ec.m3u8
 #EXTINF:-1 tvg-logo="" group-title="音乐频道",HMTV 2
 https://customer-yzxu6n447dx2x45h.cloudflarestream.com/f255a1e5ef17a8277e15e5f409951e98/manifest/video.m3u8
 #EXTINF:-1 tvg-logo="" group-title="音乐频道",KN Music TV
@@ -1971,6 +1969,8 @@ https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HL
 https://tvsen6.aynaott.com/foxnews/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",France 24 English
 https://freem3u.xyz/api/live/play.m3u8?vid=96
+#EXTINF:-1 tvg-logo="" group-title="国际频道",Galactica TV
+https://stream.neux.site/memfs/e3f59eec-6b93-45e1-a2ab-c82381c2a9ec.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",HMTV
 https://cdn.pishow.tv/ott/live/280/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",India Today
