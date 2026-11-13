@@ -41,8 +41,6 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226954/1.m3u8?fmt=ts2hl
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227512/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV兵器科技.png" group-title="央视频道",CCTV兵器科技
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227485/1.m3u8
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV卫生健康.png" group-title="央视频道",CCTV卫生健康
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227516/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV央视台球.png" group-title="央视频道",CCTV央视台球
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227506/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV央视文化精品.png" group-title="央视频道",CCTV央视文化精品
@@ -193,6 +191,18 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226942/1.m3u8?fmt=ts2hl
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226884/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="" group-title="电视剧频道",AXN Asia
 http://202.150.165.66:8088/play/301-AXN/index.m3u8
+#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV卫生健康.png" group-title="健身频道",CCTV卫生健康
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227516/1.m3u8
+#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/健康河南.png" group-title="健身频道",健康河南
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227091/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/武术世界.png" group-title="健身频道",武术世界
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226962/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="" group-title="健身频道",Stingray Spa
+https://d2trrr0c7kwmlg.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-qbtn617rhq7tm/manifest/ose-122ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="健身频道",Swamiji Yoga
+https://stream.swamiji.tv/YogaIPTV/smil:YogaStream.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="健身频道",Swamiji Yoga US
+https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamUS.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="格斗频道",FightBox
 https://webtvstream.bhtelecom.ba/fightbox.m3u8
 #EXTINF:-1 tvg-logo="" group-title="游戏电竞",Gametoon
@@ -201,8 +211,6 @@ https://webtvstream.bhtelecom.ba/gametoon.m3u8
 http://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8
 #EXTINF:-1 tvg-logo="" group-title="时尚频道",FashionTV 1080
 http://stream.mcquack.net/287/index.m3u8
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/健康河南.png" group-title="河南频道",健康河南
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227091/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/光山.png" group-title="河南频道",光山
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227055/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/大美河南.png" group-title="河南频道",大美河南
