@@ -1,12 +1,20 @@
 {
  "urls": [
   {
-   "name": "★ 精选 80 源（推荐）",
+   "name": "★ 全都有 · 点播80源+直播1031台",
+   "url": "https://wjb9219.github.io/iptv/vod_all.json"
+  },
+  {
+   "name": "点播精选 80 源（只点播）",
    "url": "https://wjb9219.github.io/iptv/vod_core.json"
   },
   {
-   "name": "完整 591 源",
+   "name": "点播完整 591 源",
    "url": "https://wjb9219.github.io/iptv/vod_full.json"
+  },
+  {
+   "name": "全量版 · 点播591源+直播1031台",
+   "url": "https://wjb9219.github.io/iptv/vod_all_full.json"
   }
  ]
 }
