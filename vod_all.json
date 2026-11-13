@@ -981,16 +981,6 @@
    "filterable": 1
   },
   {
-   "key": "sa90fe9f91",
-   "name": "优质 | 采集",
-   "type": 1,
-   "api": "https://api.yyzy-tv.vip/inc/apijson.php",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
-   "filterable": 1
-  },
-  {
    "key": "sc396281d8",
    "name": "❤卧龙资源",
    "type": 1,
@@ -1349,11 +1339,21 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
+  },
+  {
+   "key": "sca69953b1",
+   "name": "河豚[py]",
+   "type": 3,
+   "api": "https://clun.top/py/pufferfish.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
   }
  ],
  "lives": [
   {
    "group": "央视频道",
+   "name": "央视频道",
    "channels": [
     {
      "name": "CCTV1",
@@ -1623,6 +1623,7 @@
   },
   {
    "group": "卫视频道",
+   "name": "卫视频道",
    "channels": [
     {
      "name": "三沙卫视",
@@ -1899,6 +1900,7 @@
   },
   {
    "group": "港澳台",
+   "name": "港澳台",
    "channels": [
     {
      "name": "Beautiful Life TV",
@@ -1977,6 +1979,7 @@
   },
   {
    "group": "电影频道",
+   "name": "电影频道",
    "channels": [
     {
      "name": "30A TV Classic Movies",
@@ -2448,6 +2451,7 @@
   },
   {
    "group": "电影点播",
+   "name": "电影点播",
    "channels": [
     {
      "name": "丧尸电影",
@@ -2695,6 +2699,7 @@
   },
   {
    "group": "电视剧频道",
+   "name": "电视剧频道",
    "channels": [
     {
      "name": "CCTV怀旧剧场",
@@ -2958,6 +2963,7 @@
   },
   {
    "group": "纪录频道",
+   "name": "纪录频道",
    "channels": [
     {
      "name": "Afroculture TV",
@@ -3152,6 +3158,7 @@
   },
   {
    "group": "体育频道",
+   "name": "体育频道",
    "channels": [
     {
      "name": "ACI Sport TV SD",
@@ -3399,6 +3406,7 @@
   },
   {
    "group": "格斗频道",
+   "name": "格斗频道",
    "channels": [
     {
      "name": "FightBox",
@@ -3434,6 +3442,7 @@
   },
   {
    "group": "游戏电竞",
+   "name": "游戏电竞",
    "channels": [
     {
      "name": "Gametoon",
@@ -3458,6 +3467,7 @@
   },
   {
    "group": "儿童频道",
+   "name": "儿童频道",
    "channels": [
     {
      "name": "Akili Kids!",
@@ -3776,6 +3786,7 @@
   },
   {
    "group": "音乐频道",
+   "name": "音乐频道",
    "channels": [
     {
      "name": "4 Music",
@@ -4000,6 +4011,7 @@
   },
   {
    "group": "时尚频道",
+   "name": "时尚频道",
    "channels": [
     {
      "name": "Discovery Home & Health Latin America South",
@@ -4048,6 +4060,7 @@
   },
   {
    "group": "河南频道",
+   "name": "河南频道",
    "channels": [
     {
      "name": "健康河南",
@@ -4151,6 +4164,7 @@
   },
   {
    "group": "地方频道",
+   "name": "地方频道",
    "channels": [
     {
      "name": "BBS 佛教台",
@@ -6528,6 +6542,7 @@
   },
   {
    "group": "亚洲频道",
+   "name": "亚洲频道",
    "channels": [
     {
      "name": "13 Siam Thai",
@@ -7241,6 +7256,7 @@
   },
   {
    "group": "国际频道",
+   "name": "国际频道",
    "channels": [
     {
      "name": "20 Minutes TV",
@@ -7820,6 +7836,7 @@
   },
   {
    "group": "数字频道",
+   "name": "数字频道",
    "channels": [
     {
      "name": "EBC General Education",
