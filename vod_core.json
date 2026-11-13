@@ -981,16 +981,6 @@
    "filterable": 1
   },
   {
-   "key": "sa90fe9f91",
-   "name": "优质 | 采集",
-   "type": 1,
-   "api": "https://api.yyzy-tv.vip/inc/apijson.php",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
-   "filterable": 1
-  },
-  {
    "key": "sc396281d8",
    "name": "❤卧龙资源",
    "type": 1,
@@ -1346,6 +1336,15 @@
    "name": "酷客[py]",
    "type": 3,
    "api": "https://clun.top/py/8kvod.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "sca69953b1",
+   "name": "河豚[py]",
+   "type": 3,
+   "api": "https://clun.top/py/pufferfish.py",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
