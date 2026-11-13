@@ -1,0 +1,12 @@
+{
+ "urls": [
+  {
+   "url": "https://wjb9219.github.io/iptv/vod_v2_all.json",
+   "name": "自建·点播55源+直播1074台"
+  },
+  {
+   "url": "https://wjb9219.github.io/iptv/vod_v2.json",
+   "name": "自建·纯点播55源"
+  }
+ ]
+}
