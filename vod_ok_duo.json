@@ -1,0 +1,12 @@
+{
+ "urls": [
+  {
+   "name": "自建点播(15源实测可用)+直播1074台",
+   "url": "https://wjb9219.github.io/iptv/vod_ok_all.json"
+  },
+  {
+   "name": "自建点播(15源)纯点播版",
+   "url": "https://wjb9219.github.io/iptv/vod_ok.json"
+  }
+ ]
+}
