@@ -3,6 +3,42 @@
  "wallpaper": "",
  "sites": [
   {
+   "key": "s5dadf40a4",
+   "name": "🐉┃索尼┃高清",
+   "type": 1,
+   "api": "https://suoniapi.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "categories": [
+    "动作片",
+    "喜剧片",
+    "科幻片",
+    "恐怖片",
+    "爱情片",
+    "剧情片",
+    "战争片",
+    "记录片",
+    "国产剧",
+    "欧美剧",
+    "香港剧",
+    "韩国剧",
+    "台湾剧",
+    "日本剧",
+    "海外剧",
+    "泰国剧",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "港台动漫",
+    "海外动漫",
+    "大陆综艺",
+    "港台综艺",
+    "日韩综艺",
+    "欧美综艺"
+   ]
+  },
+  {
    "key": "s8a9b1960d",
    "name": "🕹️淘片┃采集",
    "type": 1,
@@ -481,6 +517,16 @@
    "filterable": 1
   },
   {
+   "key": "sb60857b4e",
+   "name": "速播 | 采集",
+   "type": 1,
+   "api": "https://subocaiji.com/api.php/provide/vod/",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "filterable": 1
+  },
+  {
    "key": "sd318bd96b",
    "name": "天堂 | 采集",
    "type": 1,
@@ -489,6 +535,17 @@
    "quickSearch": 1,
    "filterable": 0,
    "changeable": 0
+  },
+  {
+   "key": "s4d8a14ee8",
+   "name": "艾旦 | 采集",
+   "type": 1,
+   "ext": "",
+   "api": "https://www.lovedan.net/api.php/provide/vod/",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "filterable": 1
   },
   {
    "key": "s140f69037",
@@ -836,17 +893,6 @@
    "filterable": 1
   },
   {
-   "key": "sefe37043f",
-   "name": "🏂奥特┃直连",
-   "type": 3,
-   "api": "csp_Auete",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 0,
-   "ext": "https://haozhansou.com/",
-   "filterable": 1
-  },
-  {
    "key": "sd0ee52b98",
    "name": "🗽┃六九┃美剧",
    "type": 3,
@@ -878,40 +924,35 @@
    "jar": "https://jihulab.com/zhulr7765/tvbox/-/raw/main/jar/spider.jar"
   },
   {
-   "key": "s5dadf40a4",
-   "name": "🐉┃索尼┃高清",
-   "type": 1,
-   "api": "https://suoniapi.com/api.php/provide/vod/",
+   "key": "sefe37043f",
+   "name": "🏂奥特┃直连",
+   "type": 3,
+   "api": "csp_Auete",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 1,
-   "categories": [
-    "动作片",
-    "喜剧片",
-    "科幻片",
-    "恐怖片",
-    "爱情片",
-    "剧情片",
-    "战争片",
-    "记录片",
-    "国产剧",
-    "欧美剧",
-    "香港剧",
-    "韩国剧",
-    "台湾剧",
-    "日本剧",
-    "海外剧",
-    "泰国剧",
-    "国产动漫",
-    "日韩动漫",
-    "欧美动漫",
-    "港台动漫",
-    "海外动漫",
-    "大陆综艺",
-    "港台综艺",
-    "日韩综艺",
-    "欧美综艺"
-   ]
+   "changeable": 0,
+   "ext": "https://haozhansou.com/",
+   "filterable": 1
+  },
+  {
+   "key": "s455e496be",
+   "name": "💕速看100[V2]",
+   "type": 3,
+   "api": "csp_AppYsV2",
+   "searchable": 1,
+   "ext": "https://sk100.tv/api.php/app/",
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "s71bd1ac83",
+   "name": "💕迪迪",
+   "type": 3,
+   "api": "csp_AppYsV2",
+   "searchable": 1,
+   "ext": "https://api123.adys.app/xgapp.php/v3/",
+   "quickSearch": 1,
+   "filterable": 1
   },
   {
    "key": "se770a4b57",
@@ -951,6 +992,16 @@
    "filterable": 1
   },
   {
+   "key": "sa90fe9f91",
+   "name": "优质 | 采集",
+   "type": 1,
+   "api": "https://api.yyzy-tv.vip/inc/apijson.php",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "filterable": 1
+  },
+  {
    "key": "sc396281d8",
    "name": "❤卧龙资源",
    "type": 1,
@@ -980,6 +1031,52 @@
     "日剧",
     "海外剧",
     "其他片",
+    "悬疑片",
+    "奇幻片",
+    "动画片",
+    "体育赛事",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "港台动漫",
+    "海外动漫",
+    "大陆综艺",
+    "港台综艺",
+    "日韩综艺",
+    "欧美综艺"
+   ]
+  },
+  {
+   "key": "s4931d95fd",
+   "name": "❤鱼乐资源",
+   "type": 1,
+   "api": "https://api.yulecj.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playUrl": "",
+   "playerType": 2,
+   "categories": [
+    "动作片",
+    "喜剧片",
+    "科幻片",
+    "恐怖片",
+    "爱情片",
+    "悬疑片",
+    "剧情片",
+    "战争片",
+    "纪录片",
+    "动画电影",
+    "国产剧",
+    "美国剧",
+    "犯罪片",
+    "香港剧",
+    "韩国剧",
+    "泰剧",
+    "台湾剧",
+    "日本剧",
+    "海外剧",
+    "其他剧",
     "悬疑片",
     "奇幻片",
     "动画片",
@@ -1136,6 +1233,15 @@
    "changeable": 1
   },
   {
+   "key": "sc0267a468",
+   "name": "苹果[py]",
+   "type": 3,
+   "api": "https://clun.top/py/apples.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
    "key": "s2b88a5420",
    "name": "枫叶[py]",
    "type": 3,
@@ -1226,72 +1332,6 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
-  },
-  {
-   "key": "s3da773f4b",
-   "name": "LIBVIO[py]",
-   "type": 3,
-   "api": "https://clun.top/py/libvio.py",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "sc6fffcda1",
-   "name": "歪比巴卜[py]",
-   "type": 3,
-   "api": "https://clun.top/py/wbbb.py",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "sf53052d6c",
-   "name": "可可追剧[py]",
-   "type": 3,
-   "api": "https://clun.top/py/kkys.py",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "s4345a9991",
-   "name": "布布追剧[py]",
-   "type": 3,
-   "api": "https://clun.top/py/bubuzhuiju.py",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "s67dcb431a",
-   "name": "袋鼠影视[py]",
-   "type": 3,
-   "api": "https://clun.top/py/dsystv.py",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": ""
-  },
-  {
-   "key": "see3c95905",
-   "name": "影视天堂[py]",
-   "type": 3,
-   "api": "https://clun.top/py/ysttv.py",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": ""
-  },
-  {
-   "key": "sb09b3894d",
-   "name": "雪落影视[py]",
-   "type": 3,
-   "api": "https://clun.top/py/xlys.py",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": ""
   }
  ],
  "lives": [],
