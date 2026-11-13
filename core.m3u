@@ -151,6 +151,8 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227012/1.m3u8?fmt=ts2hl
 https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8
 #EXTINF:-1 tvg-logo="" group-title="卫视频道",安多卫视
 https://liveout.xntv.tv/a65jur/96iln2.m3u8
+#EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/纬来体育.png" group-title="港澳台",纬来体育
+https://epg.pw/stream/ab6df63b64d0cc44a1f4f029ed847a26fa54a7aebd455578fb05a63f02c22f4b.m3u8
 #EXTINF:-1 tvg-logo="" group-title="港澳台",Beautiful Life TV
 https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="港澳台",CGNTV Chinese
@@ -203,14 +205,18 @@ https://webtvstream.bhtelecom.ba/fightbox.m3u8
 https://webtvstream.bhtelecom.ba/gametoon.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/优漫卡通.png" group-title="儿童频道",优漫卡通
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226406/1.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/金鹰卡通.png" group-title="儿童频道",金鹰卡通
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226965/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/动漫秀场.png" group-title="儿童频道",动漫秀场
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226845/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/嘉佳卡通.png" group-title="儿童频道",嘉佳卡通
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226412/1.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/卡酷少儿.png" group-title="儿童频道",卡酷少儿
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226640/1.m3u8
 #EXTINF:-1 tvg-logo="" group-title="儿童频道",Cartoonito Asia
 http://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8
 #EXTINF:-1 tvg-logo="" group-title="时尚频道",FashionTV 1080
 http://stream.mcquack.net/287/index.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/河南收藏天下.png" group-title="河南频道",河南收藏天下
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226638/1.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/光山.png" group-title="河南频道",光山
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227055/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/大美河南.png" group-title="河南频道",大美河南
