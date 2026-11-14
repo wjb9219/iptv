@@ -57,6 +57,10 @@ https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
 https://0472.org/hls/cgtnx.m3u8
 #EXTINF:-1 tvg-name="CGTN阿拉伯语" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CGTN阿拉伯语.png" group-title="央视频道",CGTN阿拉伯语
 https://0472.org/hls/cgtna.m3u8
+#EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/快乐垂钓.png" group-title="央视频道",快乐垂钓
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226904/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-id="金色学堂" tvg-name="金色学堂" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/金色学堂.png" group-title="央视频道",金色学堂
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226912/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-name="PBS Kids" group-title="国际频道",PBS Kids
 https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
 #EXTINF:-1 tvg-name="第一财经" group-title="央视频道",第一财经
@@ -149,14 +153,24 @@ http://112.123.243.37:50085/tsfile/live/0019_1.m3u8?key=txiptv&playlive=0&authid
 http://112.123.243.37:50085/tsfile/live/0135_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="四川卫视" group-title="卫视频道",四川卫视
 https://piccpndks.v.kcdnvip.com/audio/sichuan_2/index.m3u8
+#EXTINF:-1 tvg-name="河南移动电视" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/河南移动电视.png" group-title="省市频道",河南移动电视
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226872/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-name="SiTV东方财经" group-title="省市频道",SiTV东方财经
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226843/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-name="卫辉" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/卫辉.png" group-title="省市频道",卫辉
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226538/index.m3u8
+#EXTINF:-1 tvg-name="咪咕视频" group-title="省市频道",咪咕视频
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227258/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-name="大象新闻" group-title="省市频道",大象新闻
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227122/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-name="宜阳" tvg-logo="https://epg.112114.xyz/logo/宜阳.png" group-title="省市频道",宜阳
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227059/index.m3u8
 #EXTINF:-1 tvg-name="延津" tvg-logo="https://epg.112114.xyz/logo/延津.png" group-title="省市频道",延津
 http://tvpull.dxhmt.cn:9081/tv/10726-1.m3u8
 #EXTINF:-1 tvg-id="梨园" tvg-name="梨园" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/梨园频道.png" group-title="省市频道",梨园
 https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=41543190cdf375f1c73207222bb96542&wsTime=1769313549
+#EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/法治天地.png" group-title="省市频道",法治天地
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-name="洛阳科教" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/洛阳科教频道.png" group-title="省市频道",洛阳科教
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226554/index.m3u8
 #EXTINF:-1 tvg-name="淅川" tvg-logo="https://epg.112114.xyz/logo/淅川.png" group-title="省市频道",淅川
@@ -167,6 +181,8 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226664/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226616/index.m3u8
 #EXTINF:-1 tvg-name="焦作综合" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/焦作综合.png" group-title="省市频道",焦作综合
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226604/index.m3u8
+#EXTINF:-1 tvg-name="生活时尚" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/生活时尚.png" group-title="省市频道",生活时尚
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226881/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-name="登封" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/登封.png" group-title="省市频道",登封
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226661/index.m3u8
 #EXTINF:-1 tvg-name="荥阳" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/荥阳.png" group-title="省市频道",荥阳
@@ -4535,6 +4551,8 @@ https://fighthls.persiana.live/hls/stream.m3u8
 https://linear-253.frequency.stream/mt/roku/253/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-name="TVS Boxing" group-title="体育频道",TVS Boxing
 https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8
+#EXTINF:-1 tvg-id="游戏风云" tvg-name="游戏风云" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/游戏风云.png" group-title="体育频道",游戏风云
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226910/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-name="Gametoon" group-title="体育频道",Gametoon
 https://webtvstream.bhtelecom.ba/gametoon.m3u8
 #EXTINF:-1 tvg-name="eSports Max TV" group-title="体育频道",eSports Max TV
@@ -4847,6 +4865,8 @@ http://live.metshop.top/huya/11352884?cdn=alicdn
 https://live.264788.xyz/channel/huaijiujuchang?streamid=7e5d1abdddde08f588234f3f640f75ff&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-name="CCTV第一剧场" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV第一剧场.png" group-title="电视剧频道",CCTV第一剧场
 https://live.264788.xyz/channel/diyijuchang?streamid=e9b0fb1ca135a4aeae12944494883794&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+#EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/欢笑剧场.png" group-title="电视剧频道",欢笑剧场
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226882/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/都市剧场.png" group-title="电视剧频道",都市剧场
 https://satellitepull.cnr.cn/live/wxcqxwgb/playlist.m3u8
 #EXTINF:-1 tvg-name="AVA Series" group-title="电视剧频道",AVA Series
@@ -4893,6 +4913,8 @@ https://live.metshop.top/huya/23824164
 http://stream.mcquack.net/260/index.m3u8
 #EXTINF:-1 tvg-name="法证先锋" group-title="电视剧频道",法证先锋
 https://live.metshop.top/huya/23863804
+#EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/金鹰纪实.png" group-title="纪录频道",金鹰纪实
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226889/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-name="BBC Earth Czechia" group-title="纪录频道",BBC Earth Czechia
 http://88.212.7.14/live/test_bbc_eartch_hevc/playlist.m3u8
 #EXTINF:-1 tvg-name="BBC Earth US" group-title="纪录频道",BBC Earth US
@@ -4955,6 +4977,8 @@ http://newcntv.qcloudcdn.com/asp/hls/4000/0303000a/3/default/2bdfdad540b342f592f
 http://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/1425e1d505654cb48ba82b807b221193/1200.m3u8
 #EXTINF:-1 tvg-name="Afroculture TV" group-title="纪录频道",Afroculture TV
 https://streamtv.cmediahosthosting.net:3836/live/myafroculturelive.m3u8
+#EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://live.fanmingming.cn/tv/动漫秀场.png" group-title="少儿动画",动漫秀场
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226845/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://live.fanmingming.cn/tv/金鹰卡通.png" group-title="少儿动画",金鹰卡通
 http://125.43.249.76:9901/tsfile/live/1040_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="Akili Kids!" group-title="少儿动画",Akili Kids!
