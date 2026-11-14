@@ -51,11 +51,6 @@ for k in order:
     if not nm or JUNK.match(nm) or re.match(r'^\d{4}-\d{2}-\d{2}', nm) or nm.lower().startswith('mozilla'):
         dropped.append(nm); continue
     ch['group'] = GMAP.get(ch['group'], EMOJI.sub('', ch['group'] or '').strip() or '其他')
-    if any(h in ''.join(s.get('u','') for s in ch['srcs']) for h in ('kwimgs.com','live.264788.xyz')) and ch['group'] not in ('春晚频道','电影频道','电视剧频道','其他'):
-        lan_=[s for s in ch['srcs'] if s['t']!='url']
-        good_=[s for s in ch['srcs'] if s['t']=='url' and not any(h in s.get('u','') for h in ('kwimgs.com','live.264788.xyz'))]
-        if good_:
-            ch['srcs']=lan_+good_
     kept.append(ch)
 
 # 合并同台异名：保留名字最短的，其余线路并进去
