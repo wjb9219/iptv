@@ -93,7 +93,7 @@ def round_once():
         log("抓源失败，本轮保留旧列表")
         return False
     run("pool_all.py")
-    run("probe_all.py", timeout=2400)
+    run("probe_all.py", timeout=5400)
     run("assemble.py")
     run("clean_pools.py")
     run("build_direct.py")
