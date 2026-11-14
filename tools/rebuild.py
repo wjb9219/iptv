@@ -47,6 +47,25 @@ def reload_gw():
         log("  网关热加载失败（不影响文件）：%r" % e)
 
 
+def fetch_seed():
+    """从仓库 tools/ 取一份源池种子（本地同步过来的），比 /work 里的大就用它"""
+    try:
+        import base64
+        api = "https://api.github.com/repos/wjb9219/iptv/contents/tools/pools.json"
+        req = urllib.request.Request(api, headers={"User-Agent": "rebuild",
+                                                   "Accept": "application/vnd.github+json"})
+        d = json.loads(urllib.request.urlopen(req, timeout=40).read())
+        data = base64.b64decode(d["content"])
+        tmp = os.path.join(WORK, "pools_seed.json")
+        open(tmp, "wb").write(data)
+        cur = os.path.join(WORK, "pools.json")
+        if count_pools(tmp) > count_pools(cur):
+            shutil.copyfile(tmp, cur)
+            log("源池种子：用仓库版 %d 台覆盖本地 %d 台" % (count_pools(tmp), count_pools(cur)))
+    except Exception as e:
+        log("源池种子未能获取（%r），沿用本地" % e)
+
+
 def count_pools(path):
     try:
         d = json.load(open(path, encoding="utf-8"))
@@ -66,6 +85,7 @@ def round_once():
         elif st == "pools.json" and os.path.exists(o) and count_pools(o) > count_pools(w):
             shutil.copyfile(o, w)
             log("状态对齐：/p 的源池更大（%d > %d），以 /p 为准" % (count_pools(o), count_pools(w)))
+    fetch_seed()
     prev = count_pools(os.path.join(WORK, "pools.json"))
     if not run("fetch_all.py"):
         log("抓源失败，本轮保留旧列表")
