@@ -28,7 +28,8 @@ def publish():
             ("_live_pub.m3u", "live_public.m3u"),
             ("_live_gw.m3u", "live_gw.m3u"),
             ("live_gw_test.m3u", "live_gw_test.m3u"),
-            ("pools.json", "pools.json")]
+            ("pools.json", "pools.json"),
+            ("retry_dead.json", "retry_dead.json")]
     for src, dst in jobs:
         s, d = os.path.join(WORK, src), os.path.join(OUT, dst)
         if not os.path.exists(s):
@@ -46,12 +47,26 @@ def reload_gw():
         log("  网关热加载失败（不影响文件）：%r" % e)
 
 
+def count_pools(path):
+    try:
+        d = json.load(open(path, encoding="utf-8"))
+        return len(d.get("order", []))
+    except Exception:
+        return 0
+
+
 def round_once():
-    if not os.path.exists(os.path.join(WORK, "pools.json")):
-        src = os.path.join(OUT, "pools.json")
-        if os.path.exists(src):
-            shutil.copyfile(src, os.path.join(WORK, "pools.json"))
-            log("初始源池：从 %s 复制" % src)
+    # 状态同步：/p 上的池子比 /work 大就以 /p 为准，避免上轮误杀被固化
+    for st in ("pools.json", "retry_dead.json"):
+        w, o = os.path.join(WORK, st), os.path.join(OUT, st)
+        if not os.path.exists(w):
+            if os.path.exists(o):
+                shutil.copyfile(o, w)
+                log("初始状态：%s 从 %s 复制" % (st, o))
+        elif st == "pools.json" and os.path.exists(o) and count_pools(o) > count_pools(w):
+            shutil.copyfile(o, w)
+            log("状态对齐：/p 的源池更大（%d > %d），以 /p 为准" % (count_pools(o), count_pools(w)))
+    prev = count_pools(os.path.join(WORK, "pools.json"))
     if not run("fetch_all.py"):
         log("抓源失败，本轮保留旧列表")
         return False
@@ -62,6 +77,11 @@ def round_once():
     run("build_direct.py")
     run("build_m3u.py")
     run("build_pub.py")
+    cur = count_pools(os.path.join(WORK, "pools.json"))
+    if prev >= 300 and cur < prev * 0.9:
+        log("! 本轮只测出 %d 台，比上轮 %d 少 %.0f%%，判定为探测异常，保留旧列表"
+            % (cur, prev, 100.0 * (prev - cur) / prev))
+        return False
     publish()
     reload_gw()
     try:
