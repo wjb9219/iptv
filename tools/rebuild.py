@@ -139,20 +139,22 @@ def round_once():
     reload_gw()
 
     total = time.time() - t_round
-    log("本轮总耗时 %.1f 分钟" % (total / 60.0))
-    for k in sorted(cost, key=lambda x: -cost[x]):
-        log("    %-16s %5.1f 分钟" % (k, cost[k] / 60.0))
     try:
         rep = json.load(open(os.path.join(WORK, "round_report.json"), encoding="utf-8"))
-        log("本轮账本：总 %d 台（国内 %d），新增 %d，复活 %d，重试名单 %d，低质撤下 %d"
-            % (rep.get("total", 0), cur_dom, len(rep.get("added", [])),
-               len(rep.get("revived", [])), len(rep.get("dead", [])), rep.get("drop_low", 0)))
         rep["cost_sec"] = {k: round(v, 1) for k, v in cost.items()}
         rep["cost_total_sec"] = round(total, 1)
         json.dump(rep, open(os.path.join(WORK, "round_report.json"), "w", encoding="utf-8"),
                   ensure_ascii=False, indent=0)
+        shutil.copyfile(os.path.join(WORK, "round_report.json"),
+                        os.path.join(OUT, "round_report.json"))
+        log("本轮账本：总 %d 台（国内 %d），新增 %d，复活 %d，重试名单 %d，低质撤下 %d"
+            % (rep.get("total", 0), cur_dom, len(rep.get("added", [])),
+               len(rep.get("revived", [])), len(rep.get("dead", [])), rep.get("drop_low", 0)))
     except Exception:
         pass
+    log("本轮总耗时 %.1f 分钟" % (total / 60.0))
+    for k in sorted(cost, key=lambda x: -cost[x]):
+        log("    %-16s %5.1f 分钟" % (k, cost[k] / 60.0))
     return True
 
 
