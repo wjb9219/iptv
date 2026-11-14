@@ -116,7 +116,7 @@ for nm, u, grp, tag in entries:
     if not (CJK.search(nm) or is_domestic(tag)):
         skipped['非中文源条目'] += 1
         continue
-    if re.search(r'(测试|备用|广告|公告|更新时间|直播源|IPV6|ipv6|请勿|失效|\.ts$|\d{4}-\d{2}-\d{2})', nm):
+    if re.search(r'(测试|备用|广告|公告|更新时间|直播源|IPV6|ipv6|请勿|失效|春晚|\.ts$|\d{4}-\d{2}-\d{2})', nm):
         skipped['垃圾名'] += 1
         continue
     newch[key].append((clean(nm), u, grp, tag))
@@ -136,11 +136,23 @@ for k, v in extra.items():
     CAND[k] = urls
 
 NEW = {}
-# 新台候选太多（一轮上万个），按"名字是否像正规台"排序后限量，避免探测跑不完导致整轮失败
+# 新台候选太多（一轮上万个），按"名字是否像正规台"排序后限量，避免探测跑不完导致整轮失败。
+# 限量但轮转：每轮取不同的一段，几轮下来能覆盖全量，单轮成本固定。
 GOODNAME = re.compile(r'(卫视|CCTV|CGTN|CETV|SiTV|CHC|频道|电视台|新闻|综合|影视|少儿|卡通|体育|财经|纪录|戏曲|民生|都市|科教|公共|文艺|生活|电影|剧场)')
 ranked = sorted(newch.items(), key=lambda kv: (0 if GOODNAME.search(kv[1][0][0]) else 1, -len(kv[1])))
-NEWLIMIT = int(__import__('os').environ.get('NEW_LIMIT', '3000'))
-for k, v in ranked[:NEWLIMIT]:
+NEWLIMIT = int(__import__('os').environ.get('NEW_LIMIT', '1500'))
+try:
+    rot = json.load(open('new_rotate.json', encoding='utf-8'))
+except Exception:
+    rot = {}
+off = int(rot.get('off', 0)) % max(1, len(ranked))
+batch = ranked[off:off + NEWLIMIT]
+if len(batch) < NEWLIMIT:                     # 尾巴接回头部，凑满一轮
+    batch += ranked[:NEWLIMIT - len(batch)]
+rot['off'] = (off + NEWLIMIT) % max(1, len(ranked))
+json.dump(rot, open('new_rotate.json', 'w', encoding='utf-8'))
+print('新台候选 %d 个，本轮取第 %d 条起 %d 个（轮转）' % (len(ranked), off, len(batch)))
+for k, v in batch:
     urls = []; seen = set(); name = v[0][0]; grp = v[0][2]
     for nm, u, g, tag in v:
         if u in seen: continue
