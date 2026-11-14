@@ -75,6 +75,8 @@ https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
 http://192.168.3.38:8100/p/3221227390.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/CGTN西语.png" group-title="央视频道",CGTN西语
 https://0472.org/hls/cgtnx.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/CGTN记录.png" group-title="央视频道",CGTN记录
+http://192.168.3.38:8100/p/3221227367.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CGTN阿拉伯语.png" group-title="央视频道",CGTN阿拉伯语
 http://192.168.3.38:8100/p/3221227392.m3u8
 #EXTINF:-1 tvg-id="三沙卫视" tvg-name="三沙卫视" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/三沙卫视.png" group-title="卫视频道",三沙卫视
@@ -485,9 +487,7 @@ https://live.metshop.top/huya/29465847
 https://live.metshop.top/huya/23903183
 #EXTINF:-1 tvg-logo="" group-title="电视剧频道",陀枪师姐
 https://live.metshop.top/huya/29465857
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CGTN记录.png" group-title="纪录频道",CGTN记录
-http://192.168.3.38:8100/p/3221227367.m3u8
-#EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/北京纪实科教.png" group-title="纪录频道",北京纪实科教
+#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/北京纪实科教.png" group-title="纪录频道",北京纪实科教
 http://192.168.3.38:8100/p/3221227408.m3u8
 #EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/金鹰纪实.png" group-title="纪录频道",金鹰纪实
 http://192.168.3.38:8100/p/3221226889.m3u8
@@ -861,6 +861,8 @@ http://192.168.3.38:8100/p/3221227055.m3u8
 http://192.168.3.38:8100/p/3221226350.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/新县.png" group-title="河南频道",新县
 http://192.168.3.38:8100/p/3221227090.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/河南中华功夫.png" group-title="河南频道",河南中华功夫
+http://192.168.3.38:8100/p/3221226440.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/河南中华功夫.png" group-title="河南频道",河南中华功夫·2
 http://192.168.3.38:8100/p/3221226692.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/河南乡村频道.png" group-title="河南频道",河南乡村频道
@@ -1241,8 +1243,6 @@ http://110.153.180.106:55555/out_2/index.m3u8
 http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/兴隆综合.png" group-title="地方频道",兴隆综合
 https://jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8
-#EXTINF:-1 tvg-logo="" group-title="地方频道",兵团五师双河新闻综合
-http://liveout.btzx.com.cn/62ds9e/4nxdih.m3u8?fbl=
 #EXTINF:-1 tvg-logo="" group-title="地方频道",兵团八师石河子新闻综合
 http://124.88.144.73:1935/live/xwzh/playlist.m3u8?zxinjd
 #EXTINF:-1 tvg-logo="" group-title="地方频道",内蒙古蒙语文化
@@ -2065,6 +2065,8 @@ https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_ch
 http://stream.mcquack.net/301/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",Newsmax
 https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="国际频道",Nick Jr.
+http://94.130.48.67:8042/stream/111/index.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/Meroser/IPTV@main/TVlogo/RT_News.png" group-title="国际频道",RT Arabic
 https://rt-arb.rttv.com/dvr/rtarab/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/tvlog/RT.png" group-title="国际频道",RT Arabic（阿语）
@@ -2135,8 +2137,6 @@ http://192.168.3.38:8100/p/3221226670.m3u8
 http://192.168.3.38:8100/p/3221226858.m3u8
 #EXTINF:-1 tvg-id="汽摩" tvg-name="汽摩" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/汽摩.png" group-title="数字频道",汽摩
 http://192.168.3.38:8100/p/3221227123.m3u8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/河南中华功夫.png" group-title="数字频道",河南中华功夫
-http://192.168.3.38:8100/p/3221226440.m3u8
 #EXTINF:-1 tvg-id="环球旅游" tvg-name="环球旅游" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/环球旅游.png" group-title="数字频道",环球旅游
 http://192.168.3.38:8100/p/3221226920.m3u8
 #EXTINF:-1 tvg-id="老故事" tvg-name="老故事" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/老故事.png" group-title="数字频道",老故事
