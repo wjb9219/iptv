@@ -60,6 +60,9 @@ for k in order:
     old = [s['u'] for s in ch['srcs'] if s['t'] == 'url']
     pool_urls = old + [u for u in extra.get(k, []) if u not in old]
     live = alive(pool_urls)
+    if not live and old:
+        # 全灭时保留一条历史线路：宁可暂时播不动，也别让这个台从外网列表消失
+        live = old[:1]
     for u in live:
         if len(srcs) >= MAXSRC: break
         srcs.append({'t': 'url', 'u': u})
