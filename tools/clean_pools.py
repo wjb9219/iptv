@@ -13,8 +13,32 @@ TRAD = {'聞': '闻', '綜': '综', '頻': '频', '視': '视', '劇': '剧', '�
 SUF = ['超高清', '高清', '超清', '蓝光', '标清', 'HD', 'FHD', 'UHD', 'SD']
 EMOJI = re.compile('[\U0001F000-\U0001FAFF\u2600-\u27BF\uFE0F\u200D]')
 GMAP = {'卫视IPV4': '卫视频道', '央视IPV4': '央视频道', '央视台': '央视频道', '卫视': '卫视频道',
-        '港澳台': '🌊港·澳·台', '央视付费频道': '央视频道'}
+        '港澳台': '港·澳·台', '央视付费频道': '央视频道', '央视付费': '央视频道',
+        '付费频道': '央视频道', 'CCTV': '央视频道', '纪录片': '纪录频道', '纪实': '纪录频道',
+        '动画': '少儿动画', '少儿': '少儿动画', '卡通': '少儿动画', '体育': '体育频道',
+        '电影': '电影频道', '电视剧': '电视剧频道', '音乐': '音乐频道', '戏曲': '其他',
+        '新闻': '其他', '财经': '其他', '综合': '其他', 'Lifestyle': '其他',
+        '更新时间': '其他', '其他': '其他'}
+GROUP_ORDER = ['央视频道', '卫视频道', '省市频道', '港·澳·台', '体育频道', '电影频道',
+               '电视剧频道', '纪录频道', '少儿动画', '音乐频道', '其他', '国际频道']
+PROV = re.compile(r'^(北京|天津|上海|重庆|河北|山西|辽宁|吉林|黑龙江|江苏|浙江|安徽|福建|江西|山东|'
+                  r'河南|湖北|湖南|广东|广西|海南|四川|贵州|云南|西藏|陕西|甘肃|青海|宁夏|新疆|'
+                  r'内蒙古|香港|澳门|台湾)')
 JUNK = re.compile(r'^(更新时间|支持作者|本站|声明|公告|通知|测试|备用|广告|主页|首页|更多)')
+
+
+def gmap(raw):
+    """先剥 emoji 再查表；省级频道归到省市频道，认不出的进其他"""
+    g = EMOJI.sub('', raw or '').strip()
+    if g in GMAP:
+        return GMAP[g]
+    if PROV.match(g):
+        return '省市频道'
+    if '国际' in g or '海外' in g or 'International' in g:
+        return '国际频道'
+    if g in GROUP_ORDER:
+        return g
+    return '其他'
 
 
 def trad(s):
@@ -50,7 +74,7 @@ for k in order:
     nm = (ch['name'] or '').strip()
     if not nm or JUNK.match(nm) or re.match(r'^\d{4}-\d{2}-\d{2}', nm) or nm.lower().startswith('mozilla'):
         dropped.append(nm); continue
-    ch['group'] = GMAP.get(ch['group'], EMOJI.sub('', ch['group'] or '').strip() or '其他')
+    ch['group'] = gmap(ch['group'])
     kept.append(ch)
 
 # 合并同台异名：保留名字最短的，其余线路并进去
@@ -89,8 +113,22 @@ for mk, ch in bykey.items():
         key = base[:8] + '%02d' % used[key]
     out[key] = ch; keys.append(key)
 
+# 分组名统一后重新排序：国内各组在前、国际频道压到最后（组内保持原顺序，稳定排序）
+def _gk(k):
+    g = out[k]['group']
+    return GROUP_ORDER.index(g) if g in GROUP_ORDER else GROUP_ORDER.index('其他')
+
+
+keys.sort(key=_gk)
+
 json.dump({'order': keys, 'pools': out}, open('pools.json', 'w', encoding='utf-8'),
           ensure_ascii=False, indent=0)
+seq = []
+for k in keys:
+    g = out[k]['group']
+    if not seq or seq[-1] != g:
+        seq.append(g)
 print('清洗后 %d 台（清洗前 %d），丢弃/合并 %d 条' % (len(keys), len(order), len(dropped)))
+print('分组顺序：', seq)
 print('丢弃样例：', dropped[:12])
 print('分组：', collections.Counter(v['group'] for v in out.values()).most_common(12))
