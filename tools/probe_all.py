@@ -19,11 +19,11 @@ UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
       '(KHTML, like Gecko) Chrome/124.0 Safari/537.36')
 HDR = {'User-Agent': UA, 'Accept': '*/*'}
 
-W1 = int(os.environ.get('PROBE_W1', '40'))        # 首轮并发
-T1 = float(os.environ.get('PROBE_T1', '5'))       # 首轮超时
+W1 = max(40, int(os.environ.get('PROBE_W1', '40')))   # 首轮并发（低于 40 不干，20 线程要跑 26 分钟）
+T1 = min(5.0, float(os.environ.get('PROBE_T1', '4.5')))  # 首轮超时（首字节 4.5s 不出基本没戏）
 W2 = int(os.environ.get('PROBE_W2', '20'))        # 复核并发
 T2 = float(os.environ.get('PROBE_T2', '8'))       # 复核超时
-WS = int(os.environ.get('PROBE_WS', '40'))        # 测速并发
+WS = max(40, int(os.environ.get('PROBE_WS', '40')))   # 测速并发
 SPT = float(os.environ.get('PROBE_SPT', '2.0'))   # 测速读多久
 CAP = int(os.environ.get('PROBE_SPCAP', '1200000'))
 DO_SPEED = os.environ.get('PROBE_SPEED', '1') == '1'
