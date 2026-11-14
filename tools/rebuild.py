@@ -1,37 +1,51 @@
 # -*- coding: utf-8 -*-
-"""一轮完整重建：抓源 -> 聚合 -> 测活 -> 合成 -> 生成四份列表 -> 通知网关热加载
-跑在 NAS 容器里，默认每 6 小时一轮。"""
+"""一轮完整重建：抓源 -> 聚合 -> 测活测速 -> 合成 -> 生成四份列表 -> 通知网关热加载
+跑在 NAS 容器里，默认每天 03:00 一轮。
+
+2026-11-15 提速改动：
+- probe 时限 5400s -> 1800s（新探测脚本带缓存退避，正常 15~20 分钟跑完）
+- probe_cache.json / probe_all.json 一起发布到 /p 并回同步，容器重建不丢缓存
+- 「本轮机数骤降就放弃」的保护只盯国内台，国际台按质量门槛减少属预期，不能因此白跑
+- 每阶段耗时汇总打进日志，方便判断时间花在哪
+"""
 import os, sys, time, json, shutil, subprocess, urllib.request
 
 WORK = os.environ.get("RB_WORK", "/work")          # 脚本与状态目录
 OUT = os.environ.get("RB_OUT", "/p")               # 输出目录（docker/iptv）
 GW = os.environ.get("RB_GW", "http://127.0.0.1:8101/api/reload")
-SLEEP = int(os.environ.get("RB_SLEEP", "21600"))
-RUN_AT = os.environ.get("RB_AT", "03:00")   # 每天几点跑，默认凌晨 3 点
+RUN_AT = os.environ.get("RB_AT", "03:00")
 SKIP_FIRST = os.environ.get("RB_SKIP_FIRST", "0") == "1"
 ONCE = os.environ.get("RB_ONCE", "0") == "1"
+
+# 需要跨轮保留的状态文件
+STATE = ("pools.json", "retry_dead.json", "probe_cache.json", "new_rotate.json")
 
 
 def log(m):
     print("[%s] %s" % (time.strftime("%Y-%m-%d %H:%M:%S"), m), flush=True)
 
 
-def run(script, timeout=1800):
+def run(script, timeout=1800, cost=None):
     log("== 运行 %s" % script)
     t0 = time.time()
     p = subprocess.run([sys.executable, "-u", script], cwd=WORK, timeout=timeout)
-    log("== %s 结束 rc=%s %.0fs" % (script, p.returncode, time.time() - t0))
+    el = time.time() - t0
+    if cost is not None:
+        cost[script] = el
+    log("== %s 结束 rc=%s %.0fs" % (script, p.returncode, el))
     return p.returncode == 0
 
 
 def publish():
-    """把生成的四份列表放到对外目录"""
+    """把生成的列表与状态放到对外目录"""
     jobs = [("_live_direct.m3u", "live_full.m3u"),
             ("_live_pub.m3u", "live_public.m3u"),
             ("_live_gw.m3u", "live_gw.m3u"),
             ("live_gw_test.m3u", "live_gw_test.m3u"),
             ("pools.json", "pools.json"),
-            ("retry_dead.json", "retry_dead.json")]
+            ("retry_dead.json", "retry_dead.json"),
+            ("probe_cache.json", "probe_cache.json"),
+            ("round_report.json", "round_report.json")]
     for src, dst in jobs:
         s, d = os.path.join(WORK, src), os.path.join(OUT, dst)
         if not os.path.exists(s):
@@ -76,9 +90,21 @@ def count_pools(path):
         return 0
 
 
+def count_domestic(path):
+    """数非国际台的台数：国际台会按质量门槛增减，不能拿它当异常判据"""
+    try:
+        d = json.load(open(path, encoding="utf-8"))
+        p = d.get("pools", {})
+        return sum(1 for k in d.get("order", []) if p.get(k, {}).get("group") != "国际频道")
+    except Exception:
+        return 0
+
+
 def round_once():
+    t_round = time.time()
+    cost = {}
     # 状态同步：/p 上的池子比 /work 大就以 /p 为准，避免上轮误杀被固化
-    for st in ("pools.json", "retry_dead.json"):
+    for st in STATE:
         w, o = os.path.join(WORK, st), os.path.join(OUT, st)
         if not os.path.exists(w):
             if os.path.exists(o):
@@ -89,28 +115,42 @@ def round_once():
             log("状态对齐：/p 的源池更大（%d > %d），以 /p 为准" % (count_pools(o), count_pools(w)))
     fetch_seed()
     prev = count_pools(os.path.join(WORK, "pools.json"))
-    if not run("fetch_all.py"):
+    prev_dom = count_domestic(os.path.join(WORK, "pools.json"))
+
+    if not run("fetch_all.py", 900, cost):
         log("抓源失败，本轮保留旧列表")
         return False
-    run("pool_all.py")
-    run("probe_all.py", timeout=5400)
-    run("assemble.py")
-    run("clean_pools.py")
-    run("build_direct.py")
-    run("build_m3u.py")
-    run("build_pub.py")
+    run("pool_all.py", 300, cost)
+    run("probe_all.py", timeout=1800, cost=cost)
+    run("assemble.py", 300, cost)
+    run("clean_pools.py", 300, cost)
+    run("build_direct.py", 120, cost)
+    run("build_m3u.py", 120, cost)
+    run("build_pub.py", 120, cost)
+
     cur = count_pools(os.path.join(WORK, "pools.json"))
-    if prev >= 300 and cur < prev * 0.9:
-        log("! 本轮只测出 %d 台，比上轮 %d 少 %.0f%%，判定为探测异常，保留旧列表"
-            % (cur, prev, 100.0 * (prev - cur) / prev))
+    cur_dom = count_domestic(os.path.join(WORK, "pools.json"))
+    if prev_dom >= 300 and cur_dom < prev_dom * 0.85:
+        log("! 国内台只测出 %d 个，比上轮 %d 少 %.0f%%，判定为探测异常，保留旧列表"
+            % (cur_dom, prev_dom, 100.0 * (prev_dom - cur_dom) / prev_dom))
         return False
+
     publish()
     reload_gw()
+
+    total = time.time() - t_round
+    log("本轮总耗时 %.1f 分钟" % (total / 60.0))
+    for k in sorted(cost, key=lambda x: -cost[x]):
+        log("    %-16s %5.1f 分钟" % (k, cost[k] / 60.0))
     try:
         rep = json.load(open(os.path.join(WORK, "round_report.json"), encoding="utf-8"))
-        log("本轮账本：总 %d 台，新增 %d，复活 %d，重试名单 %d"
-            % (rep.get("total", 0), len(rep.get("added", [])),
-               len(rep.get("revived", [])), len(rep.get("dead", []))))
+        log("本轮账本：总 %d 台（国内 %d），新增 %d，复活 %d，重试名单 %d，低质撤下 %d"
+            % (rep.get("total", 0), cur_dom, len(rep.get("added", [])),
+               len(rep.get("revived", [])), len(rep.get("dead", [])), rep.get("drop_low", 0)))
+        rep["cost_sec"] = {k: round(v, 1) for k, v in cost.items()}
+        rep["cost_total_sec"] = round(total, 1)
+        json.dump(rep, open(os.path.join(WORK, "round_report.json"), "w", encoding="utf-8"),
+                  ensure_ascii=False, indent=0)
     except Exception:
         pass
     return True
