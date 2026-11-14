@@ -69,8 +69,6 @@
 "9bde934e2f",
 "05e4a4bc69",
 "70f947f698",
-"11b705de07",
-"285d003a14",
 "184b9d06b7",
 "c3ceb0904c",
 "764e359087",
@@ -2833,11 +2831,11 @@
 },
 {
 "t": "url",
-"u": "https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8"
+"u": "http://fuxin.yunjifei.top:999/tsfile/live/0001_1.m3u8?key=txiptv"
 },
 {
 "t": "url",
-"u": "http://74.91.26.218:82/live/cctv1hd.m3u8"
+"u": "http://124.228.160.40:9901/tsfile/live/0017_1.m3u8?key=txiptv&playlive=1&down=1"
 }
 ]
 },
@@ -4173,19 +4171,6 @@
 {
 "t": "url",
 "u": "https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8"
-}
-]
-},
-"3519286f58": {
-"name": "CGNTV Chinese",
-"group": "港·澳·台",
-"logo": "",
-"id": "",
-"lan": "",
-"srcs": [
-{
-"t": "url",
-"u": "https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8"
 }
 ]
 },
@@ -13734,19 +13719,6 @@
 }
 ]
 },
-"5249ab566d": {
-"name": "CGNTV Japan",
-"group": "国际频道",
-"logo": "",
-"id": "",
-"lan": "",
-"srcs": [
-{
-"t": "url",
-"u": "https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8"
-}
-]
-},
 "9f560b2cf9": {
 "name": "CNA International",
 "group": "国际频道",
@@ -16467,7 +16439,7 @@
 },
 "f382a43178": {
 "name": "PBS Kids",
-"group": "央视频道",
+"group": "国际频道",
 "logo": "",
 "id": "",
 "lan": "",
@@ -16925,7 +16897,7 @@
 },
 "f89b948e81": {
 "name": "河北4K",
-"group": "央视频道",
+"group": "省市频道",
 "logo": "",
 "id": "",
 "lan": "",
@@ -18636,32 +18608,6 @@
 {
 "t": "url",
 "u": "https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=b14f56ba113ba16f589188c8a7dea1f8"
-}
-]
-},
-"11b705de07": {
-"name": "CGNT 记录频道",
-"group": "央视频道",
-"logo": "",
-"id": "",
-"lan": "",
-"srcs": [
-{
-"t": "url",
-"u": "https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8"
-}
-]
-},
-"285d003a14": {
-"name": "CGNT 新闻频道",
-"group": "央视频道",
-"logo": "",
-"id": "",
-"lan": "",
-"srcs": [
-{
-"t": "url",
-"u": "https://english-livebkali.cgtn.com/live/encgtn_0.m3u8"
 }
 ]
 },
@@ -41071,6 +41017,32 @@
 {
 "t": "url",
 "u": "http://cdn9.163189.xyz/smt1.1.php?id=Aodhd"
+}
+]
+},
+"3519286f58": {
+"name": "CGNTV Chinese",
+"group": "港·澳·台",
+"logo": "",
+"id": "",
+"lan": "",
+"srcs": [
+{
+"t": "url",
+"u": "https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8"
+}
+]
+},
+"5249ab566d": {
+"name": "CGNTV Japan",
+"group": "国际频道",
+"logo": "",
+"id": "",
+"lan": "",
+"srcs": [
+{
+"t": "url",
+"u": "https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8"
 }
 ]
 }
