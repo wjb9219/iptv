@@ -121,7 +121,7 @@ def round_once():
         log("抓源失败，本轮保留旧列表")
         return False
     run("pool_all.py", 300, cost)
-    run("probe_all.py", timeout=1800, cost=cost)
+    run("probe_all.py", timeout=2400, cost=cost)
     run("assemble.py", 300, cost)
     run("clean_pools.py", 300, cost)
     run("build_direct.py", 120, cost)
