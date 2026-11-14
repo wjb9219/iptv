@@ -7,6 +7,8 @@ WORK = os.environ.get("RB_WORK", "/work")          # 脚本与状态目录
 OUT = os.environ.get("RB_OUT", "/p")               # 输出目录（docker/iptv）
 GW = os.environ.get("RB_GW", "http://127.0.0.1:8101/api/reload")
 SLEEP = int(os.environ.get("RB_SLEEP", "21600"))
+RUN_AT = os.environ.get("RB_AT", "03:00")   # 每天几点跑，默认凌晨 3 点
+SKIP_FIRST = os.environ.get("RB_SKIP_FIRST", "0") == "1"
 ONCE = os.environ.get("RB_ONCE", "0") == "1"
 
 
@@ -114,7 +116,24 @@ def round_once():
     return True
 
 
+def seconds_to_run_at():
+    """距离下一个 RUN_AT（本地时间）还有多少秒"""
+    try:
+        hh, mm = [int(x) for x in RUN_AT.split(":")]
+    except Exception:
+        hh, mm = 3, 0
+    now = time.localtime()
+    target = time.mktime((now.tm_year, now.tm_mon, now.tm_mday, hh, mm, 0, 0, 0, -1))
+    if target <= time.time():
+        target += 86400
+    return int(target - time.time())
+
+
 if __name__ == "__main__":
+    if SKIP_FIRST:
+        wait = seconds_to_run_at()
+        log("先不跑，等到 %s（还有 %.1f 小时）" % (RUN_AT, wait / 3600.0))
+        time.sleep(wait)
     while True:
         log("===== 新一轮开始 =====")
         try:
@@ -123,5 +142,6 @@ if __name__ == "__main__":
             log("本轮异常：%r" % e)
         if ONCE:
             break
-        log("休眠 %ds 等下一轮" % SLEEP)
-        time.sleep(SLEEP)
+        wait = seconds_to_run_at()
+        log("下一次：每天 %s（还有 %.1f 小时）" % (RUN_AT, wait / 3600.0))
+        time.sleep(wait)
