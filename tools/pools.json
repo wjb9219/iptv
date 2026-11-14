@@ -3205,11 +3205,11 @@
 },
 {
 "t": "url",
-"u": "https://live.264788.xyz/channel/cctv17?streamid=348c8c0c04a6d2b900e5a3bcb4af8ce1&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+"u": "http://113.90.154.189:9901/tsfile/live/0017_1.m3u8?key=txiptv&playlive=1&authid=0"
 },
 {
 "t": "url",
-"u": "https://live.264788.xyz/channel/cctv17?streamid=f9c36f1e95b5b35eac89cc89583e7c0a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+"u": "http://218.104.239.114:9901/tsfile/live/0019_2.m3u8?key=txiptv&playlive=1&authid=0"
 }
 ]
 },
@@ -3616,11 +3616,11 @@
 },
 {
 "t": "url",
-"u": "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8"
+"u": "http://222.71.55.147:9901/tsfile/live/0109_1.m3u8?key=txiptv&playlive=0&authid=0"
 },
 {
 "t": "url",
-"u": "https://live.264788.xyz/channel/neimengguweishi?streamid=81a015dbecf3031d7d847b7a9b059f67&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+"u": "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8"
 }
 ]
 },
@@ -3706,11 +3706,11 @@
 },
 {
 "t": "url",
-"u": "https://live.264788.xyz/channel/ningxiaweishi?streamid=e1236348f815c36a0429357e5b5c5f10&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+"u": "http://222.71.55.147:9901/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0"
 },
 {
 "t": "url",
-"u": "https://live.264788.xyz/channel/ningxiaweishi?streamid=551474d02bee1c160e1692e22c45ddba&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+"u": "http://120.198.86.186:9901/tsfile/live/1088_1.m3u8?key=txiptv&playlive=1&authid=0"
 }
 ]
 },
@@ -3765,11 +3765,15 @@
 },
 {
 "t": "url",
-"u": "http://119.39.9.8:9901/tsfile/live/0118_1.m3u8"
+"u": "http://112.123.243.37:50085/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0"
 },
 {
 "t": "url",
-"u": "https://live.264788.xyz/channel/shanxiweishi?streamid=eeb7d60ca6e0db131ea7a092a3cd28d2&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+"u": "http://120.198.95.220:9901/tsfile/live/1057_1.m3u8?key=txiptv&playlive=1&down=1"
+},
+{
+"t": "url",
+"u": "http://119.39.9.8:9901/tsfile/live/0118_1.m3u8"
 }
 ]
 },
@@ -3850,11 +3854,15 @@
 },
 {
 "t": "url",
-"u": "http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd"
+"u": "http://112.123.243.37:50085/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0"
 },
 {
 "t": "url",
-"u": "https://live.264788.xyz/channel/xinjiangweishi?streamid=4f481f56ae39ce5d24203471de9df635&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+"u": "http://113.25.252.226:9901/tsfile/live/1044_1.m3u8?key=txiptv&playlive=1&authid=0"
+},
+{
+"t": "url",
+"u": "http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd"
 }
 ]
 },
@@ -3888,11 +3896,11 @@
 },
 {
 "t": "url",
-"u": "http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0"
+"u": "http://124.228.160.40:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0"
 },
 {
 "t": "url",
-"u": "https://live.264788.xyz/channel/jiangxiweishi?streamid=555198f31caa33506ac6abb70d788959&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+"u": "http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0"
 }
 ]
 },
@@ -4008,10 +4016,6 @@
 {
 "t": "url",
 "u": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8"
-},
-{
-"t": "url",
-"u": "https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8"
 }
 ]
 },
@@ -4045,11 +4049,15 @@
 },
 {
 "t": "url",
-"u": "http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0"
+"u": "http://120.198.86.186:9901/tsfile/live/1089_1.m3u8?key=txiptv&playlive=1&authid=0"
 },
 {
 "t": "url",
-"u": "https://live.264788.xyz/channel/xizangweishi?streamid=4b4e8ea919f1cfd5e43deed1d1675251&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+"u": "http://fuxin.yunjifei.top:999/tsfile/live/0111_1.m3u8?key=txiptv"
+},
+{
+"t": "url",
+"u": "http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0"
 }
 ]
 },
@@ -4066,7 +4074,11 @@
 },
 {
 "t": "url",
-"u": "https://live.264788.xyz/channel/guizhouweishi?streamid=091bd59ea031989839c23459bb8cc9d4&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+"u": "http://112.123.243.37:50085/tsfile/live/0130_2.m3u8?key=txiptv&playlive=0&authid=0"
+},
+{
+"t": "url",
+"u": "http://124.90.45.52:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0"
 }
 ]
 },
@@ -4109,7 +4121,11 @@
 },
 {
 "t": "url",
-"u": "https://live.264788.xyz/channel/shaanxiweishi?streamid=9dc887dba8ecb4e4143baf4f2373800c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+"u": "http://120.198.95.220:9901/tsfile/live/1068_1.m3u8?key=txiptv&playlive=1&down=1"
+},
+{
+"t": "url",
+"u": "http://113.25.252.226:9901/tsfile/live/1040_1.m3u8?key=txiptv&playlive=1&authid=0"
 }
 ]
 },
@@ -16903,7 +16919,7 @@
 "srcs": [
 {
 "t": "url",
-"u": "https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+"u": "https://piccpndks.v.kcdnvip.com/audio/sichuan_2/index.m3u8"
 }
 ]
 },
@@ -17090,14 +17106,6 @@
 "srcs": [
 {
 "t": "url",
-"u": "https://live.264788.xyz/channel/fengyunyinyue?streamid=be37d16b874e7ba11dd383d7ecd75752&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
-},
-{
-"t": "url",
-"u": "https://live.264788.xyz/channel/fengyunyinyue?streamid=1b41fb9153cba3ee19bd5d1b323da27e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
-},
-{
-"t": "url",
 "u": "http://38.75.136.137:98/gslb/dsdqpub/fyyy.m3u8?auth=testpub"
 }
 ]
@@ -17111,14 +17119,6 @@
 "srcs": [
 {
 "t": "url",
-"u": "https://live.264788.xyz/channel/diyijuchang?streamid=e9b0fb1ca135a4aeae12944494883794&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
-},
-{
-"t": "url",
-"u": "https://live.264788.xyz/channel/diyijuchang?streamid=d81e188b59ece96b7e8f1ce34aea3ef8&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
-},
-{
-"t": "url",
 "u": "http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub"
 }
 ]
@@ -17130,10 +17130,6 @@
 "id": "",
 "lan": "",
 "srcs": [
-{
-"t": "url",
-"u": "https://live.264788.xyz/channel/fengyunjuchang?streamid=31e7b5b7032d25dd215a4069cdee1a48&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
-},
 {
 "t": "url",
 "u": "http://173.208.212.130:8181/720p/fyjc.m3u8"
