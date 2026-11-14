@@ -116,6 +116,9 @@ for nm, u, grp, tag in entries:
     if not (CJK.search(nm) or is_domestic(tag)):
         skipped['非中文源条目'] += 1
         continue
+    if re.search(r'(测试|备用|广告|公告|更新时间|直播源|IPV6|ipv6|请勿|失效|\.ts$|\d{4}-\d{2}-\d{2})', nm):
+        skipped['垃圾名'] += 1
+        continue
     newch[key].append((clean(nm), u, grp, tag))
 
 print('已有台可补备源：%d 个台 / %d 条线路' % (len(extra), sum(len(v) for v in extra.values())))
@@ -129,17 +132,21 @@ for k, v in extra.items():
     for u, tag in v:
         if u in seen: continue
         seen.add(u); urls.append(u)
-        if len(urls) >= 6: break
+        if len(urls) >= 4: break
     CAND[k] = urls
 
 NEW = {}
-for k, v in newch.items():
+# 新台候选太多（一轮上万个），按"名字是否像正规台"排序后限量，避免探测跑不完导致整轮失败
+GOODNAME = re.compile(r'(卫视|CCTV|CGTN|CETV|SiTV|CHC|频道|电视台|新闻|综合|影视|少儿|卡通|体育|财经|纪录|戏曲|民生|都市|科教|公共|文艺|生活|电影|剧场)')
+ranked = sorted(newch.items(), key=lambda kv: (0 if GOODNAME.search(kv[1][0][0]) else 1, -len(kv[1])))
+NEWLIMIT = int(__import__('os').environ.get('NEW_LIMIT', '3000'))
+for k, v in ranked[:NEWLIMIT]:
     urls = []; seen = set(); name = v[0][0]; grp = v[0][2]
     for nm, u, g, tag in v:
         if u in seen: continue
         seen.add(u); urls.append(u)
         if len(name) < 2 or (not CJK.search(name) and CJK.search(nm)): name = nm
-        if len(urls) >= 6: break
+        break
     NEW[k] = {'name': name, 'group': grp, 'urls': urls}
 
 json.dump({'extra': CAND, 'new': NEW}, open('cand_all.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
