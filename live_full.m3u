@@ -1807,112 +1807,6 @@ https://customer-yzxu6n447dx2x45h.cloudflarestream.com/f255a1e5ef17a8277e15e5f40
 http://stream.mcquack.net/319/index.m3u8
 #EXTINF:-1 tvg-name="UA Music" group-title="音乐频道",UA Music
 http://stream.mcquack.net/281/index.m3u8
-#EXTINF:-1 tvg-name="Discovery Home & Health Latin America South" group-title="其他",Discovery Home & Health Latin America South
-http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/39.m3u8
-#EXTINF:-1 tvg-name="Fashion Finds" group-title="其他",Fashion Finds
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/master.m3u8
-#EXTINF:-1 tvg-name="Fashion TV RU" group-title="其他",Fashion TV RU
-http://fashionlive.mediacdn.ru/cdn/fashiontv/playlist.m3u8
-#EXTINF:-1 tvg-name="FashionBox" tvg-logo="https://i.imgur.com/Taqj4yi.png" group-title="其他",FashionBox
-https://dash2.antik.sk/live/test_fashionbox_medium_atk/playlist.m3u8
-#EXTINF:-1 tvg-name="FashionTV 1080" group-title="其他",FashionTV 1080
-http://stream.mcquack.net/287/index.m3u8
-#EXTINF:-1 tvg-name="FashionTV Paris" group-title="其他",FashionTV Paris
-https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
-#EXTINF:-1 tvg-name="Food Food" group-title="其他",Food Food
-https://d2lk5u59tns74c.cloudfront.net/out/v1/ffc601b3dc8d41c5b09115702538d75a/index.m3u8
-#EXTINF:-1 tvg-name="Angel TV Chinese" group-title="其他",Angel TV Chinese
-https://janya-digimix.akamaized.net/vglive-sk-999451/chinese/ngrp:angelchinese_all/playlist.m3u8
-#EXTINF:-1 tvg-name="Baicheng TV" group-title="其他",Baicheng TV
-https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
-#EXTINF:-1 tvg-name="CCTV-4 Europe" group-title="其他",CCTV-4 Europe
-https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
-#EXTINF:-1 tvg-name="Chaozhou Public Channel" group-title="其他",Chaozhou Public Channel
-http://113.64.146.48:1688/hls/4/index.m3u8
-#EXTINF:-1 tvg-name="DAAI TV" group-title="其他",DAAI TV
-https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
-#EXTINF:-1 tvg-name="God Stands TV Chinese" group-title="其他",God Stands TV Chinese
-https://online.godstands.tv:5443/WebRTCApp/streams/chineselive.m3u8
-#EXTINF:-1 tvg-name="Guangxi Variety & Travel Channel" group-title="其他",Guangxi Variety & Travel Channel
-http://111.59.24.227:8181/tsfile/live/1001_1.m3u8?authid=0&key=txiptv&playlive=1
-#EXTINF:-1 tvg-name="LLBN TV Chinese" group-title="其他",LLBN TV Chinese
-https://brightstar-chinese-pull-secure.akamaized.net/brightstarchinese/stream.m3u8
-#EXTINF:-1 tvg-name="Love Nature" group-title="其他",Love Nature
-https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
-#EXTINF:-1 tvg-name="NTD TV" group-title="其他",NTD TV
-https://ntd02.akamaized.net/HD-NY/index.m3u8
-#EXTINF:-1 tvg-name="NTD TV West" group-title="其他",NTD TV West
-https://ntd02.akamaized.net/HD-LA/index.m3u8
-#EXTINF:-1 tvg-name="Peace TV Chinese" group-title="其他",Peace TV Chinese
-https://dzkyvlfyge.erbvr.com/PeaceTvChinese/index.m3u8
-#EXTINF:-1 tvg-name="QTV-2" group-title="其他",QTV-2
-http://video10.qtv.com.cn/drm/qtv2at/manifest.m3u8
-#EXTINF:-1 tvg-name="QTV-5" group-title="其他",QTV-5
-http://video10.qtv.com.cn/drm/qtv5at/manifest.m3u8
-#EXTINF:-1 tvg-name="Siping TV" group-title="其他",Siping TV
-http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
-#EXTINF:-1 tvg-name="VoA TV China" group-title="其他",VoA TV China
-https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
-#EXTINF:-1 tvg-name="WXTV" group-title="其他",WXTV
-https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
-#EXTINF:-1 tvg-name="Zhejiang International Channel" group-title="其他",Zhejiang International Channel
-https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
-#EXTINF:-1 tvg-name="Bread TV面包台" group-title="其他",Bread TV面包台
-https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
-#EXTINF:-1 tvg-name="CGTN Spanish" group-title="其他",CGTN Spanish
-http://45.186.106.147:8880/play/a06f/index.m3u8
-#EXTINF:-1 tvg-name="Chifeng Comprehensive News Chanel" group-title="其他",Chifeng Comprehensive News Chanel
-http://play1-qk.nmtv.cn/live/1735546697341033.m3u8
-#EXTINF:-1 tvg-name="Dongguan Comprehensive News Channel" group-title="其他",Dongguan Comprehensive News Channel
-https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8
-#EXTINF:-1 tvg-name="Nei Monggol TV" group-title="其他",Nei Monggol TV
-http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
-#EXTINF:-1 tvg-name="Nei Monggol TV 2 Mongolian Culture Channel" group-title="其他",Nei Monggol TV 2 Mongolian Culture Channel
-http://play1-qk.nmtv.cn/live/1769652109096027.m3u8
-#EXTINF:-1 tvg-name="QTV-1" group-title="其他",QTV-1
-http://video10.qtv.com.cn/drm/qtv1at/manifest.m3u8
-#EXTINF:-1 tvg-name="QTV-3" group-title="其他",QTV-3
-http://video10.qtv.com.cn/drm/qtv3at/manifest.m3u8
-#EXTINF:-1 tvg-name="QTV-4" group-title="其他",QTV-4
-http://video10.qtv.com.cn/drm/qtv4at/manifest.m3u8
-#EXTINF:-1 tvg-name="QTV-6" group-title="其他",QTV-6
-http://video10.qtv.com.cn/drm/qtv6at/manifest.m3u8
-#EXTINF:-1 tvg-name="Tonghua TV" group-title="其他",Tonghua TV
-http://139.211.217.79:9004/hls/75/index.m3u8
-#EXTINF:-1 tvg-name="Xinjiang TV 8" group-title="其他",Xinjiang TV 8
-http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?authid=0&key=txiptv&playlive=1
-#EXTINF:-1 tvg-name="Zhejiang TV International" group-title="其他",Zhejiang TV International
-https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
-#EXTINF:-1 tvg-name="岳阳公共" group-title="其他",岳阳公共
-http://live.hnxttv.com:9601/live/dspd/800K/tzwj_video.m3u8?BVUUID=C236454D-5355-2F5F-FA96-1887C72E55CE&auth=654837809071524@615@2E9A5FD0B225B012E3178551CF3754A8
-#EXTINF:-1 tvg-name="新昌休闲影视" group-title="其他",新昌休闲影视
-https://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
-#EXTINF:-1 tvg-name="湘潭公共" group-title="其他",湘潭公共
-http://live.hnxttv.com:9601/live/dspd/800K/tzwj_video.m3u8
-#EXTINF:-1 tvg-name="蕭山生活頻道" group-title="其他",蕭山生活頻道
-https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
-#EXTINF:-1 tvg-name="餘姚姚江文化" group-title="其他",餘姚姚江文化
-https://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8
-#EXTINF:-1 tvg-name="CNBC Asia HD" group-title="其他",CNBC Asia HD
-https://freem3u.xyz/api/live/play.m3u8?vid=9855
-#EXTINF:-1 tvg-name="TLC Southeast Asia" group-title="其他",TLC Southeast Asia
-http://103.253.74.210:7070/stream/108/index.m3u8
-#EXTINF:-1 tvg-name="Nick Jr. Asia" group-title="其他",Nick Jr. Asia
-http://103.253.74.210:7070/stream/116/index.m3u8
-#EXTINF:-1 tvg-name="Nickelodeon Asia" group-title="其他",Nickelodeon Asia
-http://103.253.74.210:7070/stream/117/index.m3u8
-#EXTINF:-1 tvg-name="Bread TV" group-title="其他",Bread TV
-https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
-#EXTINF:-1 tvg-name="Turkmenistan (406p)" group-title="其他",Turkmenistan (406p)
-https://alpha.tv.online.tm/hls/ch007.m3u8
-#EXTINF:-1 tvg-name="天津体育" group-title="其他",天津体育
-http://38.75.136.137:98/gslb/dsdqpub/tjtv5.m3u8?auth=testpub
-#EXTINF:-1 tvg-name="CCTV-4 Asia" group-title="其他",CCTV-4 Asia
-http://74.91.26.218:82/live/cctv4hd.m3u8
-#EXTINF:-1 tvg-name="Crime + Investigation Asia HD" group-title="其他",Crime + Investigation Asia HD
-https://cdn09jtedge.indihometv.com/joss/133/crimeinvestigation/index.m3u8
-#EXTINF:-1 tvg-name="meWATCH LIVE 1" group-title="其他",meWATCH LIVE 1
-https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.mpd
 #EXTINF:-1 tvg-name="13 Siam Thai" group-title="国际频道",13 Siam Thai
 https://live.x2.co.th/live/13livetv-th.m3u8
 #EXTINF:-1 tvg-name="An Giang TV1" group-title="国际频道",An Giang TV1
@@ -4487,3 +4381,109 @@ http://stream.mcquack.net/444/index.m3u8
 http://stream.mcquack.net/327/index.m3u8
 #EXTINF:-1 tvg-name="Mediaset Italia USA" tvg-logo="https://i.imgur.com/F4gyqhw.png" group-title="国际频道",Mediaset Italia USA
 https://d3k8wzt41aflvx.cloudfront.net/MediasetUSA/Live.m3u8
+#EXTINF:-1 tvg-name="Discovery Home & Health Latin America South" group-title="其他",Discovery Home & Health Latin America South
+http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/39.m3u8
+#EXTINF:-1 tvg-name="Fashion Finds" group-title="其他",Fashion Finds
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/master.m3u8
+#EXTINF:-1 tvg-name="Fashion TV RU" group-title="其他",Fashion TV RU
+http://fashionlive.mediacdn.ru/cdn/fashiontv/playlist.m3u8
+#EXTINF:-1 tvg-name="FashionBox" tvg-logo="https://i.imgur.com/Taqj4yi.png" group-title="其他",FashionBox
+https://dash2.antik.sk/live/test_fashionbox_medium_atk/playlist.m3u8
+#EXTINF:-1 tvg-name="FashionTV 1080" group-title="其他",FashionTV 1080
+http://stream.mcquack.net/287/index.m3u8
+#EXTINF:-1 tvg-name="FashionTV Paris" group-title="其他",FashionTV Paris
+https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
+#EXTINF:-1 tvg-name="Food Food" group-title="其他",Food Food
+https://d2lk5u59tns74c.cloudfront.net/out/v1/ffc601b3dc8d41c5b09115702538d75a/index.m3u8
+#EXTINF:-1 tvg-name="Angel TV Chinese" group-title="其他",Angel TV Chinese
+https://janya-digimix.akamaized.net/vglive-sk-999451/chinese/ngrp:angelchinese_all/playlist.m3u8
+#EXTINF:-1 tvg-name="Baicheng TV" group-title="其他",Baicheng TV
+https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
+#EXTINF:-1 tvg-name="CCTV-4 Europe" group-title="其他",CCTV-4 Europe
+https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
+#EXTINF:-1 tvg-name="Chaozhou Public Channel" group-title="其他",Chaozhou Public Channel
+http://113.64.146.48:1688/hls/4/index.m3u8
+#EXTINF:-1 tvg-name="DAAI TV" group-title="其他",DAAI TV
+https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
+#EXTINF:-1 tvg-name="God Stands TV Chinese" group-title="其他",God Stands TV Chinese
+https://online.godstands.tv:5443/WebRTCApp/streams/chineselive.m3u8
+#EXTINF:-1 tvg-name="Guangxi Variety & Travel Channel" group-title="其他",Guangxi Variety & Travel Channel
+http://111.59.24.227:8181/tsfile/live/1001_1.m3u8?authid=0&key=txiptv&playlive=1
+#EXTINF:-1 tvg-name="LLBN TV Chinese" group-title="其他",LLBN TV Chinese
+https://brightstar-chinese-pull-secure.akamaized.net/brightstarchinese/stream.m3u8
+#EXTINF:-1 tvg-name="Love Nature" group-title="其他",Love Nature
+https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
+#EXTINF:-1 tvg-name="NTD TV" group-title="其他",NTD TV
+https://ntd02.akamaized.net/HD-NY/index.m3u8
+#EXTINF:-1 tvg-name="NTD TV West" group-title="其他",NTD TV West
+https://ntd02.akamaized.net/HD-LA/index.m3u8
+#EXTINF:-1 tvg-name="Peace TV Chinese" group-title="其他",Peace TV Chinese
+https://dzkyvlfyge.erbvr.com/PeaceTvChinese/index.m3u8
+#EXTINF:-1 tvg-name="QTV-2" group-title="其他",QTV-2
+http://video10.qtv.com.cn/drm/qtv2at/manifest.m3u8
+#EXTINF:-1 tvg-name="QTV-5" group-title="其他",QTV-5
+http://video10.qtv.com.cn/drm/qtv5at/manifest.m3u8
+#EXTINF:-1 tvg-name="Siping TV" group-title="其他",Siping TV
+http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
+#EXTINF:-1 tvg-name="VoA TV China" group-title="其他",VoA TV China
+https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
+#EXTINF:-1 tvg-name="WXTV" group-title="其他",WXTV
+https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
+#EXTINF:-1 tvg-name="Zhejiang International Channel" group-title="其他",Zhejiang International Channel
+https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
+#EXTINF:-1 tvg-name="Bread TV面包台" group-title="其他",Bread TV面包台
+https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
+#EXTINF:-1 tvg-name="CGTN Spanish" group-title="其他",CGTN Spanish
+http://45.186.106.147:8880/play/a06f/index.m3u8
+#EXTINF:-1 tvg-name="Chifeng Comprehensive News Chanel" group-title="其他",Chifeng Comprehensive News Chanel
+http://play1-qk.nmtv.cn/live/1735546697341033.m3u8
+#EXTINF:-1 tvg-name="Dongguan Comprehensive News Channel" group-title="其他",Dongguan Comprehensive News Channel
+https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8
+#EXTINF:-1 tvg-name="Nei Monggol TV" group-title="其他",Nei Monggol TV
+http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
+#EXTINF:-1 tvg-name="Nei Monggol TV 2 Mongolian Culture Channel" group-title="其他",Nei Monggol TV 2 Mongolian Culture Channel
+http://play1-qk.nmtv.cn/live/1769652109096027.m3u8
+#EXTINF:-1 tvg-name="QTV-1" group-title="其他",QTV-1
+http://video10.qtv.com.cn/drm/qtv1at/manifest.m3u8
+#EXTINF:-1 tvg-name="QTV-3" group-title="其他",QTV-3
+http://video10.qtv.com.cn/drm/qtv3at/manifest.m3u8
+#EXTINF:-1 tvg-name="QTV-4" group-title="其他",QTV-4
+http://video10.qtv.com.cn/drm/qtv4at/manifest.m3u8
+#EXTINF:-1 tvg-name="QTV-6" group-title="其他",QTV-6
+http://video10.qtv.com.cn/drm/qtv6at/manifest.m3u8
+#EXTINF:-1 tvg-name="Tonghua TV" group-title="其他",Tonghua TV
+http://139.211.217.79:9004/hls/75/index.m3u8
+#EXTINF:-1 tvg-name="Xinjiang TV 8" group-title="其他",Xinjiang TV 8
+http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?authid=0&key=txiptv&playlive=1
+#EXTINF:-1 tvg-name="Zhejiang TV International" group-title="其他",Zhejiang TV International
+https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
+#EXTINF:-1 tvg-name="岳阳公共" group-title="其他",岳阳公共
+http://live.hnxttv.com:9601/live/dspd/800K/tzwj_video.m3u8?BVUUID=C236454D-5355-2F5F-FA96-1887C72E55CE&auth=654837809071524@615@2E9A5FD0B225B012E3178551CF3754A8
+#EXTINF:-1 tvg-name="新昌休闲影视" group-title="其他",新昌休闲影视
+https://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
+#EXTINF:-1 tvg-name="湘潭公共" group-title="其他",湘潭公共
+http://live.hnxttv.com:9601/live/dspd/800K/tzwj_video.m3u8
+#EXTINF:-1 tvg-name="蕭山生活頻道" group-title="其他",蕭山生活頻道
+https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
+#EXTINF:-1 tvg-name="餘姚姚江文化" group-title="其他",餘姚姚江文化
+https://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8
+#EXTINF:-1 tvg-name="CNBC Asia HD" group-title="其他",CNBC Asia HD
+https://freem3u.xyz/api/live/play.m3u8?vid=9855
+#EXTINF:-1 tvg-name="TLC Southeast Asia" group-title="其他",TLC Southeast Asia
+http://103.253.74.210:7070/stream/108/index.m3u8
+#EXTINF:-1 tvg-name="Nick Jr. Asia" group-title="其他",Nick Jr. Asia
+http://103.253.74.210:7070/stream/116/index.m3u8
+#EXTINF:-1 tvg-name="Nickelodeon Asia" group-title="其他",Nickelodeon Asia
+http://103.253.74.210:7070/stream/117/index.m3u8
+#EXTINF:-1 tvg-name="Bread TV" group-title="其他",Bread TV
+https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
+#EXTINF:-1 tvg-name="Turkmenistan (406p)" group-title="其他",Turkmenistan (406p)
+https://alpha.tv.online.tm/hls/ch007.m3u8
+#EXTINF:-1 tvg-name="天津体育" group-title="其他",天津体育
+http://38.75.136.137:98/gslb/dsdqpub/tjtv5.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="CCTV-4 Asia" group-title="其他",CCTV-4 Asia
+http://74.91.26.218:82/live/cctv4hd.m3u8
+#EXTINF:-1 tvg-name="Crime + Investigation Asia HD" group-title="其他",Crime + Investigation Asia HD
+https://cdn09jtedge.indihometv.com/joss/133/crimeinvestigation/index.m3u8
+#EXTINF:-1 tvg-name="meWATCH LIVE 1" group-title="其他",meWATCH LIVE 1
+https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.mpd
