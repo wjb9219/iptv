@@ -174,39 +174,6 @@
    ]
   },
   {
-   "key": "s843f0a746",
-   "name": "🌪️暴风影音",
-   "type": 1,
-   "api": "https://app.bfzyapi.com/api.php/provide/vod/",
-   "playUrl": "",
-   "categories": [
-    "国产剧",
-    "国产动漫",
-    "动作片",
-    "科幻片",
-    "剧情片",
-    "喜剧片",
-    "爱情片",
-    "恐怖片",
-    "战争片",
-    "香港剧",
-    "台湾剧",
-    "日本剧",
-    "欧美剧",
-    "泰国剧",
-    "日本动漫",
-    "综艺频道",
-    "大陆综艺",
-    "港台综艺",
-    "日本综艺",
-    "新马泰综艺",
-    "纪录片"
-   ],
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
    "key": "s79c8cdc92",
    "name": "🎏百度┃采集",
    "type": 1,
@@ -956,6 +923,39 @@
    "filterable": 1
   },
   {
+   "key": "s843f0a746",
+   "name": "🌪️暴风影音",
+   "type": 1,
+   "api": "https://app.bfzyapi.com/api.php/provide/vod/",
+   "playUrl": "",
+   "categories": [
+    "国产剧",
+    "国产动漫",
+    "动作片",
+    "科幻片",
+    "剧情片",
+    "喜剧片",
+    "爱情片",
+    "恐怖片",
+    "战争片",
+    "香港剧",
+    "台湾剧",
+    "日本剧",
+    "欧美剧",
+    "泰国剧",
+    "日本动漫",
+    "综艺频道",
+    "大陆综艺",
+    "港台综艺",
+    "日本综艺",
+    "新马泰综艺",
+    "纪录片"
+   ],
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
    "key": "sa99f7b0bc",
    "name": "🎶明星┃MV",
    "type": 1,
@@ -1628,6 +1628,13 @@
       "https://0472.org/hls/cgtnx.m3u8"
      ],
      "logo": "https://tb.zbds.top/logo/CGTN西语.png"
+    },
+    {
+     "name": "CGTN记录",
+     "urls": [
+      "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227367/1.m3u8"
+     ],
+     "logo": "https://live.fanmingming.cn/tv/CGTN记录.png"
     },
     {
      "name": "CGTN阿拉伯语",
@@ -2954,13 +2961,6 @@
    "name": "纪录频道",
    "channels": [
     {
-     "name": "CGTN记录",
-     "urls": [
-      "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227367/1.m3u8"
-     ],
-     "logo": "https://elykia093.github.io/HA-CMCC-IPTV/logos/CGTN记录.png"
-    },
-    {
      "name": "北京纪实科教",
      "urls": [
       "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227408/1.m3u8"
@@ -4166,6 +4166,13 @@
       "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227090/1.m3u8"
      ],
      "logo": "https://epg.112114.xyz/logo/新县.png"
+    },
+    {
+     "name": "河南中华功夫",
+     "urls": [
+      "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226440/1.m3u8"
+     ],
+     "logo": "https://live.fanmingming.cn/tv/河南中华功夫.png"
     },
     {
      "name": "河南中华功夫·2",
@@ -5448,12 +5455,6 @@
       "https://jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8"
      ],
      "logo": "https://tb.zbds.top/logo/兴隆综合.png"
-    },
-    {
-     "name": "兵团五师双河新闻综合",
-     "urls": [
-      "http://liveout.btzx.com.cn/62ds9e/4nxdih.m3u8?fbl="
-     ]
     },
     {
      "name": "兵团八师石河子新闻综合",
@@ -8006,6 +8007,12 @@
      ]
     },
     {
+     "name": "Nick Jr.",
+     "urls": [
+      "http://94.130.48.67:8042/stream/111/index.m3u8"
+     ]
+    },
+    {
      "name": "RT Arabic",
      "urls": [
       "https://rt-arb.rttv.com/dvr/rtarab/playlist.m3u8"
@@ -8243,13 +8250,6 @@
       "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227123/1.m3u8?fmt=ts2hls"
      ],
      "logo": "https://elykia093.github.io/HA-CMCC-IPTV/logos/汽摩.png"
-    },
-    {
-     "name": "河南中华功夫",
-     "urls": [
-      "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226440/1.m3u8"
-     ],
-     "logo": "https://epg.112114.xyz/logo/河南中华功夫.png"
     },
     {
      "name": "环球旅游",
