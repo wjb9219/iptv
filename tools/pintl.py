@@ -9,6 +9,8 @@ CTX.verify_mode = ssl.CERT_NONE
 UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
       '(KHTML, like Gecko) Chrome/124.0 Safari/537.36')
 HDR = {'User-Agent': UA, 'Accept': '*/*'}
+CAND = os.environ.get('CAND', 'cand_intl.json')
+PROBE_OUT = os.environ.get('PROBE_OUT', 'pintl_probe.json')
 T = 12
 W = int(os.environ.get('PROBE_W', '20'))
 
@@ -49,22 +51,23 @@ def once(u, t=T):
 
 
 def ensure_cand():
-    if os.path.exists('cand_intl.json'):
+    if os.path.exists(CAND):
         return
     import gzip, shutil
-    if os.path.exists('cand_intl.json.gz'):
-        with gzip.open('cand_intl.json.gz', 'rb') as f, open('cand_intl.json', 'wb') as g:
+    gz = CAND + '.gz'
+    if os.path.exists(gz):
+        with gzip.open(gz, 'rb') as f, open(CAND, 'wb') as g:
             shutil.copyfileobj(f, g)
         print('已解压候选清单', flush=True)
 
 
 def main():
     ensure_cand()
-    cand = json.load(open('cand_intl.json', encoding='utf-8'))
+    cand = json.load(open(CAND, encoding='utf-8'))
     urls = sorted({c['url'] for c in cand})
     out = {}
     try:
-        out = json.load(open('pintl_probe.json', encoding='utf-8'))
+        out = json.load(open(PROBE_OUT, encoding='utf-8'))
     except Exception:
         out = {}
 
@@ -86,7 +89,7 @@ def main():
             if done % 200 == 0:
                 good = sum(1 for v in out.values() if v['ok'])
                 print('  %d/%d 通过 %d  %.0fs' % (done, len(todo), good, time.time() - t0), flush=True)
-                json.dump(out, open('pintl_probe.json', 'w', encoding='utf-8'), ensure_ascii=False)
+                json.dump(out, open(PROBE_OUT, 'w', encoding='utf-8'), ensure_ascii=False)
 
     # 失败项二次并发低档复核，避免误杀
     bad = [u for u in urls if not out.get(u, {}).get('ok')]
@@ -97,7 +100,7 @@ def main():
             if ok:
                 out[u] = {'ok': True, 'ms': ms, 'kind': kind + '/retry'}
 
-    json.dump(out, open('pintl_probe.json', 'w', encoding='utf-8'), ensure_ascii=False)
+    json.dump(out, open(PROBE_OUT, 'w', encoding='utf-8'), ensure_ascii=False)
     good = sum(1 for v in out.values() if v['ok'])
     print('完成：%d 条可播 / %d 条' % (good, len(urls)), flush=True)
 
