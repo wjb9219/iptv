@@ -3608,6 +3608,10 @@
 {
 "t": "lan",
 "cid": "3221227402"
+},
+{
+"t": "url",
+"u": "http://112.123.243.37:50085/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0"
 }
 ]
 },
@@ -3655,6 +3659,10 @@
 {
 "t": "lan",
 "cid": "3221227371"
+},
+{
+"t": "url",
+"u": "http://112.123.243.37:50085/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0"
 }
 ]
 },
@@ -3698,6 +3706,10 @@
 {
 "t": "lan",
 "cid": "3221226422"
+},
+{
+"t": "url",
+"u": "http://112.123.243.37:50085/tsfile/live/0128_1.m3u8?key=txiptv&playlive=0&authid=0"
 }
 ]
 },
@@ -4024,6 +4036,10 @@
 {
 "t": "url",
 "u": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8"
+},
+{
+"t": "url",
+"u": "https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8"
 }
 ]
 },
@@ -4113,6 +4129,10 @@
 {
 "t": "lan",
 "cid": "3221226420"
+},
+{
+"t": "url",
+"u": "http://112.123.243.37:50085/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0"
 }
 ]
 },
@@ -5491,6 +5511,10 @@
 {
 "t": "lan",
 "cid": "3221226704"
+},
+{
+"t": "url",
+"u": "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226882/1.m3u8?fmt=ts2hls"
 }
 ]
 },
@@ -5521,6 +5545,10 @@
 {
 "t": "url",
 "u": "https://satellitepull.cnr.cn/live/wxcqxwgb/playlist.m3u8"
+},
+{
+"t": "url",
+"u": "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226884/1.m3u8?fmt=ts2hls"
 }
 ]
 },
@@ -5690,6 +5718,10 @@
 {
 "t": "lan",
 "cid": "3221226889"
+},
+{
+"t": "url",
+"u": "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226889/1.m3u8?fmt=ts2hls"
 }
 ]
 },
@@ -6773,6 +6805,10 @@
 {
 "t": "lan",
 "cid": "3221226328"
+},
+{
+"t": "url",
+"u": "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226910/1.m3u8?fmt=ts2hls"
 }
 ]
 },
@@ -6838,6 +6874,10 @@
 {
 "t": "lan",
 "cid": "3221226845"
+},
+{
+"t": "url",
+"u": "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226845/1.m3u8?fmt=ts2hls"
 }
 ]
 },
@@ -6920,6 +6960,10 @@
 {
 "t": "url",
 "u": "http://125.43.249.76:9901/tsfile/live/1040_1.m3u8?key=txiptv&playlive=1&authid=0"
+},
+{
+"t": "url",
+"u": "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226965/1.m3u8?fmt=ts2hls"
 }
 ]
 },
@@ -8118,6 +8162,10 @@
 {
 "t": "lan",
 "cid": "3221226871"
+},
+{
+"t": "url",
+"u": "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226872/1.m3u8?fmt=ts2hls"
 }
 ]
 },
@@ -8170,6 +8218,10 @@
 {
 "t": "lan",
 "cid": "3221226843"
+},
+{
+"t": "url",
+"u": "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226843/1.m3u8?fmt=ts2hls"
 }
 ]
 },
@@ -8486,6 +8538,10 @@
 {
 "t": "lan",
 "cid": "3221227258"
+},
+{
+"t": "url",
+"u": "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227258/1.m3u8?fmt=ts2hls"
 }
 ]
 },
@@ -8564,6 +8620,10 @@
 {
 "t": "lan",
 "cid": "3221227122"
+},
+{
+"t": "url",
+"u": "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227122/1.m3u8?fmt=ts2hls"
 }
 ]
 },
@@ -9070,6 +9130,10 @@
 {
 "t": "lan",
 "cid": "3221226340"
+},
+{
+"t": "url",
+"u": "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?fmt=ts2hls"
 }
 ]
 },
@@ -9358,6 +9422,10 @@
 {
 "t": "lan",
 "cid": "3221226881"
+},
+{
+"t": "url",
+"u": "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226881/1.m3u8?fmt=ts2hls"
 }
 ]
 },
@@ -16375,6 +16443,10 @@
 {
 "t": "lan",
 "cid": "3221226670"
+},
+{
+"t": "url",
+"u": "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226904/1.m3u8?fmt=ts2hls"
 }
 ]
 },
@@ -16466,6 +16538,10 @@
 {
 "t": "lan",
 "cid": "3221226912"
+},
+{
+"t": "url",
+"u": "http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226912/1.m3u8?fmt=ts2hls"
 }
 ]
 },
@@ -16885,6 +16961,10 @@
 {
 "t": "url",
 "u": "http://112.123.243.37:50085/tsfile/live/1002_1.m3u8?key=txiptv&playlive=0&authid=0"
+},
+{
+"t": "url",
+"u": "https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8"
 }
 ]
 },
@@ -16915,6 +16995,10 @@
 {
 "t": "url",
 "u": "http://112.123.243.37:50085/tsfile/live/0135_1.m3u8?key=txiptv&playlive=0&authid=0"
+},
+{
+"t": "url",
+"u": "https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4"
 }
 ]
 },
@@ -16928,6 +17012,10 @@
 {
 "t": "url",
 "u": "https://piccpndks.v.kcdnvip.com/audio/sichuan_2/index.m3u8"
+},
+{
+"t": "url",
+"u": "https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
 }
 ]
 },
@@ -17115,6 +17203,14 @@
 {
 "t": "url",
 "u": "http://38.75.136.137:98/gslb/dsdqpub/fyyy.m3u8?auth=testpub"
+},
+{
+"t": "url",
+"u": "https://live.264788.xyz/channel/fengyunyinyue?streamid=be37d16b874e7ba11dd383d7ecd75752&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+},
+{
+"t": "url",
+"u": "https://live.264788.xyz/channel/fengyunyinyue?streamid=1b41fb9153cba3ee19bd5d1b323da27e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
 }
 ]
 },
@@ -17128,6 +17224,14 @@
 {
 "t": "url",
 "u": "http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub"
+},
+{
+"t": "url",
+"u": "https://live.264788.xyz/channel/diyijuchang?streamid=e9b0fb1ca135a4aeae12944494883794&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+},
+{
+"t": "url",
+"u": "https://live.264788.xyz/channel/diyijuchang?streamid=d81e188b59ece96b7e8f1ce34aea3ef8&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
 }
 ]
 },
@@ -17188,6 +17292,10 @@
 {
 "t": "url",
 "u": "https://epg.pw/stream/7b470f9fc5c305db0c8622117b7b25ca00eb35ba3e93e865cf0ff9df5c736681.m3u8"
+},
+{
+"t": "url",
+"u": "http://r.jdshipin.com/LiYdg"
 }
 ]
 },
@@ -17409,6 +17517,10 @@
 {
 "t": "url",
 "u": "https://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8"
+},
+{
+"t": "url",
+"u": "http://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8"
 }
 ]
 },
@@ -17422,6 +17534,10 @@
 {
 "t": "url",
 "u": "http://live.shaoxing.com.cn/video/s10001-sxhb/index.m3u8"
+},
+{
+"t": "url",
+"u": "http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8"
 }
 ]
 },
@@ -23878,6 +23994,14 @@
 {
 "t": "url",
 "u": "https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8"
+},
+{
+"t": "url",
+"u": "https://vid.hls.protv.ro/liveibu8/liveibu8_highw/index.m3u8?1"
+},
+{
+"t": "url",
+"u": "http://88.212.15.50/live/test_cnn_1200_atk/playlist.m3u8"
 }
 ]
 },
@@ -26653,6 +26777,10 @@
 {
 "t": "url",
 "u": "https://amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv/playlist.m3u8"
+},
+{
+"t": "url",
+"u": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8"
 }
 ]
 },
@@ -26861,6 +26989,10 @@
 {
 "t": "url",
 "u": "https://amg17596-ntdtv-amg17596c1-rakuten-gb-6741.playouts.now.amagi.tv/playlist/amg17596-newtangdynastytelevision-ntdtv-rakutengb/playlist.m3u8"
+},
+{
+"t": "url",
+"u": "https://ntd02.akamaized.net/NTDA/index.m3u8"
 }
 ]
 },
@@ -26973,6 +27105,10 @@
 {
 "t": "url",
 "u": "https://oan-plus-tcl.amagi.tv/playlist.m3u8"
+},
+{
+"t": "url",
+"u": "https://a-cdn.herringnetwork.com/affiliate/oane/playlist.m3u8"
 }
 ]
 },
@@ -30532,6 +30668,10 @@
 {
 "t": "url",
 "u": "https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8"
+},
+{
+"t": "url",
+"u": "https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8"
 }
 ]
 },
@@ -36958,6 +37098,14 @@
 {
 "t": "url",
 "u": "https://tvsen6.aynaott.com/foxbusiness/index.m3u8"
+},
+{
+"t": "url",
+"u": "https://247preview.foxbusiness.com/hls/live/2020026/fbnv3preview/primary.m3u8"
+},
+{
+"t": "url",
+"u": "http://103.253.74.210:7070/stream/125/index.m3u8"
 }
 ]
 },
@@ -37101,6 +37249,10 @@
 {
 "t": "url",
 "u": "https://lightning-fnf-samsungaus.amagi.tv/playlist.m3u8"
+},
+{
+"t": "url",
+"u": "https://hlspackager.akamaized.net/live/DB/KARTOON_CHANNEL/HLS/KARTOON_CHANNEL.m3u8"
 }
 ]
 },
@@ -37504,6 +37656,10 @@
 {
 "t": "url",
 "u": "https://plex-xumoent-ch485-e7l5l.fast.nbcuni.com/live/master_5.m3u8"
+},
+{
+"t": "url",
+"u": "https://dn7vkzd5khpp3.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-jnz0hbnuaajo2/b3d9d2ee-94c1-4de2-bb46-b1ed009f4f30/4.m3u8"
 }
 ]
 },
@@ -40851,6 +41007,10 @@
 {
 "t": "url",
 "u": "http://r.jdshipin.com/sE5vO"
+},
+{
+"t": "url",
+"u": "http://38.75.136.137:98/gslb/dsdqpub/gdzj.m3u8?auth=testpub"
 }
 ]
 },
