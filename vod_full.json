@@ -183,17 +183,6 @@
    "quickSearch": 1
   },
   {
-   "key": "se12d4cfa3",
-   "name": "影视 | 电影天堂",
-   "type": 1,
-   "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "changeable": 1,
-   "playerType": 2
-  },
-  {
    "key": "s282ec9fcb",
    "name": "影视 | 天涯",
    "type": 1,
@@ -829,16 +818,6 @@
    "ext": "http://www.xb6v.com/"
   },
   {
-   "key": "s4c1bd34b3",
-   "name": "🧲新6V·2",
-   "type": 3,
-   "api": "csp_New6v",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": "https://www.xb6v.com"
-  },
-  {
    "key": "sa5e96301f",
    "name": "影视工厂(XBiu)",
    "type": 3,
@@ -923,39 +902,6 @@
    "filterable": 1
   },
   {
-   "key": "s843f0a746",
-   "name": "🌪️暴风影音",
-   "type": 1,
-   "api": "https://app.bfzyapi.com/api.php/provide/vod/",
-   "playUrl": "",
-   "categories": [
-    "国产剧",
-    "国产动漫",
-    "动作片",
-    "科幻片",
-    "剧情片",
-    "喜剧片",
-    "爱情片",
-    "恐怖片",
-    "战争片",
-    "香港剧",
-    "台湾剧",
-    "日本剧",
-    "欧美剧",
-    "泰国剧",
-    "日本动漫",
-    "综艺频道",
-    "大陆综艺",
-    "港台综艺",
-    "日本综艺",
-    "新马泰综艺",
-    "纪录片"
-   ],
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
    "key": "sa99f7b0bc",
    "name": "🎶明星┃MV",
    "type": 1,
@@ -1003,16 +949,6 @@
     "影视解说"
    ],
    "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "sa90fe9f91",
-   "name": "优质 | 采集",
-   "type": 1,
-   "api": "https://api.yyzy-tv.vip/inc/apijson.php",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
    "filterable": 1
   },
   {
@@ -1151,6 +1087,48 @@
     "日韩综艺",
     "欧美综艺"
    ]
+  },
+  {
+   "key": "s648daf401",
+   "name": "爱瓜TV",
+   "type": 4,
+   "api": "http://zhangqun1818.serv00.net/aigua1.php",
+   "searchable": 1,
+   "style": {
+    "type": "rect",
+    "ratio": 1.33
+   },
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "s73590f9a8",
+   "name": "旺旺短剧",
+   "type": 1,
+   "api": "http://zhangqun1818.serv00.net/ww.php",
+   "style": {
+    "type": "rect",
+    "ratio": 1.33
+   },
+   "searchable": 1,
+   "changeable": 0,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "s4ae848877",
+   "name": "CNTV低分辨",
+   "type": 1,
+   "api": "http://zhangqun1818.serv00.net/cctv.php",
+   "style": {
+    "type": "rect",
+    "ratio": 1.33
+   },
+   "changeable": 1,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
   },
   {
    "key": "s7ff7b5cbd",
@@ -1366,7 +1344,7 @@
    "type": 3,
    "api": "https://clun.top/py/wbbb.py",
    "searchable": 1,
-   "quickSearch": 0,
+   "quickSearch": 1,
    "filterable": 1
   },
   {
@@ -1875,6 +1853,17 @@
    "ext": "https://raw.liucn.cc/box/libs/hccx/爱看影视.json"
   },
   {
+   "key": "s04a6c1b23",
+   "name": "🎤┃酷奇┃音乐",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 0,
+   "jar": "./libs/jar/HCCX.jar",
+   "ext": "https://raw.liucn.cc/box/libs/hccx/酷奇MV.json"
+  },
+  {
    "key": "sc5f6d2d86",
    "name": "🎵啊哈┃DJ",
    "type": 3,
@@ -1963,17 +1952,6 @@
    "ext": "https://raw.liucn.cc/box/libs/c/热播之家.json"
   },
   {
-   "key": "se0ef4ac06",
-   "name": "🦊┃黑狐┃影视",
-   "type": 3,
-   "api": "csp_XBPQ",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 1,
-   "jar": "./libs/jar/c.jar",
-   "ext": "https://raw.liucn.cc/box/libs/c/黑狐.json"
-  },
-  {
    "key": "sb78a448a1",
    "name": "🥚┃蛋蛋┃看剧",
    "type": 3,
@@ -2029,15 +2007,15 @@
    "ext": "https://raw.liucn.cc/box/libs/hccx/达达龟影视.json"
   },
   {
-   "key": "s7822365cc",
-   "name": "🧼┃奇优┃影院",
+   "key": "s9f8970f81",
+   "name": "🦝┃黑狐┃影视",
    "type": 3,
    "api": "csp_XBPQ",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
    "jar": "./libs/jar/HCCX.jar",
-   "ext": "https://raw.liucn.cc/box/libs/hccx/奇优影院.json"
+   "ext": "https://raw.liucn.cc/box/libs/hccx/黑狐影视.json"
   },
   {
    "key": "sc1b091111",
@@ -2093,17 +2071,6 @@
    "filterable": 1,
    "jar": "./libs/jar/HCCX.jar",
    "ext": "https://raw.liucn.cc/box/libs/hccx/七新影视.json"
-  },
-  {
-   "key": "scf52c55d9",
-   "name": "🅱️┃超前┃点播",
-   "type": 3,
-   "api": "csp_XBPQ",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 1,
-   "jar": "./libs/jar/HCCX.jar",
-   "ext": "https://raw.liucn.cc/box/libs/hccx/超前B站.json"
   },
   {
    "key": "sb27147aaa",
@@ -2240,17 +2207,6 @@
    "changeable": 0,
    "ext": "https://raw.liucn.cc/box/libs/企鹅直播.json",
    "filterable": 1
-  },
-  {
-   "key": "s04a6c1b23",
-   "name": "🎤┃酷奇┃音乐",
-   "type": 3,
-   "api": "csp_XBPQ",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 0,
-   "jar": "./libs/jar/HCCX.jar",
-   "ext": "https://raw.liucn.cc/box/libs/hccx/酷奇MV.json"
   },
   {
    "key": "s66799f80e",
@@ -2615,6 +2571,16 @@
    "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/干饭影视.json"
   },
   {
+   "key": "sa6f1bc0e5",
+   "name": "🙄全能影视",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 1,
+   "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/全能影视.json"
+  },
+  {
    "key": "s40849a9bf",
    "name": "🤩美剧天堂",
    "type": 3,
@@ -2653,16 +2619,6 @@
    "quickSearch": 0,
    "filterable": 1,
    "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/91美剧.json"
-  },
-  {
-   "key": "s1a192fcb9",
-   "name": "🤩久久美剧网",
-   "type": 3,
-   "api": "csp_XBPQ",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 1,
-   "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/久久美剧网.json"
   },
   {
    "key": "sf9c6b284f",
@@ -2996,15 +2952,15 @@
    "filterable": 1
   },
   {
-   "key": "s9f8970f81",
-   "name": "🦝┃黑狐┃影视",
+   "key": "scf52c55d9",
+   "name": "🅱️┃超前┃点播",
    "type": 3,
    "api": "csp_XBPQ",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
    "jar": "./libs/jar/HCCX.jar",
-   "ext": "https://raw.liucn.cc/box/libs/hccx/黑狐影视.json"
+   "ext": "https://raw.liucn.cc/box/libs/hccx/超前B站.json"
   },
   {
    "key": "sb371661c3",
@@ -3476,6 +3432,16 @@
    "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/voflix.json"
   },
   {
+   "key": "s790756183",
+   "name": "☺TVB云播",
+   "type": 3,
+   "api": "csp_XBPQ",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 1,
+   "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/TV云播.json"
+  },
+  {
    "key": "s6103ddffe",
    "name": "😬圣城影视",
    "type": 3,
@@ -3566,6 +3532,21 @@
    "searchable": 1,
    "changeable": 1,
    "ext": "https://bitbucket.org/guot55/ygbh/raw/main/pro/json/douban.json",
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
+   "key": "sc3189596c",
+   "name": "💥JRKAN直播(体育)",
+   "type": 3,
+   "api": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
+   "changeable": 0,
+   "style": {
+    "type": "rect",
+    "ratio": 1
+   },
+   "ext": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js/JRKAN直播.js",
+   "searchable": 1,
    "quickSearch": 0,
    "filterable": 1
   },
@@ -3702,6 +3683,16 @@
    "ext": "https://raw.liucn.cc/box/libs/js/czspp.js"
   },
   {
+   "key": "s665851d2e",
+   "name": "👨‍🌾┃农民┃影视",
+   "type": 3,
+   "api": "https://raw.liucn.cc/box/libs/js/drpy2.min.js",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 1,
+   "ext": "https://raw.liucn.cc/box/libs/js/nongmin.js"
+  },
+  {
    "key": "sdba9b1a0f",
    "name": "🥝┃爱奇异(官)",
    "type": 3,
@@ -3752,28 +3743,15 @@
    "filterable": 1
   },
   {
-   "key": "s7fb806e38",
-   "name": "异世界",
+   "key": "s562cc4cc7",
+   "name": "影视 | dydhhy[js]",
    "type": 3,
-   "api": "https://www.yingm.cc/dm/js/drpy.min.js",
-   "ext": "https://www.yingm.cc/dm/js/异世界.js",
-   "searchable": 1,
+   "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
+   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/dydhhy.js",
    "quickSearch": 0,
-   "filterable": 1
-  },
-  {
-   "key": "sc3189596c",
-   "name": "💥JRKAN直播(体育)",
-   "type": 3,
-   "api": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
-   "changeable": 0,
-   "style": {
-    "type": "rect",
-    "ratio": 1
-   },
-   "ext": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js/JRKAN直播.js",
+   "changeable": 1,
+   "timeout": 30,
    "searchable": 1,
-   "quickSearch": 0,
    "filterable": 1
   },
   {
@@ -3843,16 +3821,6 @@
    "ext": "https://raw.liucn.cc/box/libs/js/大师兄影视.js"
   },
   {
-   "key": "s665851d2e",
-   "name": "👨‍🌾┃农民┃影视",
-   "type": 3,
-   "api": "https://raw.liucn.cc/box/libs/js/drpy2.min.js",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 1,
-   "ext": "https://raw.liucn.cc/box/libs/js/nongmin.js"
-  },
-  {
    "key": "sb2e2ce609",
    "name": "🚛┃搜狗(官)",
    "type": 3,
@@ -3919,6 +3887,26 @@
    "filterable": 1
   },
   {
+   "key": "s7fb806e38",
+   "name": "异世界",
+   "type": 3,
+   "api": "https://www.yingm.cc/dm/js/drpy.min.js",
+   "ext": "https://www.yingm.cc/dm/js/异世界.js",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
+   "key": "s5a9292cc7",
+   "name": "❤  低端",
+   "type": 3,
+   "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+   "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/ddys.js",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
    "key": "s25d8031e7",
    "name": "看韩剧",
    "type": 3,
@@ -3959,16 +3947,6 @@
    "filterable": 1
   },
   {
-   "key": "s7c1a1a63e",
-   "name": "影视 | 在线之家[js]",
-   "type": 3,
-   "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
-   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/在线之家.js",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 1
-  },
-  {
    "key": "s72412619c",
    "name": "影视 | 看韩剧[js]",
    "type": 3,
@@ -3989,11 +3967,11 @@
    "filterable": 1
   },
   {
-   "key": "s562cc4cc7",
-   "name": "影视 | dydhhy[js]",
+   "key": "sa2a454a5e",
+   "name": "影视 | 团长影视[js]",
    "type": 3,
    "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
-   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/dydhhy.js",
+   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/tzfile.js",
    "quickSearch": 0,
    "changeable": 1,
    "timeout": 30,
@@ -4083,6 +4061,17 @@
    "playerType": "2",
    "api": "https://raw.liucn.cc/box/libs/js/drpy2.min.js",
    "ext": "https://raw.liucn.cc/box/libs/js/SC1080.js",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
+   "key": "sec1bb862f",
+   "name": "🍩┃奇优┃影视",
+   "type": 3,
+   "playerType": "2",
+   "api": "https://raw.liucn.cc/box/libs/js/drpy2.min.js",
+   "ext": "https://raw.liucn.cc/box/libs/js/奇优.js",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1
@@ -4183,6 +4172,21 @@
    "type": 3,
    "api": "https://raw.liucn.cc/box/libs/js/drpy2.min.js",
    "ext": "https://raw.liucn.cc/box/libs/js/兔小贝.js",
+   "style": {
+    "type": "rect",
+    "ratio": 1.597
+   },
+   "searchable": 1,
+   "quickSearch": 0,
+   "changeable": 0,
+   "filterable": 1
+  },
+  {
+   "key": "s9e8122e58",
+   "name": "📚儿童┃启蒙·2",
+   "type": 3,
+   "api": "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+   "ext": "https://szyyds.cn/tv/jx/兔小贝.js",
    "style": {
     "type": "rect",
     "ratio": 1.597
@@ -4325,16 +4329,6 @@
    "ext": "https://clun.top/js/drpy2.js"
   },
   {
-   "key": "s5a9292cc7",
-   "name": "❤  低端",
-   "type": 3,
-   "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
-   "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/ddys.js",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 1
-  },
-  {
    "key": "s587640b23",
    "name": "9U电影",
    "type": 3,
@@ -4360,16 +4354,6 @@
    "type": 3,
    "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
    "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/乐猪TV.js",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 1
-  },
-  {
-   "key": "se33cab5f5",
-   "name": "被窝电影",
-   "type": 3,
-   "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
-   "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/被窝电影.js",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1
@@ -4516,26 +4500,6 @@
    "filterable": 1
   },
   {
-   "key": "s2be21b990",
-   "name": "影视 | 量子资源[js]",
-   "type": 3,
-   "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
-   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/量子资源.js",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 1
-  },
-  {
-   "key": "sa367e98df",
-   "name": "影视 | 热播库[js]",
-   "type": 3,
-   "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
-   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/热播库.js",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 1
-  },
-  {
    "key": "s88f741db4",
    "name": "影视 | 蛋蛋剧[js]",
    "type": 3,
@@ -4551,6 +4515,16 @@
    "type": 3,
    "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
    "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/凌云影视.js",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
+   "key": "scfe76faa9",
+   "name": "影视 | 孜然影视[js]",
+   "type": 3,
+   "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
+   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/孜然影视.js",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1
@@ -4601,6 +4575,16 @@
    "type": 3,
    "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
    "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/兄弟影视.js",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
+   "key": "s251282881",
+   "name": "影视 | 539影视[js]",
+   "type": 3,
+   "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
+   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/539影视.js",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1
@@ -4661,26 +4645,6 @@
    "type": 3,
    "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
    "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/北川影视.js",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 1
-  },
-  {
-   "key": "sce583689d",
-   "name": "影视 | 蛋蛋赞[js]",
-   "type": 3,
-   "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
-   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/蛋蛋赞.js",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 1
-  },
-  {
-   "key": "s29e0977f9",
-   "name": "影视 | 多瑙影视[js]",
-   "type": 3,
-   "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
-   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/多瑙影视.js",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1
@@ -4883,6 +4847,17 @@
    "filterable": 1
   },
   {
+   "key": "s1eeb9d5ca",
+   "name": "聚合 | 短视频[js]",
+   "type": 3,
+   "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
+   "changeable": 0,
+   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/短视频.js",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
    "key": "se2307af94",
    "name": "MV | 爱车MV[js]",
    "type": 3,
@@ -5040,6 +5015,16 @@
    "filterable": 1
   },
   {
+   "key": "s415592bc7",
+   "name": "影视 | 星辰影院[js]",
+   "type": 3,
+   "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
+   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/星辰.js",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
    "key": "seed948370",
    "name": "影视 | 追剧迷[js]",
    "type": 3,
@@ -5107,21 +5092,6 @@
    "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/小宝影院[飞].js",
    "searchable": 1,
    "quickSearch": 0,
-   "filterable": 1
-  },
-  {
-   "key": "s9e8122e58",
-   "name": "📚儿童┃启蒙·2",
-   "type": 3,
-   "api": "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-   "ext": "https://szyyds.cn/tv/jx/兔小贝.js",
-   "style": {
-    "type": "rect",
-    "ratio": 1.597
-   },
-   "searchable": 1,
-   "quickSearch": 0,
-   "changeable": 0,
    "filterable": 1
   },
   {
@@ -5662,31 +5632,11 @@
    "filterable": 1
   },
   {
-   "key": "s31ec1f403",
-   "name": "影视 | 达达龟[js]",
-   "type": 3,
-   "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
-   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/达达龟.js",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 1
-  },
-  {
    "key": "sce8ea7d4b",
    "name": "影视 | 看了么[js]",
    "type": 3,
    "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
    "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/看了么.js",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 1
-  },
-  {
-   "key": "sd1e717888",
-   "name": "影视 | 首播影院[js]",
-   "type": 3,
-   "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
-   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/首播影院.js",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1
@@ -5707,16 +5657,6 @@
    "type": 3,
    "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
    "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/69美剧[V2].js",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 1
-  },
-  {
-   "key": "s589d688d5",
-   "name": "影视 | cokemv[V2]",
-   "type": 3,
-   "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
-   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/cokemv[V2].js",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1
@@ -5839,6 +5779,21 @@
    "filterable": 1
   },
   {
+   "key": "s3db181ade",
+   "name": "少儿 | 兔小贝[js]",
+   "type": 3,
+   "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
+   "style": {
+    "type": "rect",
+    "ratio": 1.597
+   },
+   "changeable": 0,
+   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/兔小贝.js",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
    "key": "s8d222cf13",
    "name": "少儿 | 有声绘本[js]",
    "type": 3,
@@ -5935,6 +5890,17 @@
    "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
    "changeable": 0,
    "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/相声随身听.js",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
+   "key": "s31423856a",
+   "name": "评书 | 评书随身听[js]",
+   "type": 3,
+   "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
+   "changeable": 0,
+   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/评书随身听.js",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1
@@ -6484,18 +6450,6 @@
    "filterable": 1
   },
   {
-   "key": "s2ed3aae69",
-   "name": "网盘 | 小云[jar]",
-   "type": 3,
-   "api": "csp_YunSo",
-   "quickSearch": 0,
-   "changeable": 1,
-   "filterable": 1,
-   "timeout": 30,
-   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/token.json",
-   "searchable": 1
-  },
-  {
    "key": "s95cfabb94",
    "name": "网盘 | 云盘[jar]",
    "type": 3,
@@ -6542,6 +6496,18 @@
    "filterable": 1
   },
   {
+   "key": "sa89bd9e8e",
+   "name": "阿里 | 盤搜索[jar]",
+   "type": 3,
+   "api": "csp_PanSearch",
+   "searchable": 1,
+   "changeable": 0,
+   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/token.json",
+   "timeout": 30,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
    "key": "s7bf01e8a3",
    "name": "阿里 | 找資源[jar]",
    "type": 3,
@@ -6569,17 +6535,6 @@
    "name": "阿里 | 盘搜[jar]",
    "type": 3,
    "api": "csp_PanSou",
-   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/token.json",
-   "timeout": 30,
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 1
-  },
-  {
-   "key": "s86127ebf9",
-   "name": "阿里 | up云搜[jar]",
-   "type": 3,
-   "api": "csp_UpYun",
    "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/token.json",
    "timeout": 30,
    "searchable": 1,
@@ -6642,15 +6597,39 @@
    "filterable": 1
   },
   {
-   "key": "sa89bd9e8e",
-   "name": "阿里 | 盤搜索[jar]",
+   "key": "s2ed3aae69",
+   "name": "网盘 | 小云[jar]",
    "type": 3,
-   "api": "csp_PanSearch",
-   "searchable": 1,
-   "changeable": 0,
+   "api": "csp_YunSo",
+   "quickSearch": 0,
+   "changeable": 1,
+   "filterable": 1,
+   "timeout": 30,
+   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/token.json",
+   "searchable": 1
+  },
+  {
+   "key": "s86127ebf9",
+   "name": "阿里 | up云搜[jar]",
+   "type": 3,
+   "api": "csp_UpYun",
    "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/token.json",
    "timeout": 30,
+   "searchable": 1,
    "quickSearch": 0,
+   "filterable": 1
+  },
+  {
+   "key": "s4aa40a0d2",
+   "name": "磁力 | 4KHDR[js]",
+   "type": 3,
+   "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
+   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/4khdr.js",
+   "playerType": "1",
+   "searchable": 1,
+   "quickSearch": 0,
+   "changeable": 1,
+   "timeout": 30,
    "filterable": 1
   },
   {
@@ -6679,19 +6658,6 @@
    "filterable": 1
   },
   {
-   "key": "s4aa40a0d2",
-   "name": "磁力 | 4KHDR[js]",
-   "type": 3,
-   "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
-   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/4khdr.js",
-   "playerType": "1",
-   "searchable": 1,
-   "quickSearch": 0,
-   "changeable": 1,
-   "timeout": 30,
-   "filterable": 1
-  },
-  {
    "key": "s2c9eb2375",
    "name": "✡️六维磁力┃Js",
    "type": 3,
@@ -6700,6 +6666,19 @@
    "quickSearch": 0,
    "filterable": 1,
    "ext": "https://raw.liucn.cc/box/libs/js/6V.js"
+  },
+  {
+   "key": "scd298fe88",
+   "name": "磁力 | MP4电影[js]",
+   "type": 3,
+   "api": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
+   "ext": "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js/mp4us.js",
+   "playerType": "1",
+   "searchable": 1,
+   "quickSearch": 0,
+   "changeable": 1,
+   "timeout": 30,
+   "filterable": 1
   },
   {
    "key": "s8ac8c0bd6",
@@ -6880,5 +6859,5 @@
  "ads": [],
  "headers": [],
  "logo": "",
- "notice": "共 594 个点播源 · 更新于 2026-11-14"
+ "notice": "共 592 个点播源 · 更新于 2026-11-15"
 }
