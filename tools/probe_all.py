@@ -20,14 +20,29 @@ def once(u, t=T):
         ms = int((time.time() - t0) * 1000)
         if not raw:
             return False, ms, 'empty'
+        # 1) 裸流/容器格式：TS / FLV / MP4 / MPEG-PS
         if raw[:1] == b'\x47' and len(raw) > 1000:
             return True, ms, 'ts'
-        s = raw.decode('utf-8', 'ignore')
-        if '#EXTM3U' in s and ('#EXTINF' in s or '#EXT-X-STREAM-INF' in s):
+        if raw[:3] == b'FLV':
+            return True, ms, 'flv'
+        if raw[4:8] == b'ftyp' or raw[:4] == b'\x1a\x45\xdf\xa3':
+            return True, ms, 'mp4'
+        if raw[:4] == b'\x00\x00\x01\xba' or raw[:4] == b'\x00\x00\x01\xb3':
+            return True, ms, 'ps'
+        text = raw.decode('utf-8', 'ignore')
+        # 2) HLS/DASH 清单
+        if '#EXTM3U' in text and ('#EXTINF' in text or '#EXT-X-STREAM-INF' in text):
             return True, ms, 'hls'
-        if r.status in (200, 206) and len(raw) > 2000 and '<' not in s[:60]:
+        if '<MPD' in text[:400] or '<mpd' in text[:400]:
+            return True, ms, 'dash'
+        # 3) 服务端明确声明是媒体流，就认（含 flv/mp4/octet-stream 等）
+        ct = (r.headers.get('Content-Type') or '').lower()
+        if r.status in (200, 206) and ('video/' in ct or 'audio/' in ct or 'mpegurl' in ct
+                                       or 'octet-stream' in ct):
+            return True, ms, 'ct:' + ct.split(';')[0]
+        if r.status in (200, 206) and len(raw) > 2000 and '<' not in text[:60]:
             return True, ms, 'bin'
-        return False, ms, 'bad:%dB' % len(raw)
+        return False, ms, 'bad:%s:%dB' % (ct.split(';')[0] or '-', len(raw))
     except urllib.error.HTTPError as e:
         return False, 0, 'http%d' % e.code
     except Exception as e:
@@ -53,6 +68,15 @@ if __name__ == '__main__':
     known = {}   # 每轮全量重测，不复用上轮结果，免得死链一直挂着
 
     urls = set()
+    # 现役列表里的每一条线路都必须重测，否则源里一消失就被当死台删掉（真实踩过的坑）
+    try:
+        pools = json.load(open('pools.json', encoding='utf-8'))['pools']
+        for ch in pools.values():
+            for src in ch.get('srcs', []):
+                if src.get('t') == 'url' and src.get('u'):
+                    urls.add(src['u'])
+    except Exception as e:
+        print('读 pools.json 失败：%r' % e)
     for lst in cand['extra'].values():
         urls.update(lst)
     for v in cand['new'].values():
