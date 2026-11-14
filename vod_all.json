@@ -183,6 +183,17 @@
    "quickSearch": 1
   },
   {
+   "key": "se12d4cfa3",
+   "name": "影视 | 电影天堂",
+   "type": 1,
+   "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "changeable": 1,
+   "playerType": 2
+  },
+  {
    "key": "s282ec9fcb",
    "name": "影视 | 天涯",
    "type": 1,
@@ -818,6 +829,16 @@
    "ext": "http://www.xb6v.com/"
   },
   {
+   "key": "s4c1bd34b3",
+   "name": "🧲新6V·2",
+   "type": 3,
+   "api": "csp_New6v",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": "https://www.xb6v.com"
+  },
+  {
    "key": "sa5e96301f",
    "name": "影视工厂(XBiu)",
    "type": 3,
@@ -1325,24 +1346,6 @@
    "name": "PPnix[py]",
    "type": 3,
    "api": "https://clun.top/py/ppnix.py",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "s3da773f4b",
-   "name": "LIBVIO[py]",
-   "type": 3,
-   "api": "https://clun.top/py/libvio.py",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "sc6fffcda1",
-   "name": "歪比巴卜[py]",
-   "type": 3,
-   "api": "https://clun.top/py/wbbb.py",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
