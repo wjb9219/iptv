@@ -12,7 +12,7 @@ import json, re, os, hashlib, collections
 SUF = ['超高清', '高清', '超清', '蓝光', '标清', 'HD', 'FHD', 'UHD', 'SD']
 INTL = '国际频道'
 GROUP_ORDER = ['央视频道', '卫视频道', '省市频道', '港·澳·台', '体育频道', '电影频道',
-               '电视剧频道', '纪录频道', '少儿动画', '音乐频道', '其他', INTL]
+               '电视剧频道', '纪录频道', '少儿动画', '音乐频道', INTL, '其他']
 K_FLOOR = float(os.environ.get('K_FLOOR', '150'))
 K_CEIL = float(os.environ.get('K_CEIL', '600'))
 K_PCT = float(os.environ.get('K_PCT', '0.30'))
