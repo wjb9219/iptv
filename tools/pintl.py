@@ -72,28 +72,38 @@ def main():
         ok, ms, kind = once(u)
         return u, ok, ms, kind
 
-    print('待测 %d 条，线程 %d' % (len(urls), W), flush=True)
+    todo = [u for u in urls if not out.get(u, {}).get('ok')]
+    print('待测 %d 条（已有结果 %d，可播 %d），线程 %d'
+          % (len(todo), len(out), sum(1 for v in out.values() if v['ok']), W), flush=True)
     t0 = time.time()
     done = 0
     with cf.ThreadPoolExecutor(max_workers=W) as ex:
-        for u, ok, ms, kind in ex.map(job, urls):
+        fut = {ex.submit(job, u): u for u in todo}
+        for f in cf.as_completed(fut):
+            u, ok, ms, kind = f.result()
             out[u] = {'ok': ok, 'ms': ms, 'kind': kind}
             done += 1
             if done % 200 == 0:
                 good = sum(1 for v in out.values() if v['ok'])
-                print('  %d/%d 通过 %d  %.0fs' % (done, len(urls), good, time.time() - t0), flush=True)
+                print('  %d/%d 通过 %d  %.0fs' % (done, len(todo), good, time.time() - t0), flush=True)
+                json.dump(out, open('pintl_probe.json', 'w', encoding='utf-8'), ensure_ascii=False)
 
-    # 失败的二次低并发复核，避免误杀
+    # 失败项二次并发低档复核，避免误杀
     bad = [u for u in urls if not out.get(u, {}).get('ok')]
     print('首轮失败 %d，二次复核…' % len(bad), flush=True)
-    for u in bad:
-        ok, ms, kind = once(u, T + 4)
-        if ok:
-            out[u] = {'ok': True, 'ms': ms, 'kind': kind + '/retry'}
+    W2 = max(4, W // 3)
+    with cf.ThreadPoolExecutor(max_workers=W2) as ex:
+        for u, ok, ms, kind in ex.map(lambda x: job2(x), bad):
+            if ok:
+                out[u] = {'ok': True, 'ms': ms, 'kind': kind + '/retry'}
 
     json.dump(out, open('pintl_probe.json', 'w', encoding='utf-8'), ensure_ascii=False)
     good = sum(1 for v in out.values() if v['ok'])
     print('完成：%d 条可播 / %d 条' % (good, len(urls)), flush=True)
+
+
+def job2(u):
+    return (u,) + once(u, T + 4)
 
 
 if __name__ == '__main__':
