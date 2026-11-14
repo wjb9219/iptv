@@ -3552,6 +3552,14 @@
 },
 {
 "t": "url",
+"u": "http://112.123.243.37:50085/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0"
+},
+{
+"t": "url",
+"u": "http://124.228.160.40:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0"
+},
+{
+"t": "url",
 "u": "http://live.zohi.tv/video/s10001-fztv-3/index.m3u8"
 }
 ]
@@ -16859,11 +16867,11 @@
 "srcs": [
 {
 "t": "url",
-"u": "https://epg.pw/stream/5f16dc7fc8aaaed3205516c63e4a8c24bca9dbba1181684244729cf574505b0e.m3u8"
+"u": "http://43.152.224.209/qctv.fengshows.cn/live/0701phk72.flv"
 },
 {
 "t": "url",
-"u": "http://43.152.224.209/qctv.fengshows.cn/live/0701phk72.flv"
+"u": "https://epg.pw/stream/5f16dc7fc8aaaed3205516c63e4a8c24bca9dbba1181684244729cf574505b0e.m3u8"
 }
 ]
 },
