@@ -79,6 +79,8 @@ https://0472.org/hls/cgtnx.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227367/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CGTN阿拉伯语.png" group-title="央视频道",CGTN阿拉伯语
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227392/1.m3u8
+#EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/CGTN阿语.png" group-title="央视频道",CGTN阿语
+https://0472.org/hls/cgtna.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/三沙卫视.png" group-title="卫视频道",三沙卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227404/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/东南卫视.png" group-title="卫视频道",东南卫视
@@ -213,36 +215,38 @@ https://webtvstream.bhtelecom.ba/fightbox.m3u8
 https://webtvstream.bhtelecom.ba/gametoon.m3u8
 #EXTINF:-1 tvg-logo="" group-title="儿童频道",福州电视台少儿频道
 http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
+#EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/福州少儿.png" group-title="儿童频道",福州少儿
+http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
 #EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/韩国EBS少儿.png" group-title="儿童频道",韩国EBS少儿
 http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/优漫卡通.png" group-title="儿童频道",优漫卡通
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226406/1.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/郑州妇女儿童.png" group-title="儿童频道",郑州妇女儿童
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226403/1.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/金鹰卡通.png" group-title="儿童频道",金鹰卡通
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226965/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/郑州妇女儿童.png" group-title="儿童频道",郑州妇女儿童
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226403/1.m3u8
 #EXTINF:-1 tvg-logo="" group-title="儿童频道",SiTV动漫秀场
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226845/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/动漫秀场.png" group-title="儿童频道",动漫秀场
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226845/1.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/卡酷少儿.png" group-title="儿童频道",卡酷少儿
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226640/1.m3u8
-#EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/黑龙江少儿.png" group-title="儿童频道",黑龙江少儿
-https://ls.qingting.fm/live/4972/64k.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/嘉佳卡通.png" group-title="儿童频道",嘉佳卡通
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226412/1.m3u8
+#EXTINF:-1 tvg-logo="https://tb.zbds.top/logo/黑龙江少儿.png" group-title="儿童频道",黑龙江少儿
+https://ls.qingting.fm/live/4972/64k.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/卡酷少儿.png" group-title="儿童频道",卡酷少儿
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226640/1.m3u8
 #EXTINF:-1 tvg-logo="" group-title="儿童频道",Cartoonito Asia
 http://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8
 #EXTINF:-1 tvg-logo="" group-title="时尚频道",FashionTV 1080
 http://stream.mcquack.net/287/index.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/河南中华功夫.png" group-title="河南频道",河南中华功夫
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226440/1.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/光山.png" group-title="河南频道",光山
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227055/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/大美河南.png" group-title="河南频道",大美河南
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226350/1.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/新县.png" group-title="河南频道",新县
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227090/1.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/河南中华功夫.png" group-title="河南频道",河南中华功夫
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226440/1.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/河南中华功夫.png" group-title="河南频道",河南中华功夫·2
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226692/1.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/河南乡村频道.png" group-title="河南频道",河南乡村频道
