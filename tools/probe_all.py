@@ -46,11 +46,23 @@ if __name__ == '__main__':
         known = json.load(open('pool_probe.json', encoding='utf-8'))
     except Exception:
         known = {}
+    try:
+        known.update(json.load(open('probe_all.json', encoding='utf-8')))
+    except Exception:
+        pass
     urls = set()
     for lst in cand['extra'].values():
         urls.update(lst)
     for v in cand['new'].values():
         urls.update(v['urls'])
+    # 之前判死的台也一起重测，别彻底放弃
+    try:
+        rd = json.load(open('retry_dead.json', encoding='utf-8'))
+        for v in rd.values():
+            urls.update(v.get('urls', []))
+        print('重试名单 %d 个台也纳入本轮复测' % len(rd))
+    except Exception:
+        pass
     todo = sorted(u for u in urls if not known.get(u, {}).get('ok'))
     print('候选 URL %d 个，待测 %d 个' % (len(urls), len(todo)))
     res = dict(known)
