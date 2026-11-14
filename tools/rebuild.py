@@ -47,12 +47,18 @@ def reload_gw():
 
 
 def round_once():
+    if not os.path.exists(os.path.join(WORK, "pools.json")):
+        src = os.path.join(OUT, "pools.json")
+        if os.path.exists(src):
+            shutil.copyfile(src, os.path.join(WORK, "pools.json"))
+            log("初始源池：从 %s 复制" % src)
     if not run("fetch_all.py"):
         log("抓源失败，本轮保留旧列表")
         return False
     run("pool_all.py")
     run("probe_all.py", timeout=2400)
     run("assemble.py")
+    run("clean_pools.py")
     run("build_direct.py")
     run("build_m3u.py")
     run("build_pub.py")
