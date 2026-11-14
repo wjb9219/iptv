@@ -1031,6 +1031,8 @@ http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
 http://l.cztvcloud.com/channels/lantian/SXwencheng2/720p.m3u8
 #EXTINF:-1 tvg-name="Beautiful Life TV" group-title="港·澳·台",Beautiful Life TV
 https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
+#EXTINF:-1 tvg-name="CGNTV Chinese" group-title="港·澳·台",CGNTV Chinese
+https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
 #EXTINF:-1 tvg-name="KIX" group-title="港·澳·台",KIX
 https://freem3u.xyz/api/live/play.m3u8?vid=9901
 #EXTINF:-1 tvg-name="NewsWorld" group-title="港·澳·台",NewsWorld
@@ -1123,6 +1125,8 @@ https://vdo.plathong.net/live8794/live8794/playlist.m3u8
 https://amg19223-amg19223c11-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c11-amgplt0352/playlist.m3u8
 #EXTINF:-1 tvg-name="Boonniyom TV" group-title="国际频道",Boonniyom TV
 https://live.x2.co.th/live/bntv.m3u8
+#EXTINF:-1 tvg-name="CGNTV Japan" group-title="国际频道",CGNTV Japan
+https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8
 #EXTINF:-1 tvg-name="CNA International" group-title="国际频道",CNA International
 https://mumt05.tangotv.in/87NeALx2CNA/index.m3u8
 #EXTINF:-1 tvg-name="CNA Originals" group-title="国际频道",CNA Originals
