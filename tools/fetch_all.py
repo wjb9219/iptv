@@ -38,6 +38,20 @@ S = {
     'tvlive': 'https://fastly.jsdelivr.net/gh/azhansy/tv_live@main/playlist.m3u',
     'hong': 'https://fastly.jsdelivr.net/gh/hongshana/iptv@main/iptv.m3u',
     'sun': 'https://fastly.jsdelivr.net/gh/sunwf/iptv@master/iptv.m3u',
+    'apt_sx': 'https://fastly.jsdelivr.net/gh/Kimentanm/aptv@master/m3u/sxy.m3u',
+    'apt_js': 'https://fastly.jsdelivr.net/gh/Kimentanm/aptv@master/m3u/jsy.m3u',
+    'apt_jx': 'https://fastly.jsdelivr.net/gh/Kimentanm/aptv@master/m3u/jxy.m3u',
+    'apt_bj': 'https://fastly.jsdelivr.net/gh/Kimentanm/aptv@master/m3u/bjy.m3u',
+    'apt_fj': 'https://fastly.jsdelivr.net/gh/Kimentanm/aptv@master/m3u/fjy.m3u',
+    'apt_gz': 'https://fastly.jsdelivr.net/gh/Kimentanm/aptv@master/m3u/gzy.m3u',
+    'apt_hb': 'https://fastly.jsdelivr.net/gh/Kimentanm/aptv@master/m3u/hby.m3u',
+    'apt_hlj': 'https://fastly.jsdelivr.net/gh/Kimentanm/aptv@master/m3u/hlj.m3u',
+    'apt_hn': 'https://fastly.jsdelivr.net/gh/Kimentanm/aptv@master/m3u/hny.m3u',
+    'apt_ln': 'https://fastly.jsdelivr.net/gh/Kimentanm/aptv@master/m3u/lny.m3u',
+    'apt_sh': 'https://fastly.jsdelivr.net/gh/Kimentanm/aptv@master/m3u/shy.m3u',
+    'lang_zho': 'https://iptv-org.github.io/iptv/languages/zho.m3u',
+    'lang_yue': 'https://iptv-org.github.io/iptv/languages/yue.m3u',
+    'lang_cmn': 'https://iptv-org.github.io/iptv/languages/cmn.m3u',
 }
 
 
