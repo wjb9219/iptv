@@ -266,7 +266,7 @@ def main():
     sweep(todo_live, W1, T1, tag='现役', res=res)
     n_ok = sum(1 for u in todo_live if res.get(u, {}).get('ok'))
     log('现役通过 %d/%d（%.0fs）' % (n_ok, len(todo_live), time.time() - t_all))
-    flush(res, cache)
+    cache = flush(res, cache)
 
     # ② 候选线路：按 host 探路，探不通的 host 剩下的直接判死，不再浪费请求
     byhost = {}
@@ -292,7 +292,7 @@ def main():
     rest = [u for h, lst in byhost.items() if h not in dead_host for u in lst[PROBE_N:]]
     log('剩余候选 %d 条（%.0fs）' % (len(rest), time.time() - t_all))
     sweep(rest, W1, T1, tag='候选', res=res)
-    flush(res, cache)
+    cache = flush(res, cache)
     log('首轮合计通过 %d / %d，累计 %.0fs'
         % (sum(1 for v in res.values() if v['ok']), len(res), time.time() - t_all))
 
@@ -307,7 +307,7 @@ def main():
             if r2[u]['ok']:
                 res[u] = r2[u]; revived += 1
         log('复核救回 %d 条' % revived)
-        flush(res, cache)
+        cache = flush(res, cache)
     else:
         log('无需复核')
 
@@ -328,10 +328,10 @@ def main():
                 done[0] += 1
                 if done[0] % 500 == 0:
                     log('    测速 %d/%d (%.0fs)' % (done[0], len(live_now), time.time() - t_sp))
-                    flush(res, cache)
+                    cache = flush(res, cache)
         log('测速完成 %.0fs' % (time.time() - t_sp))
 
-    flush(res, cache, final=True)
+    cache = flush(res, cache, final=True)
     json.dump(cache, open(CACHE_F, 'w', encoding='utf-8'), ensure_ascii=False)
 
     final = load(OUT_F, {})
