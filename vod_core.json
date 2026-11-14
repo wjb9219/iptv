@@ -183,17 +183,6 @@
    "quickSearch": 1
   },
   {
-   "key": "se12d4cfa3",
-   "name": "影视 | 电影天堂",
-   "type": 1,
-   "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "changeable": 1,
-   "playerType": 2
-  },
-  {
    "key": "s282ec9fcb",
    "name": "影视 | 天涯",
    "type": 1,
@@ -829,16 +818,6 @@
    "ext": "http://www.xb6v.com/"
   },
   {
-   "key": "s4c1bd34b3",
-   "name": "🧲新6V·2",
-   "type": 3,
-   "api": "csp_New6v",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": "https://www.xb6v.com"
-  },
-  {
    "key": "sa5e96301f",
    "name": "影视工厂(XBiu)",
    "type": 3,
@@ -923,39 +902,6 @@
    "filterable": 1
   },
   {
-   "key": "s843f0a746",
-   "name": "🌪️暴风影音",
-   "type": 1,
-   "api": "https://app.bfzyapi.com/api.php/provide/vod/",
-   "playUrl": "",
-   "categories": [
-    "国产剧",
-    "国产动漫",
-    "动作片",
-    "科幻片",
-    "剧情片",
-    "喜剧片",
-    "爱情片",
-    "恐怖片",
-    "战争片",
-    "香港剧",
-    "台湾剧",
-    "日本剧",
-    "欧美剧",
-    "泰国剧",
-    "日本动漫",
-    "综艺频道",
-    "大陆综艺",
-    "港台综艺",
-    "日本综艺",
-    "新马泰综艺",
-    "纪录片"
-   ],
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
    "key": "sa99f7b0bc",
    "name": "🎶明星┃MV",
    "type": 1,
@@ -1003,16 +949,6 @@
     "影视解说"
    ],
    "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "sa90fe9f91",
-   "name": "优质 | 采集",
-   "type": 1,
-   "api": "https://api.yyzy-tv.vip/inc/apijson.php",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
    "filterable": 1
   },
   {
@@ -1151,6 +1087,48 @@
     "日韩综艺",
     "欧美综艺"
    ]
+  },
+  {
+   "key": "s648daf401",
+   "name": "爱瓜TV",
+   "type": 4,
+   "api": "http://zhangqun1818.serv00.net/aigua1.php",
+   "searchable": 1,
+   "style": {
+    "type": "rect",
+    "ratio": 1.33
+   },
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "s73590f9a8",
+   "name": "旺旺短剧",
+   "type": 1,
+   "api": "http://zhangqun1818.serv00.net/ww.php",
+   "style": {
+    "type": "rect",
+    "ratio": 1.33
+   },
+   "searchable": 1,
+   "changeable": 0,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "s4ae848877",
+   "name": "CNTV低分辨",
+   "type": 1,
+   "api": "http://zhangqun1818.serv00.net/cctv.php",
+   "style": {
+    "type": "rect",
+    "ratio": 1.33
+   },
+   "changeable": 1,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
   },
   {
    "key": "s7ff7b5cbd",
@@ -1359,6 +1337,15 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
+  },
+  {
+   "key": "sc6fffcda1",
+   "name": "歪比巴卜[py]",
+   "type": 3,
+   "api": "https://clun.top/py/wbbb.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
   }
  ],
  "lives": [],
@@ -1376,5 +1363,5 @@
  "ads": [],
  "headers": [],
  "logo": "",
- "notice": "共 80 个点播源 · 更新于 2026-11-14"
+ "notice": "共 80 个点播源 · 更新于 2026-11-15"
 }
