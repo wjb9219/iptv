@@ -15,8 +15,8 @@ TEST = ['CCTV1', 'CCTV2', 'CCTV5', 'CCTV6', 'CCTV13', '湖南卫视', '浙江卫
 def line(k):
     ch = pools[k]
     attrs = []
-    if ch['id']:
-        attrs.append('tvg-id="%s"' % ch['id'])
+    # id 为空时用台名兜底：EPG 靠 tvg-id 匹配，缺了整台就没有节目单
+    attrs.append('tvg-id="%s"' % (ch['id'] or ch['name']))
     attrs.append('tvg-name="%s"' % ch['name'])
     if ch['logo']:
         attrs.append('tvg-logo="%s"' % ch['logo'])
