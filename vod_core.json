@@ -425,16 +425,6 @@
    "filterable": 1
   },
   {
-   "key": "s99f48b6fd",
-   "name": "360 | 采集",
-   "type": 1,
-   "api": "https://360zy.com/api.php/provide/vod/",
-   "searchable": 1,
-   "changeable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
    "key": "sf053b5d95",
    "name": "创享 | 采集",
    "type": 1,
@@ -861,17 +851,6 @@
    "filterable": 1
   },
   {
-   "key": "sefe37043f",
-   "name": "🏂奥特┃直连",
-   "type": 3,
-   "api": "csp_Auete",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 0,
-   "ext": "https://haozhansou.com/",
-   "filterable": 1
-  },
-  {
    "key": "sd0ee52b98",
    "name": "🗽┃六九┃美剧",
    "type": 3,
@@ -903,6 +882,17 @@
    "jar": "https://jihulab.com/zhulr7765/tvbox/-/raw/main/jar/spider.jar"
   },
   {
+   "key": "sefe37043f",
+   "name": "🏂奥特┃直连",
+   "type": 3,
+   "api": "csp_Auete",
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 0,
+   "ext": "https://haozhansou.com/",
+   "filterable": 1
+  },
+  {
    "key": "s455e496be",
    "name": "💕速看100[V2]",
    "type": 3,
@@ -923,53 +913,23 @@
    "filterable": 1
   },
   {
-   "key": "sa99f7b0bc",
-   "name": "🎶明星┃MV",
+   "key": "s99f48b6fd",
+   "name": "360 | 采集",
    "type": 1,
-   "api": "https://mv.wogg.link/mv/vod",
-   "style": {
-    "type": "oval"
-   },
+   "api": "https://360zy.com/api.php/provide/vod/",
    "searchable": 1,
+   "changeable": 1,
    "quickSearch": 1,
-   "changeable": 0,
    "filterable": 1
   },
   {
-   "key": "se770a4b57",
-   "name": "影视 | 索尼[直连]",
-   "type": 0,
-   "api": "https://suoniapi.com/api.php/provide/vod/at/xml/",
-   "searchable": 1,
-   "categories": [
-    "动作片",
-    "喜剧片",
-    "爱情片",
-    "科幻片",
-    "恐怖片",
-    "剧情片",
-    "战争片",
-    "国产剧",
-    "欧美剧",
-    "港剧",
-    "台剧",
-    "韩剧",
-    "日剧",
-    "泰剧",
-    "纪录片",
-    "海外剧",
-    "大陆综艺",
-    "港台综艺",
-    "日韩综艺",
-    "欧美综艺",
-    "国产动漫",
-    "日韩动漫",
-    "欧美动漫",
-    "港台动漫",
-    "海外动漫",
-    "影视解说"
-   ],
+   "key": "sa90fe9f91",
+   "name": "优质 | 采集",
+   "type": 1,
+   "api": "https://api.yyzy-tv.vip/inc/apijson.php",
    "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
    "filterable": 1
   },
   {
@@ -1346,6 +1306,15 @@
    "name": "PPnix[py]",
    "type": 3,
    "api": "https://clun.top/py/ppnix.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "s3da773f4b",
+   "name": "LIBVIO[py]",
+   "type": 3,
+   "api": "https://clun.top/py/libvio.py",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
