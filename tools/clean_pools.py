@@ -139,12 +139,32 @@ for mk, ch in bykey.items():
     out[key] = ch; keys.append(key)
 
 # 分组名统一后重新排序：国内各组在前、国际频道压到最后（组内保持原顺序，稳定排序）
+# 省市频道组内再按地域细排：河南省级 → 河南各地市 → 信阳及下辖县区 → 其他省
+XINYANG = ('信阳', '浉河', '平桥', '罗山', '光山', '新县', '商城', '固始', '潢川', '淮滨', '息县', '羊山')
+HENAN_CITY = ('郑州', '开封', '洛阳', '平顶山', '安阳', '鹤壁', '新乡', '焦作', '濮阳', '许昌',
+              '漯河', '三门峡', '南阳', '商丘', '周口', '驻马店', '济源')
+
+
+def _sub(k):
+    ch = out[k]
+    if ch['group'] != '省市频道':
+        return 0
+    n = ch['name']
+    if '河南' in n:
+        return 0                      # 河南省级台
+    if any(c in n for c in XINYANG):
+        return 2                      # 信阳及下辖县区
+    if any(c in n for c in HENAN_CITY):
+        return 1                      # 河南其它地市
+    return 3
+
+
 def _gk(k):
     g = out[k]['group']
     return GROUP_ORDER.index(g) if g in GROUP_ORDER else GROUP_ORDER.index('其他')
 
 
-keys.sort(key=_gk)
+keys.sort(key=lambda k: (_gk(k), _sub(k)))
 
 json.dump({'order': keys, 'pools': out}, open('pools.json', 'w', encoding='utf-8'),
           ensure_ascii=False, indent=0)
