@@ -66,11 +66,15 @@ ALIAS = {
     '文化精品': 'CCTV央视文化精品',
     'CGTN纪录': 'CGTN纪录片',
     'CGTNDOCUMENTARY': 'CGTN纪录片',
+    'DOCUMENTARY': 'CGTN纪录片',      # 源站常把 CGTN 纪录写成裸 Documentary
+    '四川卫视4K': '四川卫视',          # 内网 4K 源与公网纯音频源合并，留带 lan 的那条
 }
 # 假源/死源域名：264788 是拿上传视频冒充直播，kwimgs 是快手 CDN，一律不留
 FAKE = re.compile(r'(kwimgs\.com|264788)')
-# 央广 cnr.cn 是广播音频流：只有声音没有画面，不能当电视频道
-AUDIO = re.compile(r'(satellitepull\.cnr\.cn|cnr\.cn)')
+# 纯音频流：只有声音没有画面，不能当电视频道。
+# cnr.cn 是央广广播；/audio/ 是各省网络台的"广播版"切片
+# （四川卫视就曾被 piccpndks.v.kcdnvip.com/audio/sichuan_2 顶掉，只有声音）
+AUDIO = re.compile(r'(satellitepull\.cnr\.cn|cnr\.cn|/audio/)')
 
 
 def merge_key(s):
