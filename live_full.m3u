@@ -63,8 +63,6 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226877/1.m3u8?fmt=ts2hl
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226916/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/快乐垂钓.png" group-title="央视频道",快乐垂钓
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226904/1.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="收藏天下" tvg-name="收藏天下" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/收藏天下.png" group-title="央视频道",收藏天下
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226858/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="汽摩" tvg-name="汽摩" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/汽摩.png" group-title="央视频道",汽摩
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227123/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="环球旅游" tvg-name="环球旅游" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/环球旅游.png" group-title="央视频道",环球旅游
