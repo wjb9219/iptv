@@ -131,8 +131,6 @@ http://112.123.243.37:50085/tsfile/live/1002_1.m3u8?key=txiptv&playlive=0&authid
 http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 #EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" group-title="卫视频道",广东卫视
 http://112.123.243.37:50085/tsfile/live/0135_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" group-title="卫视频道",四川卫视
-https://piccpndks.v.kcdnvip.com/audio/sichuan_2/index.m3u8
 #EXTINF:-1 tvg-id="河北4K" tvg-name="河北4K" group-title="省市频道",河北4K
 https://event.pull.hebtv.com:443/live/live101.m3u8
 #EXTINF:-1 tvg-id="河南移动电视" tvg-name="河南移动电视" tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/河南移动电视.png" group-title="省市频道",河南移动电视
