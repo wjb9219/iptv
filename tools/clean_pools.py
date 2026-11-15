@@ -59,8 +59,26 @@ def norm(s):
     return s
 
 
+ALIAS = {
+    'CCTV4中文国际': 'CCTV4',
+    'CCTV9纪录': 'CCTV9',
+    'CCTV文化精品': 'CCTV央视文化精品',
+    '文化精品': 'CCTV央视文化精品',
+    'CGTN纪录': 'CGTN纪录片',
+    'CGTNDOCUMENTARY': 'CGTN纪录片',
+}
+# 假源/死源域名：264788 是拿上传视频冒充直播，kwimgs 是快手 CDN，一律不留
+FAKE = re.compile(r'(kwimgs\.com|264788)')
+# 央广 cnr.cn 是广播音频流：只有声音没有画面，不能当电视频道
+AUDIO = re.compile(r'(satellitepull\.cnr\.cn|cnr\.cn)')
+
+
 def merge_key(s):
     k = norm(s)
+    if k in ALIAS:
+        k = ALIAS[k]
+    stripped = re.sub(r'^CCTV', '', k)
+    k = stripped or k          # 去掉 CCTV 前缀，让「CCTV风云音乐」和「风云音乐」判为同台
     return re.sub(r'(频道|台|电视台|直播)$', '', k)
 
 
@@ -75,6 +93,11 @@ for k in order:
     if not nm or JUNK.match(nm) or re.match(r'^\d{4}-\d{2}-\d{2}', nm) or nm.lower().startswith('mozilla'):
         dropped.append(nm); continue
     ch['group'] = gmap(ch['group'])
+    if re.match(r'^EBC\b', nm, re.I):
+        ch['group'] = '国际频道'      # 柬埔寨 EBC 混进了央视组
+    # 假源、纯音频源就地清掉（去掉后没线路的台下面会被自然丢弃）
+    ch['srcs'] = [s for s in ch['srcs']
+                  if not (s['t'] == 'url' and (FAKE.search(s['u']) or AUDIO.search(s['u'])))]
     kept.append(ch)
 
 # 合并同台异名：保留名字最短的，其余线路并进去
@@ -85,10 +108,12 @@ for ch in kept:
         bykey[mk] = ch
         continue
     a = bykey[mk]
+    # 有内网线路的台当主体：名字用它的、分组也跟着它走，避免被同名劣质源顶替
+    if ch.get('lan') and not a.get('lan'):
+        bykey[mk] = ch
+        a, ch = ch, a
     a['srcs'] += [s for s in ch['srcs'] if s.get('u') and s['u'] not in
                   [x.get('u') for x in a['srcs']]]
-    if len(ch['name']) < len(a['name']):
-        a['name'] = ch['name']
     if not a.get('lan') and ch.get('lan'):
         a['lan'] = ch['lan']
     dropped.append(ch['name'] + ' → ' + a['name'])
