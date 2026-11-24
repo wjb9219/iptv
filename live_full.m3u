@@ -3445,14 +3445,8 @@ http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/37.m3u8
 https://amg00861-terninternation-inwild-samsunguk-w5wic.amagi.tv/playlist/amg00861-terninternation-inwild-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="纪录频道",Investigation Discovery Latin America South
 http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/41.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/卡酷少儿.png" group-title="少儿动画",卡酷少儿·2
-http://192.168.3.38:8101/m/51f9386770.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/郑州妇女儿童.png" group-title="少儿动画",郑州妇女儿童·2
-http://192.168.3.38:8101/m/0c8d925494.m3u8
 #EXTINF:-1 tvg-logo="" group-title="少儿动画",Disney Channel Latin America Mexico
 http://45.166.93.156:9999/play/a0f3/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="少儿动画",Disney Jr. Latin America North HD
-http://192.168.3.38:8101/m/2b36127255.m3u8
 #EXTINF:-1 tvg-logo="" group-title="少儿动画",七龙珠
 https://live.metshop.top/huya/11601966
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2CSpCdAxnLpqebMLZh6h7vMPk6LYpdqkVHA&s" group-title="音乐频道",Stingray 电影音乐
@@ -3511,8 +3505,6 @@ http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/playlist.m3u8?device_p
 http://181.78.14.26:4000/play/a07m/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/960px-ARD_alpha.svg.png" group-title="国际频道",ARD-alpha
 https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/olQJgm7.png" group-title="国际频道",Eurosport 1 Germany
-http://192.168.3.38:8101/m/3c7b2510db.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="国际频道",Stara TV Parahyangan
 https://parahyangan.staratv.id/hls/0/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/JiSfEBv.png" group-title="国际频道",CJ OnStyle
@@ -3551,9 +3543,65 @@ http://120.198.86.186:9901/tsfile/live/1089_1.m3u8?key=txiptv&playlive=1&authid=
 http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="少儿动画",Disney XD
 http://89.187.179.148:826/1368/gXwiagaXda/1672
-#EXTINF:-1 tvg-logo="https://i.imgur.com/AVfTwNw.png" group-title="国际频道",ADN TV
-http://192.168.3.38:8101/m/8fdf989418.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/yrt7Rw9.png" group-title="国际频道",Miracle Channel
-http://192.168.3.38:8101/m/9e74b0782d.m3u8
 #EXTINF:-1 tvg-logo="" group-title="其他",QTV-3
 http://video10.qtv.com.cn/drm/qtv3at/manifest.m3u8
+#EXTINF:-1 tvg-name="北京卫视" group-title="地方卫视",北京卫视
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226452/index.m3u8
+#EXTINF:-1 tvg-name="东方卫视" group-title="地方卫视",东方卫视
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226450/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" group-title="地方卫视",江苏卫视
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226722/index.m3u8
+#EXTINF:-1 tvg-name="山东卫视" group-title="地方卫视",山东卫视
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226456/index.m3u8
+#EXTINF:-1 tvg-name="深圳卫视" group-title="地方卫视",深圳卫视
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226426/index.m3u8
+#EXTINF:-1 tvg-name="四川卫视" group-title="地方卫视",四川卫视
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226429/index.m3u8
+#EXTINF:-1 tvg-name="固镇新闻" group-title="地方频道",固镇新闻
+http://www.guzhenm.com:7001/hls/hd-live.m3u8
+#EXTINF:-1 tvg-name="平遥新闻综合" group-title="地方频道",平遥新闻综合
+https://tntgjhjb.live.sxmty.com/live/hls/3a4585ac11ec4e1bb07b419101b370c3/baf63e2b313440c2a25d7859f9b73b05-1.m3u8?zshanxd
+#EXTINF:-1 tvg-name="开化新闻综合" group-title="地方频道",开化新闻综合
+http://l.cztvcloud.com/channels/lantian/SXkaihua1/720p.m3u8?zzhed
+#EXTINF:-1 tvg-name="洞头综合" group-title="地方频道",洞头综合
+http://l.cztvcloud.com/channels/lantian/SXdongtou1/720p.m3u8
+#EXTINF:-1 tvg-name="浙江钱江频道" group-title="地方频道",浙江钱江频道
+http://ali-m-l.cztv.com/channels/lantian/channel02/1080p.m3u8
+#EXTINF:-1 tvg-name="绍兴公共" group-title="地方频道",绍兴公共
+http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8
+#EXTINF:-1 tvg-name="绍兴电视台公共" group-title="地方频道",绍兴电视台公共
+http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
+#EXTINF:-1 tvg-name="营山电视台" group-title="地方频道",营山电视台
+http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd#http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8
+#EXTINF:-1 tvg-name="长子综合" group-title="地方频道",长子综合
+https://www.wxhcgbds.com:8081/channelTv/WXTV_1.m3u8?zshanxd
+#EXTINF:-1 tvg-name="CETV3" group-title="央视频道",CETV3
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227352/index.m3u8
+#EXTINF:-1 tvg-name="求索记录" group-title="数字频道",求索记录
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226114/index.m3u8
+#EXTINF:-1 tvg-name="求索记录4K" group-title="数字频道",求索记录4K
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227381/index.m3u8
+#EXTINF:-1 tvg-name="新视觉" group-title="数字频道",新视觉
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226337/index.m3u8
+#EXTINF:-1 tvg-name="中华特产" group-title="数字频道",中华特产
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226585/index.m3u8
+#EXTINF:-1 tvg-name="洛阳科教频道" group-title="河南地市",洛阳科教频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226392/index.m3u8
+#EXTINF:-1 tvg-name="河南欢腾购物" group-title="河南频道",河南欢腾购物
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226535/index.m3u8
+#EXTINF:-1 tvg-name="梨园频道" group-title="河南频道",梨园频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226438/index.m3u8
+#EXTINF:-1 tvg-name="河南国际" group-title="省市频道",河南国际
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226925/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-name="沐川综合" group-title="省市频道",沐川综合
+http://tvfile.mcrm.org.cn/nmip-media/channellive/channel103064/playlist.m3u8
+#EXTINF:-1 tvg-name="绍兴文化影视" group-title="省市频道",绍兴文化影视
+http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8
+#EXTINF:-1 tvg-name="固镇影视频道" group-title="省市频道",固镇影视频道
+http://www.guzhenm.com:7004/hls/hd-live.m3u8
+#EXTINF:-1 tvg-name="壶关电视台" group-title="省市频道",壶关电视台
+http://zmjp3jin.live.sxmty.com/live/hls/268fe96f955d496db37fb10bb887cda9/fc196029d289449ea524a94a95379a0d.m3u8
+#EXTINF:-1 tvg-name="7X Music" group-title="音乐频道",7X Music
+https://7xshreeshyam.akamaized.net/7XPunjabi/index.m3u8
+#EXTINF:-1 tvg-name="HMTV 2" group-title="音乐频道",HMTV 2
+https://customer-yzxu6n447dx2x45h.cloudflarestream.com/f255a1e5ef17a8277e15e5f409951e98/manifest/video.m3u8
