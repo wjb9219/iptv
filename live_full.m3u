@@ -3036,11 +3036,11 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227382/1.m3u8
 #EXTINF:-1 group-title="卫视频道",河南卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226938/1.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV5
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226921/1.m3u8
+http://124.165.251.82:85/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="省市频道",大象国学
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227154/1.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV15
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226524/1.m3u8
+http://124.165.251.82:85/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="卫视频道",辽宁卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227006/1.m3u8
 #EXTINF:-1 group-title="省市频道",南阳新闻综合
@@ -3200,7 +3200,7 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227344/1.m3u8
 #EXTINF:-1 group-title="省市频道",平顶山教育台
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227244/1.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV3
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226960/1.m3u8
+http://124.165.251.82:85/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="卫视频道",康巴卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226885/1.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV高尔夫网球
