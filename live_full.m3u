@@ -413,8 +413,6 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227066/1.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227311/1.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/泌阳.png" group-title="省市频道",泌阳
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227347/1.m3u8
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/法治天地.png" group-title="省市频道",法治天地
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/浚县.png" group-title="省市频道",浚县
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227344/1.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/淅川.png" group-title="省市频道",淅川
@@ -1183,8 +1181,6 @@ https://fighthls.persiana.live/hls/stream.m3u8
 https://linear-253.frequency.stream/mt/roku/253/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="体育频道",TVS Boxing
 https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/游戏风云.png" group-title="体育频道",游戏风云
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226910/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="" group-title="体育频道",Gametoon
 https://webtvstream.bhtelecom.ba/gametoon.m3u8
 #EXTINF:-1 tvg-logo="" group-title="体育频道",eSports Max TV
@@ -1439,8 +1435,6 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227498/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227500/index.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV怀旧剧场.png" group-title="电视剧频道",CCTV怀旧剧场
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227502/index.m3u8
-#EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/欢笑剧场.png" group-title="电视剧频道",欢笑剧场
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226882/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/河南电视剧频道.png" group-title="电视剧频道",河南电视剧频道
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226942/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/都市剧场.png" group-title="电视剧频道",都市剧场
