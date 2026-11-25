@@ -551,16 +551,6 @@
    "filterable": 1
   },
   {
-   "key": "sa5e96301f",
-   "name": "影视工厂(XBiu)",
-   "type": 3,
-   "api": "csp_XBiu",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 0,
-   "ext": "https://www.ysgc.fun/vodtype/{cateId}-{catePg}.html"
-  },
-  {
    "key": "sfa45616f3",
    "name": "🏭️厂长┃直连",
    "type": 3,
@@ -570,17 +560,6 @@
    "changeable": 0,
    "quickSearch": 1,
    "ext": "https://www.czzy66.com/",
-   "filterable": 1
-  },
-  {
-   "key": "sefe37043f",
-   "name": "🏂奥特┃直连",
-   "type": 3,
-   "api": "csp_Auete",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 0,
-   "ext": "https://haozhansou.com/",
    "filterable": 1
   },
   {
@@ -644,6 +623,17 @@
    "filterable": 1,
    "ext": "http://app.95189371.cn/ciyuancheng.php/v6/",
    "jar": "https://jihulab.com/zhulr7765/tvbox/-/raw/main/jar/spider.jar"
+  },
+  {
+   "key": "sefe37043f",
+   "name": "🏂奥特┃直连",
+   "type": 3,
+   "api": "csp_Auete",
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 0,
+   "ext": "https://haozhansou.com/",
+   "filterable": 1
   },
   {
    "key": "s455e496be",
@@ -1120,6 +1110,15 @@
    "quickSearch": 1,
    "changeable": 1,
    "filterable": 1
+  },
+  {
+   "key": "s76e1b0ad7",
+   "name": "荐片[js]",
+   "type": 3,
+   "api": "https://clun.top/js/荐片.js",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
   }
  ],
  "lives": [],
@@ -1137,5 +1136,5 @@
  "ads": [],
  "headers": [],
  "logo": "",
- "notice": "共 80 个点播源 · 更新于 2026-11-25"
+ "notice": "共 80 个点播源 · 更新于 2026-11-26"
 }
