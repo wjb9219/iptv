@@ -117,6 +117,8 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227352/index.m3u8
 https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/CGTN记录.png" group-title="央视频道",CGTN记录
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227367/1.m3u8
+#EXTINF:-1 tvg-logo="" group-title="央视频道",央视+1
+https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/三沙卫视.png" group-title="卫视频道",三沙卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227404/index.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/东方卫视4K.png" group-title="卫视频道",东方卫视4K
@@ -213,6 +215,8 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226426/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226429/index.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/湖南卫视4K.png" group-title="卫视频道",湖南卫视4K
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226961/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="" group-title="卫视频道",东南卫视
+http://112.123.243.37:50085/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/大美河南.png" group-title="省市频道",大美河南
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226350/index.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/河南中华功夫.png" group-title="省市频道",河南中华功夫
@@ -1125,6 +1129,26 @@ http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
 http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8
 #EXTINF:-1 tvg-logo="" group-title="省市频道",余姚综合
 https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
+#EXTINF:-1 tvg-logo="" group-title="省市频道",安阳公共
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227257/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="省市频道",泸县新闻综合
+http://lxfile.lxxcb.cn/nmip-media/channellive/channel103799/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="省市频道",焦作教育
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226648/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="省市频道",摄影频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226599/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="省市频道",旺苍新闻综合
+http://channel.wcrmt.cn:80/nmip-media/channellive/channel105268/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="省市频道",重温经典
+http://8.138.7.223/tv/cwjd.php
+#EXTINF:-1 tvg-logo="" group-title="省市频道",绍兴电视台公共
+http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
+#EXTINF:-1 tvg-logo="" group-title="省市频道",嘉兴新闻综合
+http://tvfile.jyrmt.cn:80/nmip-media/channellive/channel104452/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="省市频道",安徽电视台
+https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
+#EXTINF:-1 tvg-logo="" group-title="省市频道",内蒙古电视台
+https://cdn4.skygo.mn/live/disk1/NeigMGL/HLSv3-FTA/NeigMGL.m3u8
 #EXTINF:-1 tvg-logo="" group-title="港·澳·台",Beautiful Life TV
 https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="港·澳·台",CGNTV Chinese
@@ -1537,6 +1561,8 @@ http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
 http://23.237.104.106:8080/USA_CINEMAX_WEST/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="电影频道",HBO 2 2
 http://88.212.15.50/live/test_hbo2_hd_hevc/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="电影频道",固镇影视频道
+http://www.guzhenm.com:7004/hls/hd-live.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV第一剧场.png" group-title="电视剧频道",CCTV第一剧场
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227498/index.m3u8
 #EXTINF:-1 tvg-logo="https://elykia093.github.io/HA-CMCC-IPTV/logos/CCTV风云剧场.png" group-title="电视剧频道",CCTV风云剧场
@@ -1635,6 +1661,8 @@ http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8
 http://88.212.7.14/live/id_hun/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="纪录频道",National Geographic Wild 2
 http://88.212.15.50/live/test_ngw/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="纪录频道",上海纪实
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/优漫卡通.png" group-title="少儿动画",优漫卡通
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226406/index.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/动漫秀场.png" group-title="少儿动画",动漫秀场
