@@ -1820,8 +1820,6 @@ https://cdn-live.dltv.ac.th/dltv02.m3u8
 https://cdn-live.dltv.ac.th/dltv04.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",DLTV 6
 https://cdn-live.dltv.ac.th/dltv06.m3u8
-#EXTINF:-1 tvg-logo="" group-title="国际频道",Dong Nai TV 1
-https://freem3u.xyz/api/live/play.m3u8?vid=53
 #EXTINF:-1 tvg-logo="" group-title="国际频道",FGTV
 https://fgtvlive.fgtv.com/smil:fgtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",HTV5
@@ -1844,8 +1842,6 @@ https://live.baolaocai.vn/channel2/stream.m3u8
 https://stream.chmbc.co.kr/TV/myStream/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",MBC Daegu (대구 MBC)
 https://5ee1ec6f32118.streamlock.net/live/livetv/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="国际频道",MBC Daejeon (대전 MBC)
-https://ns1.tjmbc.co.kr/live/myStream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",MBC Mokpo (목포 MBC)
 http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",MBC Yeosu (여수 MBC)
@@ -1876,8 +1872,6 @@ https://freem3u.xyz/api/live/play.m3u8?vid=180
 https://live.knou.ac.kr/knou1/live1/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",Quang Nam TV
 https://freem3u.xyz/api/live/play.m3u8?vid=80
-#EXTINF:-1 tvg-logo="" group-title="国际频道",RUTC TV
-http://d26sxnc75smwvh.cloudfront.net/livehttporigin/rutclive_720p2.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",Rama Channel
 https://ramach.ddns.net/live/ramalive/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",SBB TV
@@ -1914,8 +1908,6 @@ https://618b88f69e53b.streamlock.net/THDT2/thdttv2/chunklist.m3u8
 https://d1j2u714xk898n.cloudfront.net/scheduler/scheduleMaster/145.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",360°
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="国际频道",360° Новости
-https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",3ABN English
 https://3abn.bozztv.com/3abn2/3abn_live/smil:3abn_live.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",3ABN International Network
@@ -1984,8 +1976,6 @@ https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=67c0c39764ad6f7dab07a
 https://247wlive.foxweather.com/stream/index_1280x720.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",France 24 English
 https://freem3u.xyz/api/live/play.m3u8?vid=96
-#EXTINF:-1 tvg-logo="" group-title="国际频道",Hunan TV
-http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",India Today
 https://d2lk5u59tns74c.cloudfront.net/out/v1/d4435039c7d1433d9b9d0b6cdc9dd4ff/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",Kangba TV
@@ -2070,8 +2060,6 @@ https://30a-tv.com/gh.m3u8
 https://cdn.pishow.tv/ott/live/1211/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/tTCuczU.png" group-title="国际频道",:24
 http://88.212.15.50/live/test_trojka_25p/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/XWBmjBk.png" group-title="国际频道",A24 Paraguay
-https://tv.mitvparaguay.com/hls?type=hls&id=a24
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png" group-title="国际频道",Aaj Tak HD
 https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/OqfBMGy.png" group-title="国际频道",ABC-TV Paraguay
@@ -2238,8 +2226,6 @@ https://dash4.antik.sk/live/test_uatv/playlist.m3u8
 https://gemtv.circle7stream.com/gem/fcce47a8559e30755582c396ce7fce9e.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/2Y5qiao.png" group-title="国际频道",Giornale Radio TV
 https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/3yZyaCm.png" group-title="国际频道",GloboNews
-http://79.127.238.228:14093
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOOD_NEWS_TODAY/images/LOGO_HD/image.png" group-title="国际频道",Good News Today
 https://d2lk5u59tns74c.cloudfront.net/out/v1/75f3183e143240a29fbddd502a6a3f8d/index.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/GS_TV.png" group-title="国际频道",GS TV
@@ -2300,8 +2286,6 @@ https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
 https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/TVuCY4N.png" group-title="国际频道",Kyiv
 https://api-tv.ipnet.ua/api/v1/manifest/1293296300.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/05YWVCq.png" group-title="国际频道",L'altro Corriere TV
-https://52ee6512fee4427889eba89957975fa0.msvdn.net/live/S24350460/BEj8ZmQiQ9UG/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hRFa03k.png" group-title="国际频道",Ma'an TV
 https://htvmada.mada.ps:4443/maannews/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/adjRrVx.png" group-title="国际频道",Manorama News
@@ -2332,8 +2316,6 @@ https://cdn.pishow.tv/ott/live/1121/master.m3u8
 https://mrtvott.com/cache/MRTV-NEWS-HD/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9OFdMud.png" group-title="国际频道",Naftemporiki TV
 https://telmaco.ascdn.broadpeak.io/nafteboriki/default/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/11/NAN-TV-Logo-02.png" group-title="国际频道",NAN TV
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iraniancongress.com/tv/logo.png" group-title="国际频道",National Iranian Congress TV
 https://tv.iraniancongress.com/stream/tv.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Naxatra_News_Hindi.png" group-title="国际频道",Naxatra News Hindi
@@ -2440,8 +2422,6 @@ https://live-evg11.tv360.bitel.com.pe/bitel/selvaticaSRT/playlist.m3u8
 https://hlspackager.akamaized.net/live/DB/RUDAW/HLS/RUDAW.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s144466_ld_h15_aa.png?lock=720x540" group-title="国际频道",Salaam TV
 https://d2o3r1shda7xvv.cloudfront.net/index_5.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/8FZsNyK.png" group-title="国际频道",SC Currents
-https://reflect-communitytv.cablecast.tv/live-5/live/stream-3/live.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/1d25a9Q.png" group-title="国际频道",Seraj TV
 https://43869de4e1a0d641.servers.dvcloud.tv/hls/al_aqsa_channel/6udfi7v8a3eof6nlps6e9ovfrs65c7l7.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/XiXwr5h.png" group-title="国际频道",SK 1
@@ -2518,8 +2498,6 @@ https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjml
 http://45.166.93.156:9999/play/a0jo/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/cgTD2TW.png" group-title="国际频道",Unicanal
 http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/72.m3u8
-#EXTINF:-1 tvg-logo="https://papaji.freetvindia.com/media/channels/Upnow.png" group-title="国际频道",UP NOW
-http://45.122.122.61:8080/UPNOW/video.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s144047_ld_h15_aa.png?lock=720x540" group-title="国际频道",V6 News
 https://d1rc86nwwc9fag.cloudfront.net/140622/v6newsdev/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 tvg-logo="https://i.imgur.com/n0pxHo4.png" group-title="国际频道",VEJA+ TV
@@ -2612,8 +2590,6 @@ http://45.173.12.70:8000/play/a0fj
 http://181.78.14.26:4000/play/a07m/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png" group-title="国际频道",Star Channel (Colombia)
 http://livestar.siliconweb.com/starvod/star4/star4.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/DuSSrHV.png" group-title="国际频道",Win Sports
-http://138.121.15.230:9002/WIN-SPORT/index.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5c/Animal_Planet_2018_%28Vertical%29.svg/revision/latest?cb=20190715124953" group-title="国际频道",Animal Planet (Czech Republic)
 http://88.212.7.14/live/animal_hun/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9MrzLb1.png" group-title="国际频道",Cartoonito CEE Czechia
@@ -2672,8 +2648,6 @@ https://dash4.antik.sk/live/test_sat_eins_gold_tizen/playlist.m3u8
 https://h057.video-stream-hosting.de/tv38-live/_definst_/smil:livestream.smil/playlist.m3u8?ref=
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rtLb6m9.png" group-title="国际频道",ZDF
 https://dash4.antik.sk/live/test_zdf_avc_25p/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/2YvKhjW4/Quisqueya-17-AZUL.png" group-title="国际频道",Canal 17 RTVD
-https://cdn.protvradiostream.com/rtvd17/ngrp:rtvd17_all/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/RUIyD9a.png" group-title="国际频道",Onda TV (Dominican Republic)
 https://cnn.hostlagarto.com/ondatv/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/s43eFy0.png" group-title="国际频道",TeleRadioNorte
@@ -2788,10 +2762,6 @@ https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_5.m3u8
 https://livetv.tarangplus.in/prarthana-origin/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.thegtcnetwork.com/punjabi-shorts.jpg" group-title="国际频道",Punjabi Shorts
 https://gtc.ottlive.co.in/punjabshort/index.m3u8
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143763_ld_h15_aa.png?lock=720x540" group-title="国际频道",Santvani Channel
-https://d1hyhsds9hb4o2.cloudfront.net/master.m3u8
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_8/images/LOGO_HD/image.png" group-title="国际频道",Sony Aath
-http://27.124.71.27/Sony_Aath/index.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s157974_ld_h15_aa.png?lock=720x540" group-title="国际频道",Sony Wah
 http://163.61.226.31:9981/stream/channelid/1743466790?profile=pass
 #EXTINF:-1 tvg-logo="https://i.imgur.com/5c9PVS0.png" group-title="国际频道",Star Maa HD
@@ -3110,8 +3080,6 @@ https://amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv/playlist.m3u8
 https://livestream.pbskids.org/out/v1/94b88ad58fc14f84a9382341f1c00b82/akst.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ambc9le.png" group-title="国际频道",PBS Kids Hawaii
 https://livestream.pbskids.org/out/v1/aa31792fee094b24b09045483f04d150/hast.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ambc9le.png" group-title="国际频道",PBS Kids Mountain
-https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ambc9le.png" group-title="国际频道",PBS Kids Pacific
 https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3tMAQU7.png" group-title="国际频道",PCTV 26
@@ -3162,8 +3130,6 @@ https://rpn.bozztv.com/gusa/gusa-tvssportsbureau/index.m3u8
 https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rhIwUcQ.png" group-title="国际频道",Women's Sports Network
 https://d39accvx65hq9o.cloudfront.net/Womens_Sports_Network.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bRmGbsyV/A3-SPORTTV.jpg" group-title="国际频道",AS3 Sport TV
-https://streamtv.as3sport.online:3394/hybrid/play.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png" group-title="国际频道",4TV News
 https://fta.ektv.in/live/647/master.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ABP_Sanjha.png" group-title="国际频道",ABP Sanjha
@@ -3362,8 +3328,6 @@ https://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8
 https://cloudcdnplayer.mslivestream.net/mslivecdn/mnadu/index.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_GUJARATI/images/LOGO_HD/image.png" group-title="国际频道",News18 Gujarati
 https://n18syndication.akamaized.net/bpk-tv/News18_Gujarati_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/cb84d7f7e19bcbfb9b6d664e7fb2adee.png" group-title="国际频道",News Marathi 24x7
-https://stream.ottlive.co.in/newsmarathi/index.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143596_ld_h15_aa.png?lock=720x540" group-title="国际频道",News Nation
 https://cc-52950m0v2qv0p.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-52950m0v2qv0p/nntv/national/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/iE1izWq.png" group-title="国际频道",Newsmax 2 KPVM-LD
@@ -3382,8 +3346,6 @@ https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
 https://canli.tgrthaber.com/tgrt.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/unmute.png" group-title="国际频道",The Unmute
 https://stream.ottlive.co.in/unmute/index.m3u8
-#EXTINF:-1 tvg-logo="https://d3jnkp3lrs2hd5.cloudfront.net/images/100x100/52ac91e7-2c9d-415b-a63f-fb41413105ff.jpg" group-title="国际频道",TV7 National
-https://stream.ottlive.co.in/tv7national/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/t5oUK3C.png" group-title="国际频道",TV Sim Cachoeiro
 https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/0aoI5Zd.jpeg" group-title="国际频道",La Metro TV
@@ -3446,10 +3408,6 @@ https://epg.pw/stream/d2edf469b9079064a283f4b0811cbf6f2597ebbb3d08dcf77036a4b5a7
 https://wowza.jejumbc.com/live/tv_jejumbc/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",AXN Black (Poland) (576i)
 http://92.114.85.87:8014/play/a00h/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="国际频道",TLC Latin America Brazil (720p)
-http://79.127.238.228:14433
-#EXTINF:-1 tvg-logo="" group-title="国际频道",TLC Latin America (1080p)
-http://38.134.250.110:8000/play/a00n/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",AXN (Brazil) (720p)
 http://170.83.16.50/AXN/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="国际频道",CNN
@@ -3458,8 +3416,6 @@ https://tvsen6.aynaott.com/cnn/index.m3u8
 http://85.14.32.26:8800/udp/239.100.10.17:5000
 #EXTINF:-1 tvg-logo="" group-title="国际频道",AXN Black (Germany)
 http://46.244.99.71:8181/stream/35/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="国际频道",Bloomberg TV
-https://tvsen6.aynaott.com/bloombergtv/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="其他",Discovery Home & Health Latin America South
 http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/39.m3u8
 #EXTINF:-1 tvg-logo="" group-title="其他",Fashion Finds
